@@ -1,9 +1,13 @@
 ---
-title: "About"
+title: "About the Project"
 ---
 
-About this site
+The Idaho Wheat Production Guide is intended to be a "one-stop shop" for wheat producers and ag consultants in Idaho and surrounding region. Producers can access the latest research results and production recommendations and download printable booklets. This guide is a project of the University of Idaho, with funding from the Idaho Wheat Commission. Contributors include Idaho and regional researchers.
 
-```{r}
-1 + 1
-```
+
+::: {layout-ncol=2}
+![](images/u-of-i-logo-2018.png){width=40%}
+
+
+![](images/iwc-logo.png){width=40%}
+:::
