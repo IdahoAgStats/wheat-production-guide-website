@@ -6,8 +6,8 @@ The Idaho Wheat Production Guide is intended to be a "one-stop shop" for wheat p
 
 
 ::: {layout-ncol=2}
-![](images/u-of-i-logo-2018.png){width=40%}
+[![](images/u-of-i-logo-2018.png){width=30%}](https://www.uidaho.edu/extension/cereals/)
 
 
-![](images/iwc-logo.png){width=40%}
+[![](images/iwc-logo.png){width=30%}](https://www.idahowheat.org/)
 :::
