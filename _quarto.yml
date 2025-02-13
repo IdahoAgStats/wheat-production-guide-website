@@ -1,19 +1,32 @@
-project:
-  type: website
+project: 
+   type: website
+   output-dir: _site
+   preview: 
+     browser: true
+     watch-inputs: false
+     timeout: 300
 
 website:
   title: "Idaho Wheat Production Guide"
+  description: "Resources for wheat producers and ag consultants in Idaho and surrounding and region"
+  repo-url: "https://github.com/emilymg/wheat-production-guide-website"
+  issue-url: "https://github.com/emilymg/wheat-production-guide-website/issues"
+  reader-mode: true
+  search:
+    location: navbar
+    type: textbox
+    collapse-after: 10
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: styles.css
     toc: true
 
-editor: visual
+editor: source
 
