@@ -1,11 +1,33 @@
 ---
-title: "wheat-production-guide-web"
+title: "Idaho Wheat Production Guide"
+#listing: 
+#  contents: 
+#    - bulletins
+#  categories: true
+#  sort: false
 ---
 
-This is a Quarto website.
+Browse topics on wheat production in Idaho and get the most up-to-date recommendations from wheat researchers in Idaho and surrounding region.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
-```{r}
-1 + 1
-```
+
+<details>
+<summary>Summary, Basic Recommendations, Quick Facts</summary>
+
+<details>
+<summary>Basic Recommendations</summary>
+
+Some info
+
+</details>
+
+
+_Quick Facts_
+- [Soft White Spring Wheat]
+- Hard Spring Wheat
+- Soft White Winter Wheat
+- Hard Winter Wheat
+
+  
+</details>
+
