@@ -24,6 +24,8 @@ website:
 
 format:
   html:
+    embed-resources: true
+    page-layout: article
     theme: flatly
     css: styles.css
     toc: true
