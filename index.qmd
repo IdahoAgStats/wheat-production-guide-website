@@ -9,7 +9,7 @@ listing:
  filter-ui: true
 ---
 
-![](images/1200x525-cereals.jpg){ width=100% alt="Three images: wheat awns at harvest, two cupped hands holding wheat kernels, a single wheat awn" style="display: block; margin: 0 auto" }
+![](images/1200x525-cereals.jpg){ width=100% alt="image of wheat awns at harvest, image of two cupped hands holding wheat kernels, image of a single wheat awn" style="display: block; margin: 0 auto" }
 
 Welcome to the Idaho Wheat Production Guide. Browse topics on wheat production in Idaho and get the most up-to-date recommendations from wheat experts in Idaho and surrounding region.
 
@@ -19,7 +19,6 @@ Some introductory text, objectives, summary and description of the guide, acknow
 
 
 ### Basic Recommendations and Quick Facts
-
 
 #### Idaho Wheat Quick Facts  
 
@@ -48,6 +47,18 @@ Some introductory text, objectives, summary and description of the guide, acknow
 #### Wheat - spring and winter
 
 [Winter and Spring Wheat Growth Stages - SDSU Extension](https://extension.sdstate.edu/sites/default/files/2020-03/S-0005-03-Wheat.pdf)
+
+#### Spring wheat
+[Spring Wheat Growth and Development - UMN Extension](https://extension.umn.edu/growing-small-grains/spring-wheat-growth-and-development-guide)
+
+#### Winter wheat
+[Wheat Growth Stages and Associated Management - Ohio Extension](https://ohioline.osu.edu/factsheet/agf-126)
+
+[Wheat Growth and Development - KSU Extension](https://bookstore.ksre.ksu.edu/pubs/MF3300.pdf)
+
+
+### Wheat varieties and breeding
+
 
 
 
