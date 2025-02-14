@@ -1,33 +1,96 @@
 ---
 title: "Idaho Wheat Production Guide"
-#listing: 
-#  contents: 
-#    - bulletins
-#  categories: true
-#  sort: false
+listing:
+ contents: listings
+ fields: [date, title, author, description, categories]
+ categories: true
+ sort: false
+ sort-ui: true
+ filter-ui: true
 ---
 
-Browse topics on wheat production in Idaho and get the most up-to-date recommendations from wheat researchers in Idaho and surrounding region.
+![](images/1200x525-cereals.jpg){ width=100% alt="Three images: wheat awns at harvest, two cupped hands holding wheat kernels, a single wheat awn" style="display: block; margin: 0 auto" }
+
+Welcome to the Idaho Wheat Production Guide. Browse topics on wheat production in Idaho and get the most up-to-date recommendations from wheat experts in Idaho and surrounding region.
+
+### How to use this guide
+
+Some introductory text, objectives, summary and description of the guide, acknowledgements, etc
 
 
-
-<details>
-<summary>Summary, Basic Recommendations, Quick Facts</summary>
-
-<details>
-<summary>Basic Recommendations</summary>
-
-Some info
-
-</details>
+### Basic Recommendations and Quick Facts
 
 
-_Quick Facts_
-- [Soft White Spring Wheat]
-- Hard Spring Wheat
-- Soft White Winter Wheat
-- Hard Winter Wheat
+#### Idaho Wheat Quick Facts  
+
+[Soft White Spring Wheat](listings/quick_facts/979_2024_sws.pdf)  
+[Hard Spring Wheat](listings/quick_facts/986_2024_hsw.pdf)  
+[Soft White Winter Wheat](listings/quick_facts/984_2024_sww.pdf)  
+[Hard Winter Wheat](listings/quick_facts/980_2024_hww.pdf)  
 
   
-</details>
+### Wheat in Idaho - Introduction
 
+#### Agronomic zones
+
+[Agronomic Zones of the Dryland Pacific Northwest - PNW Extension ](https://extension.oregonstate.edu/sites/extd8/files/documents/pnw354.pdf)
+
+#### Production, acreage, classes, quality
+
+
+
+#### Markets – domestic and export
+
+
+
+### Growth and development
+
+#### Wheat - spring and winter
+
+[Winter and Spring Wheat Growth Stages - SDSU Extension](https://extension.sdstate.edu/sites/default/files/2020-03/S-0005-03-Wheat.pdf)
+
+
+
+### Variety trial database
+
+
+### Seed
+
+
+### Planting
+
+
+### Irrigation management
+
+
+### Nutrient management
+
+
+### Weed control
+
+
+### Diseases and disease management
+
+
+### Insect pests and control
+
+
+### Drones and UAV
+
+
+### Harvest and storage
+
+
+### Cropping systems
+
+
+### Residue management
+
+
+### End-use quality
+
+
+### Economics
+
+
+### Publications
