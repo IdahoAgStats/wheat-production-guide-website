@@ -11,6 +11,7 @@ website:
   description: "Resources for wheat production in Idaho and surrounding and region"
   #repo-url: "https://github.com/emilymg/wheat-production-guide-website"
   #issue-url: "https://github.com/emilymg/wheat-production-guide-website/issues"
+  page-navigation: true
   reader-mode: true
   search:
     location: navbar
@@ -22,7 +23,6 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-  
 
 format:
   html:
@@ -30,7 +30,9 @@ format:
     page-layout: article
     theme: flatly
     css: styles.css
+    smooth-scroll: true
     toc: true
+    toc-depth: 4
 
 editor: source
 
