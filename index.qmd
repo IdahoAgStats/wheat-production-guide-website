@@ -1,21 +1,24 @@
 ---
 title: "Idaho Wheat Production Guide"
-listing:
- contents: listings
- fields: [date, title, author, description, categories]
- categories: true
- sort: false
- sort-ui: true
- filter-ui: true
+format: html
+#listing:
+# contents: listings
+fields: [date, title, author, description, categories]
+categories: true
+sort: false
+sort-ui: true
+filter-ui: true
 ---
 
 ![](images/1200x525-cereals.jpg){ width=100% alt="image of wheat awns at harvest, image of two cupped hands holding wheat kernels, image of a single wheat awn" style="display: block; margin: 0 auto" }
 
-Welcome to the Idaho Wheat Production Guide. Browse topics on wheat production in Idaho and get the most up-to-date recommendations from wheat experts in Idaho and surrounding region.
+### Introduction
+
+The Idaho Wheat Production Guide is intended to be a "one-stop shop" for wheat producers and ag consultants in Idaho and surrounding region. Producers can access the latest research results and production recommendations and download printable booklets. This guide is a project of the University of Idaho, with funding from the Idaho Wheat Commission. Contributors include Idaho and regional researchers.
 
 ### How to use this guide
 
-Some introductory text, objectives, summary and description of the guide, acknowledgements, etc
+Some introductory text, summary and description of the guide, etc
 
 
 ### Basic Recommendations and Quick Facts
