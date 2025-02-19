@@ -9,13 +9,15 @@ project:
 website:
   title: "Idaho Wheat Production Guide"
   description: "Resources for wheat production in Idaho and surrounding and region"
+  favicon: # path to a favicon
+  site-url: # a site url
   #repo-url: "https://github.com/emilymg/wheat-production-guide-website"
   #issue-url: "https://github.com/emilymg/wheat-production-guide-website/issues"
   reader-mode: true
   page-navigation: true
   back-to-top-navigation: true
   search:
-    location: toc
+    location: sidebar
     type: textbox
     collapse-after: 10
     copy-button: true
