@@ -3,29 +3,52 @@ title: "Idaho Wheat Production Guide"
 format: html
 #listing:
 # contents: listings
-fields: [date, title, author, description, categories]
-categories: true
-sort: false
-sort-ui: true
-filter-ui: true
+#fields: [date, title, author, description, categories]
+#categories: true
+#sort: false
+#sort-ui: true
+#filter-ui: true
 ---
 
 ![](images/1200x525-cereals.jpg){ width=100% alt="image of wheat awns at harvest, image of two cupped hands holding wheat kernels, image of a single wheat awn" style="display: block; margin: 0 auto" }
 
-### Introduction
+# Introduction
 
-The Idaho Wheat Production Guide is intended to be a "one-stop shop" for wheat producers and ag consultants in Idaho and surrounding region. Producers can access the latest research results and production recommendations and download printable booklets. This guide is a project of the University of Idaho, with funding from the Idaho Wheat Commission. Contributors include Idaho and regional researchers.
+The Idaho Wheat Production Guide is a "one-stop shop" where Idaho wheat producers  can access the latest research results and production recommendations from wheat researchers in Idaho and surrounding region. 
 
-### How to use this guide
+## How to use this guide
 
-Some introductory text, summary and description of the guide, etc
+Browse topics in the sidebar, or . Save, download and print articles, bulletins, and guide sections individually, or [download the full Wheat Production Guide]() as a printable booklet. 
 
 
-### Basic Recommendations and Quick Facts
 
-#### Idaho Wheat Quick Facts  
 
-[Soft White Spring Wheat](listings/quick_facts/979_2024_sws.pdf)  
+## Contributors
+
+This guide is a project of the University of Idaho, with funding from the Idaho Wheat Commission. Contributors include Idaho and regional researchers.
+
+**Personnel:** 
+Dr. Juliet M Marshall, Ext. Crop Mgmt. Specialist (SC and E Idaho) 
+Douglas Finkelnburg, Area Extension Educator, Cropping Systems (N Idaho)
+Justin Hatch, Extension Educator, Caribou County
+Dr. Kurtis Schroeder, Moscow, Ext. Crop Mgmt. Specialist (N Idaho)
+Dr. Julia Piaskowski, CALS Director of Statistical Programs
+Many others.
+
+## Funding Sources
+
+This project is financially supported by:
+- [Idaho Wheat Commission](https://www.idahowheat.org/)  
+- [Idaho Agricultural Experiment Station](https://www.uidaho.edu/cals/idaho-agricultural-experiment-station)  
+
+
+
+
+## Basic Recommendations and Quick Facts
+
+### Idaho Wheat Quick Facts  
+
+[Soft White Spring Wheat](listings/quick_facts/979_2024_sws.pdf){{< fa solid download title="download PDF file" aria-hidden="true" >}}  
 [Hard Spring Wheat](listings/quick_facts/986_2024_hsw.pdf)  
 [Soft White Winter Wheat](listings/quick_facts/984_2024_sww.pdf)  
 [Hard Winter Wheat](listings/quick_facts/980_2024_hww.pdf)  
