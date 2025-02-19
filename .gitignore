@@ -1,3 +1,10 @@
+# Quarto output files
+_site/
+
+# Windows files
+desktop.ini
+
+# R
 .Rproj.user
 .Rhistory
 .RData
