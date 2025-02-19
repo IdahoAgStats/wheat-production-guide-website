@@ -1,0 +1,12 @@
+---
+title: "Basic Recommendations and Quick Facts"
+---
+
+# Basic Recommendations and Quick Facts
+
+## Idaho Wheat Quick Facts  
+
+[Soft White Spring Wheat](listings/quick_facts/979_2024_sws.pdf){{< fa solid download title="download PDF file" aria-hidden="true" >}}  
+[Hard Spring Wheat](listings/quick_facts/986_2024_hsw.pdf){{< fa solid download title="download PDF file" aria-hidden="true" >}}  
+[Soft White Winter Wheat](listings/quick_facts/984_2024_sww.pdf){{< fa solid download title="download PDF file" aria-hidden="true" >}}  
+[Hard Winter Wheat](listings/quick_facts/980_2024_hww.pdf){{< fa solid download title="download PDF file" aria-hidden="true" >}}  
