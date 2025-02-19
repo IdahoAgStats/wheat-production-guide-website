@@ -1,6 +1,3 @@
-# Quarto output files
-_site/
-
 # Windows files
 desktop.ini
 
@@ -10,4 +7,6 @@ desktop.ini
 .RData
 .Ruserdata
 
+# Quarto things
+/_site/
 /.quarto/
