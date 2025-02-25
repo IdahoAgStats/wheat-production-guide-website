@@ -4,8 +4,8 @@ image: images/ui-iwc-logo.png
 about:
   template: marquee
   image-width: 90%
-  image-alt: University of Idaho logo in black letters with a yellow letter \"I\"; Idaho Wheat Commission logo with image of a wheat awn and mountains in orange, and the words \"Idaho Wheat\" in turquoise
-  image-title: University of Idaho and Idaho Wheat Commission
+  image-alt: University of Idaho logo in black letters with a yellow letter I; Idaho Wheat Commission logo with image of a wheat awn and mountains in orange, and the words Idaho Wheat in turquoise
+  image-title: University of Idaho and Idaho Wheat Commission logos
 ---
 
 

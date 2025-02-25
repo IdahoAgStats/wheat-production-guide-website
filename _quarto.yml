@@ -22,11 +22,12 @@ website:
     copy-button: true
   navbar:
     right:
+      - href: index.qmd
+        text: Home
+      - about.qmd
       - text: "More"
         menu:
-          - href: index.qmd
-            text: Home
-          - about.qmd
+          
 
 format:
   html:
