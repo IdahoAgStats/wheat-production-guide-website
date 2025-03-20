@@ -1,0 +1,34 @@
+---
+title: "Weed control"
+---
+
+# Weed control
+***intro/summary text***
+
+Resources:  
+[Weed Management Handbook](https://pnwhandbooks.org/weed)
+
+## Cultural practices
+***section text***
+
+## Chemicals
+***section text***
+
+## Groups, interactions, carryover
+***section text***
+
+Resources:  
+[Understanding Herbicide Mode of Action](https://extension.okstate.edu/fact-sheets/print-publications/pss/herbicide-how-to-understanding-herbicide-mode-of-action-pss-2778.pdf)  
+
+[Summary of Herbicide Mechanism of Action According to the Weed Science Society of America](https://wssa.net/wp-content/uploads/WSSA-Mechanism-of-Action.pdf)
+
+
+## Labels and recommendations
+***section text***
+
+## Herbicide resistance
+***section text***
+
+## Chemical rotations, management strategies
+***section text***
+

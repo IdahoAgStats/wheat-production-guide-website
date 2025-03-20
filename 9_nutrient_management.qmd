@@ -1,0 +1,91 @@
+---
+title: "Nutrient management"
+---
+
+# Nutrient management
+***intro/summary text***
+
+## Soil tests and interpretations
+***section text***
+
+## Sap and tissue analyses
+***section text***
+
+## Calculator - rates / dates / yield goals
+***section text***
+
+[OSU Organic Fertilizer and Cover Crop Calculators](https://smallfarms.oregonstate.edu/calculator)  
+
+## Northern Idaho - N fertility; Macro-nutrients; Micro-nutrients
+***section text***
+
+Resources:  
+[Northern Idaho Fertilizer Guide: Winter Wheat](https://www.uidaho.edu/-/media/uidaho-responsive/files/extension/publications/cis/cis0453.pdf)  
+[Phosphorus Fertilization of Late-Planted Winter Wheat in No-Till Fallow](https://extension.oregonstate.edu/catalog/pub/pnw-631-phosphorus-fertilization-late-planted-winter-wheat-no-till-fallow)  
+[Northern Idaho Fertilizer Guide: Soft White Spring Wheat](https://www.uidaho.edu/-/media/UIdaho-Responsive/Files/Extension/publications/cis/cis1101.pdf)  
+[Northern Idaho Fertilizer Guide: Spring Wheat](https://objects.lib.uidaho.edu/uiext/uiext30490.pdf)  
+[Dryland Winter Wheat: Eastern Washington Nutrient Management Guide](https://pubs.extension.wsu.edu/dryland-winter-wheat-eastern-washington-nutrient-management-guide)  
+
+
+## Southern Idaho irrigated - N fertility; Macro-nutrients; Micro-nutrients
+***section text***
+
+Resources:  
+[Optimum Nitrogen Rates for Wheat Depend on the Environmental and Field-Specific Conditions](https://verso.uidaho.edu/esploro/outputs/newsletterArticle/Optimum-Nitrogen-Rates-for-Wheat-Depend/996749626401851)
+[Southern Idaho Fertilizer Guide: Irrigated Winter Wheat](https://www.uidaho.edu/-/media/uidaho-responsive/files/extension/publications/cis/cis0373.pdf)  
+[Southern Idaho Fertilizer Guide: Irrigated Spring Wheat](https://idahodocs.contentdm.oclc.org/digital/collection/p16293coll6/id/78702)  
+
+
+## Southern Idaho dryland - N fertility; Macro-nutrients; Micro-nutrients
+***section text***
+
+Resources:  
+[Idaho Fertilizer Guide - Dryland Wheat Production in SE Idaho and N. Utah](https://objects.lib.uidaho.edu/uiext/uiext30376.pdf)
+
+
+## PNW fertilizer guides - wheat classes and cropping systems
+***section text***
+
+#### Nitrogen and Protein Management Guides:  
+[Hard Red Spring Wheat Nitrogen and Protein Management Guide](https://s3-us-west-2.amazonaws.com/smallgrains.wsu.edu/uploads/2019/03/Hard-Red-Spring-Wheat-Nitrogen-and-Protein-Brief-from-the-WA-Grain-Commission.pdf)  
+[Hard Red Winter Wheat Nitrogen and Protein Management Guide](https://wpcdn.web.wsu.edu/cahnrs/uploads/sites/16/Hard-Red-Winter-Wheat-Nitrogen-and-Protein-Brief-from-WA-Grain-Commission-2.pdf)
+
+[Hard White Spring Wheat Nitrogen and Protein Management Guide](https://wpcdn.web.wsu.edu/cahnrs/uploads/sites/16/Hard-White-Spring-Wheat-Nitrogen-and-Protein-Brief-from-the-WA-Grain-Commission-1.pdf)
+
+#### Winter Wheat in Continuous and Summer Fallow Cropping Systems - Fertilizer Guides (low, intermediate, and high precipitation zones)  
+[Winter Wheat and Spring Grains in Continuous Cropping Systems (Low Precipitation Zone)](https://extension.oregonstate.edu/catalog/pub/fg-81-winter-wheat-spring-grains-continuous-cropping-systems-low-precipitation-zone)  
+[Winter Wheat in Summer-Fallow Systems (Low Precipitation Zone)](https://extension.oregonstate.edu/catalog/pub/fg-80-winter-wheat-summer-fallow-systems-low-precipitation-zone-fertilizer-guide )  
+[Winter Wheat in Continuous Cropping Systems (High Precipitation Zone)](https://extension.oregonstate.edu/catalog/pub/fg-84-winter-wheat-continuous-cropping-systems-high-precipitation-zone-fertilizer-guide)  
+[Winter Wheat in Continuous Cropping Systems (Intermediate Precipitation Zone)](https://extension.oregonstate.edu/catalog/pub/fg-83-winter-wheat-continuous-cropping-systems-intermediate-precipitation-zone)  
+[Winter Wheat in Summer-Fallow Systems (Intermediate Precipitation Zone](https://extension.oregonstate.edu/catalog/pub/fg-82-winter-wheat-summer-fallow-systems-intermediate-precipitation-zone-fertilizer)  
+
+
+## Cover crops
+***section text***
+
+[Estimating Plant-Available Nitrogen Release from Cover Crops](https://extension.oregonstate.edu/catalog/pub/pnw-636-estimating-plant-available-nitrogen-release-cover-crops)
+
+
+## Biosolids
+***section text***
+
+Learn more:  
+[Fertilizing with Biosolids](https://extension.oregonstate.edu/catalog/pub/pnw-508-fertilizing-biosolids)
+
+
+## Liming for acid soils
+***section text***
+
+Learn more:
+[Agricultural Lime and Liming (Parts 1-3)](https://pubs.extension.wsu.edu/agriculture-lime-and-liming-part-1-introduction-to-agricultural-lime-and-liming-soil-acidification-series)  
+[Acid Soils: How do they Interact with Soil Disease](https://pubs.extension.wsu.edu/acid-soils-how-do-they-interact-with-root-diseases-soil-acidification-series)  
+
+
+## Impact on end-use quality
+***section text***
+
+Resources:  
+[Irrigation and Nitrogen Fertilization Affect End-Use Quality of Spring Wheat of Three Market Classes](https://www.uidaho.edu/extension/publications/bul/bul957)  
+
+
+

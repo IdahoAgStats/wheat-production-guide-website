@@ -1,0 +1,22 @@
+---
+title: "Seed"
+---
+
+# Seed
+***intro/summary text***
+
+## Seed production, quality, and assessment
+***section text***
+
+## Certification and standards
+***section text***
+
+Learn more about seed certification:  
+[General Seed Certification Policies and Procedures in Idaho](https://cdn.prod.website-files.com/5c032b32fb1b863f50b40146/65f9a60f0a067bc2123b10a5_General%20P%26P%20rev%202024.pdf)  
+[Idaho Grain Certification Standards](https://www.idahocrop.com/standards)
+
+## PVP and title 5
+***section text***
+
+Learn more about Plant Variety Protection through the USDA-AMS:
+[PVPO Factsheet](https://www.ams.usda.gov/services/plant-variety-protection)

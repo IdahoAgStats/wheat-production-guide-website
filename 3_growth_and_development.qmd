@@ -1,0 +1,23 @@
+---
+title: "Growth and Development"
+---
+
+# Growth and development
+***intro/summary text***
+
+## Spring wheat
+***section text***  
+
+Learn about the Zadoks growth staging system:  
+[Spring Wheat Growth and Development - UMN Extension](https://extension.umn.edu/growing-small-grains/spring-wheat-growth-and-development-guide)
+
+## Winter wheat
+***section text***  
+
+Learn about the stages of the Feekes Growth Scale:  
+[Wheat Growth Stages and Associated Management - Ohio Extension](https://ohioline.osu.edu/factsheet/agf-126)  
+
+[Wheat Growth and Development - KSU Extension](https://bookstore.ksre.ksu.edu/pubs/MF3300.pdf)  
+
+Learn more about winter and spring growth stages:  
+[Winter and Spring Wheat Growth Stages - SDSU Extension](https://extension.sdstate.edu/sites/default/files/2020-03/S-0005-03-Wheat.pdf)  

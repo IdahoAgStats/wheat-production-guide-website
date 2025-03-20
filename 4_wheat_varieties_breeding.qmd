@@ -1,0 +1,28 @@
+---
+title: "Wheat varieties and breeding"
+---
+
+# Wheat varieties and breeding
+***intro/summary text***
+
+## Key attributes for Idaho production conditions
+***section text***
+
+## Breeding – public and private programs
+***section text***
+
+[Aberdeen Wheat Breeding Program](https://www.uidaho.edu/cals/aberdeen-research-and-extension-center/wheat-breeding)  
+[WSU Breadlab](https://breadlab.wsu.edu/research/wsu-breadlab-varieties/)  
+
+## Herbicide resistant varieties
+***section text***
+
+## Performance trials, supporting data
+***section text***
+
+[North Idaho Cereals](https://www.uidaho.edu/extension/cereals/north/variety-trials)  
+[South Central & Southeast Idaho Cereals](https://www.uidaho.edu/extension/cereals/scseidaho/sgr)  
+[Southwest Idaho Cereals](https://www.uidaho.edu/extension/cereals/southwest/varieties)  
+[Oregon Cereals](https://cropandsoil.oregonstate.edu/wheat/variety-trials)  
+[Eastern Washington Cereals](https://smallgrains.wsu.edu/variety/archives/)
+[WSU Breadlab](https://breadlab.wsu.edu/research/test-results/)  

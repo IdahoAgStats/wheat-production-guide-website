@@ -1,0 +1,20 @@
+---
+title: "Diseases and disease management"
+---
+
+# Diseases and disease management
+***intro/summary text***
+
+## Foliar diseases
+***section text***
+
+## Spike and seed-borne diseases
+***section text***
+
+Learn more:  
+[Seedborne Diseases of Cereals](https://objects.lib.uidaho.edu/uiext/uiext30078.pdf)  
+
+
+## Soil-borne diseases
+***section text***
+

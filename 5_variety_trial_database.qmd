@@ -1,0 +1,42 @@
+---
+title: "Variety trial database"
+---
+
+# Variety trial database
+
+Four years ago, the Idaho Wheat Commission funded a statewide database of wheat variety trials that expanded across the region to include Washington and Oregon, and additional crops of barley, canola, and cool season legumes. The University of Idaho in collaboration with Oregon State University and Washington State University has combined and organized these data sets into a set of tools collectively called “WAVE” - the Western Agricultural Variety Explorer.  
+
+There are two major outputs:  
+
+- A web interface consisting of an online database of raw trial data.  
+
+- A mobile app for trial summaries. These are different tools intended for distinct audiences.  
+
+### The Web Interface
+
+The online database contains raw data down to the plot level whenever possible. This data can be searched by program (e.g. Southeastern and Southcentral Idaho), location, year, and market class. Anyone is welcome to use this resource, but it is intended for researchers. There is extensive trial metadata. Our goal was for every trial to include the planting date, harvest date, plot number, and trial design, in addition to year and location. When possible, we also captured exact geocoordinates of each trial, soil test information, fertilizer and other chemical applications, tillage regime, and planter type. We were also able to capture additional information on row and range position of each plot in the trial which enabled us to conduct spatial analysis of each trial.  
+
+Extensive efforts were made to ensure that the data is correct and consistent terminology is used. We defined acceptable limits for many numeric variables (for example, falling number must be between 60 and 600) and standardized many categorical variables so that data sets across programs could be combined. The user guide provides more details on how to access and use the database.  
+
+We have had over 2000 trials conducted across 69 locations over 20 years. Data this extensive can be used for many research applications; understanding varietal changes over time, predicting performance of trialed cultivars into a new environment that they have not previously been evaluated, evaluating how timing of planting and harvesting has changed over time, and other applications have helped us understand wheat production across Pacific Northwest production zones and how we can improve on that. The data here reflects the raw information used to populate the information in the phone app.  
+
+### Mobile App
+
+The target audience for the mobile app are producers and industry representatives who want to look at final results from individual variety trials. The three
+functions of the app are single trial, multiple years, and cultivar explorer.
+
+#### Single Trial
+
+This is for examining individual trials conducted within the last 5 years. There is a filter that can be used to drill down to the program, market class, location, and year. Each trial was analyzed with a mixed model where cultivar is a fixed effect and block is a random effect. When possible, spatial covariate was included in the model to improve the accuracy of the estimates and recover more reliable rankings between the evaluated cultivars and candidate cultivars. Available trial metadata is displayed along with information for key performance indicators: yield, test weight, protein content, days to heading, falling number, and plant height. This information is not always available for all traits and trials. Data can be sorted by trait data, and users can select which traits to display or plot.
+
+#### Multiple Years
+
+This data is for a single location over multiple years. Like in the single trial tab,
+there is a filter to choose the program, market class and location of trial to view. This data is also the product of a linear mixed model, using the estimates from the single trial analyses. Cultivar is a random effect, year is a fixed effect, and the estimates are weighted by the reciprocal of their standard errors from single trial analysis, so high precision results are weighted higher than lower precision trials. The results from these analyses are presented in plots and tables similar to what is shown in the single trial tab. The analysis is conducted across the last 5 years, but only years selected by the user will be shown.
+
+#### Cultivar explorer
+
+This tab is for finding information for a specific cultivar. The results shown in this tab are derived from the analyses of individual trials and are limited to released cultivars only. Users must apply filters for market class only, then can search on cultivar name. All trials where the cultivar was tried will be shown in the filter that the user can further narrow if they want. A small number of cultivars have been trialed across a large number of locations and years; most cultivars were trialed for a few years.
+
+The phone app is available in the Apple App Store and Google Play Store.
+We are working to build similar resources for barley, cool- season legumes, and canola. Our homepage and long-term landing page for WAVE is [www.westernagdata.org]. Please check here for project updates and links to the database instances and web apps.
