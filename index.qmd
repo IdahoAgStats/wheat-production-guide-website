@@ -1,5 +1,5 @@
 ---
-format: html
+#format: html
 #listing:
 # contents: listings
 #fields: [date, title, author, description, categories]
@@ -9,106 +9,18 @@ format: html
 #filter-ui: true
 ---
 
-![](images/1200x525-cereals.jpg){ width=100% alt="image of wheat awns at harvest, image of two cupped hands holding wheat kernels, image of a single wheat awn" style="display: block; margin: 0 auto" }
+<!-- ![](images/1200x525-cereals.jpg){ width=100% alt="image of wheat awns at harvest, image of two cupped hands holding wheat kernels, image of a single wheat awn" style="display: block; margin: 0 auto" } -->
 
 # Welcome {.unnumbered}
 
 The Idaho Wheat Production Guide is a "one-stop shop" where Idaho wheat producers  can access the latest research results and production recommendations from wheat researchers in Idaho and surrounding region. 
 
+***Some introductory text about the guide here***
+
 ## How to use this guide {.unnumbered}
 
-Browse topics in the sidebar, or use type into the search bar in the top right corner of this page. Save, download and print articles, bulletins, and guide sections individually, or [download the full Wheat Production Guide]() as a printable booklet. 
+Browse topics in the sidebar, or use the search bar in the top right corner of this page. Save, download and print articles, bulletins, and guide sections individually, or [download the full Wheat Production Guide]() as a printable booklet. 
 
-#### Are we missing something? {.unnumbered}  
+## Are we missing something? {.unnumbered}  
 [Submit requests](https://github.com/emilymg/wheat-production-guide-website/issues) for articles, bulletins, or topics you'd like to see included in this guide.  
 
-# Summary
-
-Some introductory text about the guide here
-
-# Basic Recommendations and Quick Facts
-
-### Idaho Wheat Quick Facts  
-
-[Soft White Spring Wheat](listings/quick_facts/979_2024_sws.pdf){{< fa solid download title="download PDF file" aria-hidden="true" >}}  
-[Hard Spring Wheat](listings/quick_facts/986_2024_hsw.pdf){{< fa solid download title="download PDF file" aria-hidden="true" >}}  
-[Soft White Winter Wheat](listings/quick_facts/984_2024_sww.pdf){{< fa solid download title="download PDF file" aria-hidden="true" >}}  
-[Hard Winter Wheat](listings/quick_facts/980_2024_hww.pdf){{< fa solid download title="download PDF file" aria-hidden="true" >}}  
-
-# Wheat in Idaho - Introduction
-
-## Agronomic zones
-
-[Agronomic Zones of the Dryland Pacific Northwest - PNW Extension ](https://extension.oregonstate.edu/sites/extd8/files/documents/pnw354.pdf)
-
-#### Production, acreage, classes, quality
-
-
-
-#### Markets – domestic and export
-
-
-
-### Growth and development
-
-#### Wheat - spring and winter
-
-[Winter and Spring Wheat Growth Stages - SDSU Extension](https://extension.sdstate.edu/sites/default/files/2020-03/S-0005-03-Wheat.pdf)
-
-#### Spring wheat
-[Spring Wheat Growth and Development - UMN Extension](https://extension.umn.edu/growing-small-grains/spring-wheat-growth-and-development-guide)
-
-#### Winter wheat
-[Wheat Growth Stages and Associated Management - Ohio Extension](https://ohioline.osu.edu/factsheet/agf-126)
-
-[Wheat Growth and Development - KSU Extension](https://bookstore.ksre.ksu.edu/pubs/MF3300.pdf)
-
-
-### Wheat varieties and breeding
-
-
-
-
-### Variety trial database
-
-
-### Seed
-
-
-### Planting
-
-
-### Irrigation management
-
-
-### Nutrient management
-
-
-### Weed control
-
-
-### Diseases and disease management
-
-
-### Insect pests and control
-
-
-### Drones and UAV
-
-
-### Harvest and storage
-
-
-### Cropping systems
-
-
-### Residue management
-
-
-### End-use quality
-
-
-### Economics
-
-
-### Publications
