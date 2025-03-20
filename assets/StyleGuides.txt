@@ -1,0 +1,14 @@
+Style Guides
+
+# color hexes
+
+- IWC logo: #546869 (aqua, main); #BE602A (orange, accent)
+- UoI logo: #E9AD00 (UI gold); #000000 (black)
+
+# Headings
+
+- # Chapter
+- ## Subchapter
+- ### Subtopic
+- #### emphasis
+  
