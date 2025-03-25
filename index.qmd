@@ -1,12 +1,5 @@
 ---
-#format: html
-#listing:
-# contents: listings
-#fields: [date, title, author, description, categories]
-#categories: true
-#sort: false
-#sort-ui: true
-#filter-ui: true
+
 ---
 
 <!-- ![](images/1200x525-cereals.jpg){ width=100% alt="image of wheat awns at harvest, image of two cupped hands holding wheat kernels, image of a single wheat awn" style="display: block; margin: 0 auto" } -->
