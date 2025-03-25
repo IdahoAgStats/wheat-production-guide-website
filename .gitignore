@@ -10,3 +10,4 @@ desktop.ini
 # Quarto things
 /_site/
 /.quarto/
+/_book/
