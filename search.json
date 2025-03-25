@@ -1,0 +1,822 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Idaho Wheat Production Guide",
+    "section": "",
+    "text": "Welcome\nThe Idaho Wheat Production Guide is a “one-stop shop” where Idaho wheat producers can access the latest research results and production recommendations from wheat researchers in Idaho and surrounding region.\nSome introductory text about the guide here",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use-this-guide",
+    "href": "index.html#how-to-use-this-guide",
+    "title": "Idaho Wheat Production Guide",
+    "section": "How to use this guide",
+    "text": "How to use this guide\nBrowse topics in the sidebar, or use the search bar in the top right corner of this page. Save, download and print articles, bulletins, and guide sections individually, or download the full Wheat Production Guide as a printable booklet.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#are-we-missing-something",
+    "href": "index.html#are-we-missing-something",
+    "title": "Idaho Wheat Production Guide",
+    "section": "Are we missing something?",
+    "text": "Are we missing something?\nSubmit requests for articles, bulletins, or topics you’d like to see included in this guide.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About the Project",
+    "section": "",
+    "text": "Contributors\nThere are various University of Idaho bulletins associated with production of wheat in Idaho, and many were produced years ago by UI researchers who have long retired. The University researchers currently working in wheat production are located throughout the state, each with their own websites and research projects specific to their area of expertise.\nWith the many scattered resources and old bulletins that are hard to find and access, there was not one UI cereals or wheat website that could be used by producers to access the latest research results and production recommendations. At the request of the Idaho Wheat Commission, an accessible wheat publication coordinating information for producers in one location online and in a printable bulletin or production guide was needed to address this information gap.\nCoordination of the available resources will also allow us to identify gaps in the current research and prioritize funding to address those gaps.\nThis guide is a project of the University of Idaho, with funding from the Idaho Wheat Commission. Contributors include Idaho and regional researchers.",
+    "crumbs": [
+      "About the Project"
+    ]
+  },
+  {
+    "objectID": "about.html#contributors",
+    "href": "about.html#contributors",
+    "title": "About the Project",
+    "section": "",
+    "text": "People\n\nDr. Juliet M Marshall, Ext. Crop Mgmt. Specialist (SC and E Idaho)\n\nDouglas Finkelnburg, Area Extension Educator, Cropping Systems (N Idaho)\n\nJustin Hatch, Extension Educator, Caribou County\n\nDr. Kurtis Schroeder, Moscow, Ext. Crop Mgmt. Specialist (N Idaho)\n\nDr. Julia Piaskowski, CALS Director of Statistical Programs\n\nEmily Galvin, Data Curation Technician, CALS Research Administration\n\nMany others.\n\n\n\nFunding Sources\nThis project is financially supported by:\n\nIdaho Wheat Commission\n\nIdaho Agricultural Experiment Station",
+    "crumbs": [
+      "About the Project"
+    ]
+  },
+  {
+    "objectID": "1_quickfacts.html",
+    "href": "1_quickfacts.html",
+    "title": "1  Summary, Basic Recommendations, and Quick Facts",
+    "section": "",
+    "text": "1.1 Summary\nintro/summary text",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Summary, Basic Recommendations, and Quick Facts</span>"
+    ]
+  },
+  {
+    "objectID": "1_quickfacts.html#basic-recommendations",
+    "href": "1_quickfacts.html#basic-recommendations",
+    "title": "1  Summary, Basic Recommendations, and Quick Facts",
+    "section": "1.2 Basic Recommendations",
+    "text": "1.2 Basic Recommendations\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Summary, Basic Recommendations, and Quick Facts</span>"
+    ]
+  },
+  {
+    "objectID": "1_quickfacts.html#idaho-wheat-quick-facts",
+    "href": "1_quickfacts.html#idaho-wheat-quick-facts",
+    "title": "1  Summary, Basic Recommendations, and Quick Facts",
+    "section": "1.3 Idaho Wheat Quick Facts",
+    "text": "1.3 Idaho Wheat Quick Facts\nsection text\n\n\n\n\n\n\n\n\n\nHabit\nHarvested Area (acres)\nYield (bu/A)\nProduction (bu)[^1]\n\n\n\n\nWinter wheat\n700,000\n89\n62,300,000\n\n\nSpring wheat\n435,000\n89\n38,715,000\n\n\n\n\n[^1]: 60 lb = 1 bu\n\nStatewide wheat production in Idaho, 2024\n\n\nDownload printable fact sheets about wheat production in Southern Idaho:\nSoft White Spring Wheat\nHard Spring Wheat\nSoft White Winter Wheat\nHard Winter Wheat",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Summary, Basic Recommendations, and Quick Facts</span>"
+    ]
+  },
+  {
+    "objectID": "2_wheat_in_idaho_intro.html",
+    "href": "2_wheat_in_idaho_intro.html",
+    "title": "2  Wheat in Idaho - Introduction",
+    "section": "",
+    "text": "3 Wheat in Idaho - Introduction\nabstract/chapter summary",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Wheat in Idaho - Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "2_wheat_in_idaho_intro.html#agronomic-zones",
+    "href": "2_wheat_in_idaho_intro.html#agronomic-zones",
+    "title": "2  Wheat in Idaho - Introduction",
+    "section": "3.1 Agronomic zones",
+    "text": "3.1 Agronomic zones\nsection text\nLearn more about agronomic zones:\nAgronomic Zones of the Dryland Pacific Northwest - PNW Extension",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Wheat in Idaho - Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "2_wheat_in_idaho_intro.html#production-acreage-classes-quality",
+    "href": "2_wheat_in_idaho_intro.html#production-acreage-classes-quality",
+    "title": "2  Wheat in Idaho - Introduction",
+    "section": "3.2 Production, acreage, classes, quality",
+    "text": "3.2 Production, acreage, classes, quality\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Wheat in Idaho - Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "2_wheat_in_idaho_intro.html#markets-domestic-and-export",
+    "href": "2_wheat_in_idaho_intro.html#markets-domestic-and-export",
+    "title": "2  Wheat in Idaho - Introduction",
+    "section": "3.3 Markets – domestic and export",
+    "text": "3.3 Markets – domestic and export\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Wheat in Idaho - Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "3_growth_and_development.html",
+    "href": "3_growth_and_development.html",
+    "title": "3  Growth and Development",
+    "section": "",
+    "text": "4 Growth and development\nintro/summary text",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Growth and Development</span>"
+    ]
+  },
+  {
+    "objectID": "3_growth_and_development.html#spring-wheat",
+    "href": "3_growth_and_development.html#spring-wheat",
+    "title": "3  Growth and Development",
+    "section": "4.1 Spring wheat",
+    "text": "4.1 Spring wheat\nsection text\nLearn about the Zadoks growth staging system:\nSpring Wheat Growth and Development - UMN Extension",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Growth and Development</span>"
+    ]
+  },
+  {
+    "objectID": "3_growth_and_development.html#winter-wheat",
+    "href": "3_growth_and_development.html#winter-wheat",
+    "title": "3  Growth and Development",
+    "section": "4.2 Winter wheat",
+    "text": "4.2 Winter wheat\nsection text\nLearn about the stages of the Feekes Growth Scale:\nWheat Growth Stages and Associated Management - Ohio Extension\nWheat Growth and Development - KSU Extension\nLearn more about winter and spring growth stages:\nWinter and Spring Wheat Growth Stages - SDSU Extension",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Growth and Development</span>"
+    ]
+  },
+  {
+    "objectID": "4_wheat_varieties_breeding.html",
+    "href": "4_wheat_varieties_breeding.html",
+    "title": "4  Wheat varieties and breeding",
+    "section": "",
+    "text": "5 Wheat varieties and breeding\nintro/summary text",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Wheat varieties and breeding</span>"
+    ]
+  },
+  {
+    "objectID": "4_wheat_varieties_breeding.html#key-attributes-for-idaho-production-conditions",
+    "href": "4_wheat_varieties_breeding.html#key-attributes-for-idaho-production-conditions",
+    "title": "4  Wheat varieties and breeding",
+    "section": "5.1 Key attributes for Idaho production conditions",
+    "text": "5.1 Key attributes for Idaho production conditions\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Wheat varieties and breeding</span>"
+    ]
+  },
+  {
+    "objectID": "4_wheat_varieties_breeding.html#breeding-public-and-private-programs",
+    "href": "4_wheat_varieties_breeding.html#breeding-public-and-private-programs",
+    "title": "4  Wheat varieties and breeding",
+    "section": "5.2 Breeding – public and private programs",
+    "text": "5.2 Breeding – public and private programs\nsection text\nAberdeen Wheat Breeding Program\nWSU Breadlab",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Wheat varieties and breeding</span>"
+    ]
+  },
+  {
+    "objectID": "4_wheat_varieties_breeding.html#herbicide-resistant-varieties",
+    "href": "4_wheat_varieties_breeding.html#herbicide-resistant-varieties",
+    "title": "4  Wheat varieties and breeding",
+    "section": "5.3 Herbicide resistant varieties",
+    "text": "5.3 Herbicide resistant varieties\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Wheat varieties and breeding</span>"
+    ]
+  },
+  {
+    "objectID": "4_wheat_varieties_breeding.html#performance-trials-supporting-data",
+    "href": "4_wheat_varieties_breeding.html#performance-trials-supporting-data",
+    "title": "4  Wheat varieties and breeding",
+    "section": "5.4 Performance trials, supporting data",
+    "text": "5.4 Performance trials, supporting data\nsection text\nNorth Idaho Cereals\nSouth Central & Southeast Idaho Cereals\nSouthwest Idaho Cereals\nOregon Cereals\nEastern Washington Cereals WSU Breadlab",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Wheat varieties and breeding</span>"
+    ]
+  },
+  {
+    "objectID": "5_variety_trial_database.html",
+    "href": "5_variety_trial_database.html",
+    "title": "5  Variety trial database",
+    "section": "",
+    "text": "6 Variety trial database\nFour years ago, the Idaho Wheat Commission funded a statewide database of wheat variety trials that expanded across the region to include Washington and Oregon, and additional crops of barley, canola, and cool season legumes. The University of Idaho in collaboration with Oregon State University and Washington State University has combined and organized these data sets into a set of tools collectively called “WAVE” - the Western Agricultural Variety Explorer.\nThere are two major outputs:\n\nA web interface consisting of an online database of raw trial data.\nA mobile app for trial summaries. These are different tools intended for distinct audiences.\n\n\n6.0.1 The Web Interface\nThe online database contains raw data down to the plot level whenever possible. This data can be searched by program (e.g. Southeastern and Southcentral Idaho), location, year, and market class. Anyone is welcome to use this resource, but it is intended for researchers. There is extensive trial metadata. Our goal was for every trial to include the planting date, harvest date, plot number, and trial design, in addition to year and location. When possible, we also captured exact geocoordinates of each trial, soil test information, fertilizer and other chemical applications, tillage regime, and planter type. We were also able to capture additional information on row and range position of each plot in the trial which enabled us to conduct spatial analysis of each trial.\nExtensive efforts were made to ensure that the data is correct and consistent terminology is used. We defined acceptable limits for many numeric variables (for example, falling number must be between 60 and 600) and standardized many categorical variables so that data sets across programs could be combined. The user guide provides more details on how to access and use the database.\nWe have had over 2000 trials conducted across 69 locations over 20 years. Data this extensive can be used for many research applications; understanding varietal changes over time, predicting performance of trialed cultivars into a new environment that they have not previously been evaluated, evaluating how timing of planting and harvesting has changed over time, and other applications have helped us understand wheat production across Pacific Northwest production zones and how we can improve on that. The data here reflects the raw information used to populate the information in the phone app.\n\n\n6.0.2 Mobile App\nThe target audience for the mobile app are producers and industry representatives who want to look at final results from individual variety trials. The three functions of the app are single trial, multiple years, and cultivar explorer.\n\nSingle Trial\nThis is for examining individual trials conducted within the last 5 years. There is a filter that can be used to drill down to the program, market class, location, and year. Each trial was analyzed with a mixed model where cultivar is a fixed effect and block is a random effect. When possible, spatial covariate was included in the model to improve the accuracy of the estimates and recover more reliable rankings between the evaluated cultivars and candidate cultivars. Available trial metadata is displayed along with information for key performance indicators: yield, test weight, protein content, days to heading, falling number, and plant height. This information is not always available for all traits and trials. Data can be sorted by trait data, and users can select which traits to display or plot.\n\n\nMultiple Years\nThis data is for a single location over multiple years. Like in the single trial tab, there is a filter to choose the program, market class and location of trial to view. This data is also the product of a linear mixed model, using the estimates from the single trial analyses. Cultivar is a random effect, year is a fixed effect, and the estimates are weighted by the reciprocal of their standard errors from single trial analysis, so high precision results are weighted higher than lower precision trials. The results from these analyses are presented in plots and tables similar to what is shown in the single trial tab. The analysis is conducted across the last 5 years, but only years selected by the user will be shown.\n\n\nCultivar explorer\nThis tab is for finding information for a specific cultivar. The results shown in this tab are derived from the analyses of individual trials and are limited to released cultivars only. Users must apply filters for market class only, then can search on cultivar name. All trials where the cultivar was tried will be shown in the filter that the user can further narrow if they want. A small number of cultivars have been trialed across a large number of locations and years; most cultivars were trialed for a few years.\nThe phone app is available in the Apple App Store and Google Play Store. We are working to build similar resources for barley, cool- season legumes, and canola. Our homepage and long-term landing page for WAVE is [www.westernagdata.org]. Please check here for project updates and links to the database instances and web apps.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Variety trial database</span>"
+    ]
+  },
+  {
+    "objectID": "6_seed.html",
+    "href": "6_seed.html",
+    "title": "6  Seed",
+    "section": "",
+    "text": "7 Seed\nintro/summary text",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Seed</span>"
+    ]
+  },
+  {
+    "objectID": "6_seed.html#seed-production-quality-and-assessment",
+    "href": "6_seed.html#seed-production-quality-and-assessment",
+    "title": "6  Seed",
+    "section": "7.1 Seed production, quality, and assessment",
+    "text": "7.1 Seed production, quality, and assessment\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Seed</span>"
+    ]
+  },
+  {
+    "objectID": "6_seed.html#certification-and-standards",
+    "href": "6_seed.html#certification-and-standards",
+    "title": "6  Seed",
+    "section": "7.2 Certification and standards",
+    "text": "7.2 Certification and standards\nsection text\nLearn more about seed certification:\nGeneral Seed Certification Policies and Procedures in Idaho\nIdaho Grain Certification Standards",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Seed</span>"
+    ]
+  },
+  {
+    "objectID": "6_seed.html#pvp-and-title-5",
+    "href": "6_seed.html#pvp-and-title-5",
+    "title": "6  Seed",
+    "section": "7.3 PVP and title 5",
+    "text": "7.3 PVP and title 5\nsection text\nLearn more about Plant Variety Protection through the USDA-AMS: PVPO Factsheet",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Seed</span>"
+    ]
+  },
+  {
+    "objectID": "7_planting.html",
+    "href": "7_planting.html",
+    "title": "7  Planting",
+    "section": "",
+    "text": "8 Planting\nintro/summary text",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Planting</span>"
+    ]
+  },
+  {
+    "objectID": "7_planting.html#seedbed-preparation",
+    "href": "7_planting.html#seedbed-preparation",
+    "title": "7  Planting",
+    "section": "8.1 Seedbed preparation",
+    "text": "8.1 Seedbed preparation\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Planting</span>"
+    ]
+  },
+  {
+    "objectID": "7_planting.html#seeding-dates-rates-depth-spacing",
+    "href": "7_planting.html#seeding-dates-rates-depth-spacing",
+    "title": "7  Planting",
+    "section": "8.2 Seeding dates, rates, depth, spacing",
+    "text": "8.2 Seeding dates, rates, depth, spacing\nsection text\nResources:\nPlanting Dates in Wheat Production for Southern Idaho",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Planting</span>"
+    ]
+  },
+  {
+    "objectID": "7_planting.html#equipment-calibration-and-monitoring",
+    "href": "7_planting.html#equipment-calibration-and-monitoring",
+    "title": "7  Planting",
+    "section": "8.3 Equipment, calibration, and monitoring",
+    "text": "8.3 Equipment, calibration, and monitoring\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Planting</span>"
+    ]
+  },
+  {
+    "objectID": "8_irrigation_management.html",
+    "href": "8_irrigation_management.html",
+    "title": "8  Irrigation management",
+    "section": "",
+    "text": "9 Irrigation management\nintro/summary text",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Irrigation management</span>"
+    ]
+  },
+  {
+    "objectID": "8_irrigation_management.html#crop-water-use-and-evapotranspiration",
+    "href": "8_irrigation_management.html#crop-water-use-and-evapotranspiration",
+    "title": "8  Irrigation management",
+    "section": "9.1 Crop water use and evapotranspiration",
+    "text": "9.1 Crop water use and evapotranspiration\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Irrigation management</span>"
+    ]
+  },
+  {
+    "objectID": "8_irrigation_management.html#soil-water-holding-capacity",
+    "href": "8_irrigation_management.html#soil-water-holding-capacity",
+    "title": "8  Irrigation management",
+    "section": "9.2 Soil water-holding capacity",
+    "text": "9.2 Soil water-holding capacity\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Irrigation management</span>"
+    ]
+  },
+  {
+    "objectID": "8_irrigation_management.html#irrigation-systems-and-scheduling",
+    "href": "8_irrigation_management.html#irrigation-systems-and-scheduling",
+    "title": "8  Irrigation management",
+    "section": "9.3 Irrigation systems and scheduling",
+    "text": "9.3 Irrigation systems and scheduling\nsection text\nResources:\nEstimating Water Requirements of Hard Red Spring Wheat for Final Irrigation",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Irrigation management</span>"
+    ]
+  },
+  {
+    "objectID": "9_nutrient_management.html",
+    "href": "9_nutrient_management.html",
+    "title": "9  Nutrient management",
+    "section": "",
+    "text": "10 Nutrient management\nintro/summary text",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Nutrient management</span>"
+    ]
+  },
+  {
+    "objectID": "9_nutrient_management.html#soil-tests-and-interpretations",
+    "href": "9_nutrient_management.html#soil-tests-and-interpretations",
+    "title": "9  Nutrient management",
+    "section": "10.1 Soil tests and interpretations",
+    "text": "10.1 Soil tests and interpretations\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Nutrient management</span>"
+    ]
+  },
+  {
+    "objectID": "9_nutrient_management.html#sap-and-tissue-analyses",
+    "href": "9_nutrient_management.html#sap-and-tissue-analyses",
+    "title": "9  Nutrient management",
+    "section": "10.2 Sap and tissue analyses",
+    "text": "10.2 Sap and tissue analyses\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Nutrient management</span>"
+    ]
+  },
+  {
+    "objectID": "9_nutrient_management.html#calculator---rates-dates-yield-goals",
+    "href": "9_nutrient_management.html#calculator---rates-dates-yield-goals",
+    "title": "9  Nutrient management",
+    "section": "10.3 Calculator - rates / dates / yield goals",
+    "text": "10.3 Calculator - rates / dates / yield goals\nsection text\nOSU Organic Fertilizer and Cover Crop Calculators",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Nutrient management</span>"
+    ]
+  },
+  {
+    "objectID": "9_nutrient_management.html#northern-idaho---n-fertility-macro-nutrients-micro-nutrients",
+    "href": "9_nutrient_management.html#northern-idaho---n-fertility-macro-nutrients-micro-nutrients",
+    "title": "9  Nutrient management",
+    "section": "10.4 Northern Idaho - N fertility; Macro-nutrients; Micro-nutrients",
+    "text": "10.4 Northern Idaho - N fertility; Macro-nutrients; Micro-nutrients\nsection text\nResources:\nNorthern Idaho Fertilizer Guide: Winter Wheat\nPhosphorus Fertilization of Late-Planted Winter Wheat in No-Till Fallow\nNorthern Idaho Fertilizer Guide: Soft White Spring Wheat\nNorthern Idaho Fertilizer Guide: Spring Wheat\nDryland Winter Wheat: Eastern Washington Nutrient Management Guide",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Nutrient management</span>"
+    ]
+  },
+  {
+    "objectID": "9_nutrient_management.html#southern-idaho-irrigated---n-fertility-macro-nutrients-micro-nutrients",
+    "href": "9_nutrient_management.html#southern-idaho-irrigated---n-fertility-macro-nutrients-micro-nutrients",
+    "title": "9  Nutrient management",
+    "section": "10.5 Southern Idaho irrigated - N fertility; Macro-nutrients; Micro-nutrients",
+    "text": "10.5 Southern Idaho irrigated - N fertility; Macro-nutrients; Micro-nutrients\nsection text\nResources:\nOptimum Nitrogen Rates for Wheat Depend on the Environmental and Field-Specific Conditions Southern Idaho Fertilizer Guide: Irrigated Winter Wheat\nSouthern Idaho Fertilizer Guide: Irrigated Spring Wheat",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Nutrient management</span>"
+    ]
+  },
+  {
+    "objectID": "9_nutrient_management.html#southern-idaho-dryland---n-fertility-macro-nutrients-micro-nutrients",
+    "href": "9_nutrient_management.html#southern-idaho-dryland---n-fertility-macro-nutrients-micro-nutrients",
+    "title": "9  Nutrient management",
+    "section": "10.6 Southern Idaho dryland - N fertility; Macro-nutrients; Micro-nutrients",
+    "text": "10.6 Southern Idaho dryland - N fertility; Macro-nutrients; Micro-nutrients\nsection text\nResources:\nIdaho Fertilizer Guide - Dryland Wheat Production in SE Idaho and N. Utah",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Nutrient management</span>"
+    ]
+  },
+  {
+    "objectID": "9_nutrient_management.html#pnw-fertilizer-guides---wheat-classes-and-cropping-systems",
+    "href": "9_nutrient_management.html#pnw-fertilizer-guides---wheat-classes-and-cropping-systems",
+    "title": "9  Nutrient management",
+    "section": "10.7 PNW fertilizer guides - wheat classes and cropping systems",
+    "text": "10.7 PNW fertilizer guides - wheat classes and cropping systems\nsection text\n\nNitrogen and Protein Management Guides:\nHard Red Spring Wheat Nitrogen and Protein Management Guide\nHard Red Winter Wheat Nitrogen and Protein Management Guide\nHard White Spring Wheat Nitrogen and Protein Management Guide\n\n\nWinter Wheat in Continuous and Summer Fallow Cropping Systems - Fertilizer Guides (low, intermediate, and high precipitation zones)\nWinter Wheat and Spring Grains in Continuous Cropping Systems (Low Precipitation Zone)\nWinter Wheat in Summer-Fallow Systems (Low Precipitation Zone)\nWinter Wheat in Continuous Cropping Systems (High Precipitation Zone)\nWinter Wheat in Continuous Cropping Systems (Intermediate Precipitation Zone)\nWinter Wheat in Summer-Fallow Systems (Intermediate Precipitation Zone",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Nutrient management</span>"
+    ]
+  },
+  {
+    "objectID": "9_nutrient_management.html#cover-crops",
+    "href": "9_nutrient_management.html#cover-crops",
+    "title": "9  Nutrient management",
+    "section": "10.8 Cover crops",
+    "text": "10.8 Cover crops\nsection text\nEstimating Plant-Available Nitrogen Release from Cover Crops",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Nutrient management</span>"
+    ]
+  },
+  {
+    "objectID": "9_nutrient_management.html#biosolids",
+    "href": "9_nutrient_management.html#biosolids",
+    "title": "9  Nutrient management",
+    "section": "10.9 Biosolids",
+    "text": "10.9 Biosolids\nsection text\nLearn more:\nFertilizing with Biosolids",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Nutrient management</span>"
+    ]
+  },
+  {
+    "objectID": "9_nutrient_management.html#liming-for-acid-soils",
+    "href": "9_nutrient_management.html#liming-for-acid-soils",
+    "title": "9  Nutrient management",
+    "section": "10.10 Liming for acid soils",
+    "text": "10.10 Liming for acid soils\nsection text\nLearn more: Agricultural Lime and Liming (Parts 1-3)\nAcid Soils: How do they Interact with Soil Disease",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Nutrient management</span>"
+    ]
+  },
+  {
+    "objectID": "9_nutrient_management.html#impact-on-end-use-quality",
+    "href": "9_nutrient_management.html#impact-on-end-use-quality",
+    "title": "9  Nutrient management",
+    "section": "10.11 Impact on end-use quality",
+    "text": "10.11 Impact on end-use quality\nsection text\nResources:\nIrrigation and Nitrogen Fertilization Affect End-Use Quality of Spring Wheat of Three Market Classes",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Nutrient management</span>"
+    ]
+  },
+  {
+    "objectID": "10_weed_control.html",
+    "href": "10_weed_control.html",
+    "title": "10  Weed control",
+    "section": "",
+    "text": "11 Weed control\nintro/summary text\nResources:\nWeed Management Handbook",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Weed control</span>"
+    ]
+  },
+  {
+    "objectID": "10_weed_control.html#cultural-practices",
+    "href": "10_weed_control.html#cultural-practices",
+    "title": "10  Weed control",
+    "section": "11.1 Cultural practices",
+    "text": "11.1 Cultural practices\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Weed control</span>"
+    ]
+  },
+  {
+    "objectID": "10_weed_control.html#chemicals",
+    "href": "10_weed_control.html#chemicals",
+    "title": "10  Weed control",
+    "section": "11.2 Chemicals",
+    "text": "11.2 Chemicals\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Weed control</span>"
+    ]
+  },
+  {
+    "objectID": "10_weed_control.html#groups-interactions-carryover",
+    "href": "10_weed_control.html#groups-interactions-carryover",
+    "title": "10  Weed control",
+    "section": "11.3 Groups, interactions, carryover",
+    "text": "11.3 Groups, interactions, carryover\nsection text\nResources:\nUnderstanding Herbicide Mode of Action\nSummary of Herbicide Mechanism of Action According to the Weed Science Society of America",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Weed control</span>"
+    ]
+  },
+  {
+    "objectID": "10_weed_control.html#labels-and-recommendations",
+    "href": "10_weed_control.html#labels-and-recommendations",
+    "title": "10  Weed control",
+    "section": "11.4 Labels and recommendations",
+    "text": "11.4 Labels and recommendations\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Weed control</span>"
+    ]
+  },
+  {
+    "objectID": "10_weed_control.html#herbicide-resistance",
+    "href": "10_weed_control.html#herbicide-resistance",
+    "title": "10  Weed control",
+    "section": "11.5 Herbicide resistance",
+    "text": "11.5 Herbicide resistance\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Weed control</span>"
+    ]
+  },
+  {
+    "objectID": "10_weed_control.html#chemical-rotations-management-strategies",
+    "href": "10_weed_control.html#chemical-rotations-management-strategies",
+    "title": "10  Weed control",
+    "section": "11.6 Chemical rotations, management strategies",
+    "text": "11.6 Chemical rotations, management strategies\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Weed control</span>"
+    ]
+  },
+  {
+    "objectID": "11_disease_disease_mgmt.html",
+    "href": "11_disease_disease_mgmt.html",
+    "title": "11  Diseases and disease management",
+    "section": "",
+    "text": "12 Diseases and disease management\nintro/summary text",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Diseases and disease management</span>"
+    ]
+  },
+  {
+    "objectID": "11_disease_disease_mgmt.html#foliar-diseases",
+    "href": "11_disease_disease_mgmt.html#foliar-diseases",
+    "title": "11  Diseases and disease management",
+    "section": "12.1 Foliar diseases",
+    "text": "12.1 Foliar diseases\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Diseases and disease management</span>"
+    ]
+  },
+  {
+    "objectID": "11_disease_disease_mgmt.html#spike-and-seed-borne-diseases",
+    "href": "11_disease_disease_mgmt.html#spike-and-seed-borne-diseases",
+    "title": "11  Diseases and disease management",
+    "section": "12.2 Spike and seed-borne diseases",
+    "text": "12.2 Spike and seed-borne diseases\nsection text\nLearn more:\nSeedborne Diseases of Cereals",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Diseases and disease management</span>"
+    ]
+  },
+  {
+    "objectID": "11_disease_disease_mgmt.html#soil-borne-diseases",
+    "href": "11_disease_disease_mgmt.html#soil-borne-diseases",
+    "title": "11  Diseases and disease management",
+    "section": "12.3 Soil-borne diseases",
+    "text": "12.3 Soil-borne diseases\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Diseases and disease management</span>"
+    ]
+  },
+  {
+    "objectID": "12_insect_pests_control.html",
+    "href": "12_insect_pests_control.html",
+    "title": "12  Insect pests and control",
+    "section": "",
+    "text": "13 Insect pests and control\nintro/summary text\nLearn more:\nInsect Management Handbook",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Insect pests and control</span>"
+    ]
+  },
+  {
+    "objectID": "12_insect_pests_control.html#integrated-pest-management",
+    "href": "12_insect_pests_control.html#integrated-pest-management",
+    "title": "12  Insect pests and control",
+    "section": "13.1 Integrated pest management",
+    "text": "13.1 Integrated pest management\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Insect pests and control</span>"
+    ]
+  },
+  {
+    "objectID": "12_insect_pests_control.html#aphids",
+    "href": "12_insect_pests_control.html#aphids",
+    "title": "12  Insect pests and control",
+    "section": "13.2 Aphids",
+    "text": "13.2 Aphids\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Insect pests and control</span>"
+    ]
+  },
+  {
+    "objectID": "12_insect_pests_control.html#wireworm",
+    "href": "12_insect_pests_control.html#wireworm",
+    "title": "12  Insect pests and control",
+    "section": "13.3 Wireworm",
+    "text": "13.3 Wireworm\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Insect pests and control</span>"
+    ]
+  },
+  {
+    "objectID": "12_insect_pests_control.html#hessian-fly",
+    "href": "12_insect_pests_control.html#hessian-fly",
+    "title": "12  Insect pests and control",
+    "section": "13.4 Hessian fly",
+    "text": "13.4 Hessian fly\nsection text\nLearn more:\nHessian Fly Management in Wheat",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Insect pests and control</span>"
+    ]
+  },
+  {
+    "objectID": "12_insect_pests_control.html#nematodes",
+    "href": "12_insect_pests_control.html#nematodes",
+    "title": "12  Insect pests and control",
+    "section": "13.5 Nematodes",
+    "text": "13.5 Nematodes\nsection text\nLearn more:\nCereal Cyst Nematodes: Biology and Management in Pacific Northwest Wheat, Barley, and Oat Crops",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Insect pests and control</span>"
+    ]
+  },
+  {
+    "objectID": "13_drones_uav.html",
+    "href": "13_drones_uav.html",
+    "title": "13  Drones and UAV",
+    "section": "",
+    "text": "14 Drones and UAV\nintro/summary text",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Drones and UAV</span>"
+    ]
+  },
+  {
+    "objectID": "13_drones_uav.html#applications-and-calibrations",
+    "href": "13_drones_uav.html#applications-and-calibrations",
+    "title": "13  Drones and UAV",
+    "section": "14.1 Applications and calibrations",
+    "text": "14.1 Applications and calibrations\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Drones and UAV</span>"
+    ]
+  },
+  {
+    "objectID": "14_harvest_storage.html",
+    "href": "14_harvest_storage.html",
+    "title": "14  Harvest and storage",
+    "section": "",
+    "text": "15 Harvest and storage\nintro/summary text",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Harvest and storage</span>"
+    ]
+  },
+  {
+    "objectID": "14_harvest_storage.html#grain-quality-storage-issues-moisture-fumigation",
+    "href": "14_harvest_storage.html#grain-quality-storage-issues-moisture-fumigation",
+    "title": "14  Harvest and storage",
+    "section": "15.1 Grain quality – storage issues, moisture, fumigation",
+    "text": "15.1 Grain quality – storage issues, moisture, fumigation\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Harvest and storage</span>"
+    ]
+  },
+  {
+    "objectID": "15_cropping_systems.html",
+    "href": "15_cropping_systems.html",
+    "title": "15  Cropping systems",
+    "section": "",
+    "text": "16 Cropping systems\nintro/summary text",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Cropping systems</span>"
+    ]
+  },
+  {
+    "objectID": "15_cropping_systems.html#rotations-interactions-and-management-issues",
+    "href": "15_cropping_systems.html#rotations-interactions-and-management-issues",
+    "title": "15  Cropping systems",
+    "section": "16.1 Rotations, interactions, and management issues",
+    "text": "16.1 Rotations, interactions, and management issues\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Cropping systems</span>"
+    ]
+  },
+  {
+    "objectID": "15_cropping_systems.html#organic-production",
+    "href": "15_cropping_systems.html#organic-production",
+    "title": "15  Cropping systems",
+    "section": "16.2 Organic production",
+    "text": "16.2 Organic production\nsection text\nLearn more:\nOrganic Small Grain Production in the Inland Pacific Northwest: A Collection of Case Studies",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Cropping systems</span>"
+    ]
+  },
+  {
+    "objectID": "16_residue_management.html",
+    "href": "16_residue_management.html",
+    "title": "16  Residue management",
+    "section": "",
+    "text": "17 Residue management\nintro/summary text",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Residue management</span>"
+    ]
+  },
+  {
+    "objectID": "16_residue_management.html#tillage-and-no-till-strategies",
+    "href": "16_residue_management.html#tillage-and-no-till-strategies",
+    "title": "16  Residue management",
+    "section": "17.1 Tillage and No-Till strategies",
+    "text": "17.1 Tillage and No-Till strategies\nsection text\nLearn more:\nWheat Straw Management and N Fertilizer Requirements",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Residue management</span>"
+    ]
+  },
+  {
+    "objectID": "16_residue_management.html#conservation-practices-and-programs",
+    "href": "16_residue_management.html#conservation-practices-and-programs",
+    "title": "16  Residue management",
+    "section": "17.2 Conservation practices and programs",
+    "text": "17.2 Conservation practices and programs\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Residue management</span>"
+    ]
+  },
+  {
+    "objectID": "17_end_use_quality.html",
+    "href": "17_end_use_quality.html",
+    "title": "17  End-use quality",
+    "section": "",
+    "text": "18 End-use quality\nintro/summary text",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>End-use quality</span>"
+    ]
+  },
+  {
+    "objectID": "17_end_use_quality.html#classes-grading-and-food-uses",
+    "href": "17_end_use_quality.html#classes-grading-and-food-uses",
+    "title": "17  End-use quality",
+    "section": "18.1 Classes, grading, and food uses",
+    "text": "18.1 Classes, grading, and food uses\nsection text\nLearn more:\nWorking with Buyers: Wheat Classes\nWorking with Buyers: Wheat Grades and Grade Requirements",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>End-use quality</span>"
+    ]
+  },
+  {
+    "objectID": "17_end_use_quality.html#quality-tests-and-interpretations",
+    "href": "17_end_use_quality.html#quality-tests-and-interpretations",
+    "title": "17  End-use quality",
+    "section": "18.2 Quality tests and interpretations",
+    "text": "18.2 Quality tests and interpretations\nsection text\nLearn more:\nWheat and Flour Testing Methods\nWheat and Flour Testing Methods: A Guide to Understanding Wheat and Flour Quality: Version 2",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>End-use quality</span>"
+    ]
+  },
+  {
+    "objectID": "17_end_use_quality.html#falling-number",
+    "href": "17_end_use_quality.html#falling-number",
+    "title": "17  End-use quality",
+    "section": "18.3 Falling number",
+    "text": "18.3 Falling number\nsection text\nLearn more:\nManaging the Risk of Low Falling Numbers in Wheat",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>End-use quality</span>"
+    ]
+  },
+  {
+    "objectID": "17_end_use_quality.html#markets-and-transportation---domestic-and-export",
+    "href": "17_end_use_quality.html#markets-and-transportation---domestic-and-export",
+    "title": "17  End-use quality",
+    "section": "18.4 Markets and transportation - domestic and export",
+    "text": "18.4 Markets and transportation - domestic and export\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>End-use quality</span>"
+    ]
+  },
+  {
+    "objectID": "18_economics.html",
+    "href": "18_economics.html",
+    "title": "18  Economics",
+    "section": "",
+    "text": "19 Economics\nintro/summary text",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Economics</span>"
+    ]
+  },
+  {
+    "objectID": "18_economics.html#production-costs-and-budgeting",
+    "href": "18_economics.html#production-costs-and-budgeting",
+    "title": "18  Economics",
+    "section": "19.1 Production costs and budgeting",
+    "text": "19.1 Production costs and budgeting\nsection text\nLearn more:\nCost and Returns Baseline for the Dryland Grain Annual Cropping Region of the Pacific Northwest for 2011–2015 with a 2016 Comparison\nSaving Energy and Fertilizer Costs: Best Management Practices for S. Idaho Grain Producers",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Economics</span>"
+    ]
+  },
+  {
+    "objectID": "18_economics.html#marketing",
+    "href": "18_economics.html#marketing",
+    "title": "18  Economics",
+    "section": "19.2 Marketing",
+    "text": "19.2 Marketing\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Economics</span>"
+    ]
+  },
+  {
+    "objectID": "18_economics.html#risk-analysis",
+    "href": "18_economics.html#risk-analysis",
+    "title": "18  Economics",
+    "section": "19.3 Risk analysis",
+    "text": "19.3 Risk analysis\nsection text",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Economics</span>"
+    ]
+  },
+  {
+    "objectID": "19_addl_resources.html",
+    "href": "19_addl_resources.html",
+    "title": "19  Additional resources",
+    "section": "",
+    "text": "20 Additional resources",
+    "crumbs": [
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Additional resources</span>"
+    ]
+  }
+]
