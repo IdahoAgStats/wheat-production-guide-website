@@ -1,12 +1,20 @@
 # Windows files
-desktop.ini
+*.ini
 
-# R
+# R things
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+.Renviron
 
 # Quarto things
-/_site/
+*_site/
+*_book/
 /.quarto/
+
+# R scripts
+/r_scripts/
+
+# workbook versions
+/data/wpg_outline*.xlsx
