@@ -50,33 +50,53 @@
     ]
   },
   {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About the Project",
+    "section": "Contact",
+    "text": "Contact\nPlease reach out if you have questions or would like to contribute to the Guide! Emily Galvin, Project Coordinator",
+    "crumbs": [
+      "About the Project"
+    ]
+  },
+  {
     "objectID": "1_quickfacts.html",
     "href": "1_quickfacts.html",
-    "title": "1  Summary, Basic Recommendations, and Quick Facts",
+    "title": "1  Basic Recommendations and Quick Facts",
     "section": "",
     "text": "1.1 Summary\nintro/summary text",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Summary, Basic Recommendations, and Quick Facts</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Basic Recommendations and Quick Facts</span>"
     ]
   },
   {
     "objectID": "1_quickfacts.html#basic-recommendations",
     "href": "1_quickfacts.html#basic-recommendations",
-    "title": "1  Summary, Basic Recommendations, and Quick Facts",
+    "title": "1  Basic Recommendations and Quick Facts",
     "section": "1.2 Basic Recommendations",
     "text": "1.2 Basic Recommendations\nsection text",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Summary, Basic Recommendations, and Quick Facts</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Basic Recommendations and Quick Facts</span>"
     ]
   },
   {
     "objectID": "1_quickfacts.html#idaho-wheat-quick-facts",
     "href": "1_quickfacts.html#idaho-wheat-quick-facts",
-    "title": "1  Summary, Basic Recommendations, and Quick Facts",
+    "title": "1  Basic Recommendations and Quick Facts",
     "section": "1.3 Idaho Wheat Quick Facts",
-    "text": "1.3 Idaho Wheat Quick Facts\nsection text\n\n\n\n\n\n\n\n\n\nHabit\nHarvested Area (acres)\nYield (bu/A)\nProduction (bu)[^1]\n\n\n\n\nWinter wheat\n700,000\n89\n62,300,000\n\n\nSpring wheat\n435,000\n89\n38,715,000\n\n\n\n\n[^1]: 60 lb = 1 bu\n\nStatewide wheat production in Idaho, 2024\n\n\nDownload printable fact sheets about wheat production in Southern Idaho:\nSoft White Spring Wheat\nHard Spring Wheat\nSoft White Winter Wheat\nHard Winter Wheat",
+    "text": "1.3 Idaho Wheat Quick Facts\nsection text\n\n\n\n\n\n\n\n\n\nHabit\nHarvested Area (acres)\nYield (bu/A)\nProduction (bu)1\n\n\n\n\nWinter wheat\n700,000\n89\n62,300,000\n\n\nSpring wheat\n435,000\n89\n38,715,000\n\n\n\n\n2: 60 lb = 1 bu\n\nStatewide wheat production in Idaho, 2024\n\n\nDownload printable fact sheets about wheat production in Southern Idaho:\nSoft White Spring Wheat\nHard Spring Wheat\nSoft White Winter Wheat\nHard Winter Wheat",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Summary, Basic Recommendations, and Quick Facts</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Basic Recommendations and Quick Facts</span>"
+    ]
+  },
+  {
+    "objectID": "1_quickfacts.html#footnotes",
+    "href": "1_quickfacts.html#footnotes",
+    "title": "1  Basic Recommendations and Quick Facts",
+    "section": "",
+    "text": "1↩︎\n1↩︎",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Basic Recommendations and Quick Facts</span>"
     ]
   },
   {
@@ -84,7 +104,7 @@
     "href": "2_wheat_in_idaho_intro.html",
     "title": "2  Wheat in Idaho - Introduction",
     "section": "",
-    "text": "3 Wheat in Idaho - Introduction\nabstract/chapter summary",
+    "text": "2.1 Summary\nabstract/chapter summary",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Wheat in Idaho - Introduction</span>"
     ]
@@ -93,8 +113,8 @@
     "objectID": "2_wheat_in_idaho_intro.html#agronomic-zones",
     "href": "2_wheat_in_idaho_intro.html#agronomic-zones",
     "title": "2  Wheat in Idaho - Introduction",
-    "section": "3.1 Agronomic zones",
-    "text": "3.1 Agronomic zones\nsection text\nLearn more about agronomic zones:\nAgronomic Zones of the Dryland Pacific Northwest - PNW Extension",
+    "section": "2.2 Agronomic zones",
+    "text": "2.2 Agronomic zones\nsection text\nLearn more about agronomic zones:\nAgronomic Zones of the Dryland Pacific Northwest - PNW Extension",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Wheat in Idaho - Introduction</span>"
     ]
@@ -103,8 +123,8 @@
     "objectID": "2_wheat_in_idaho_intro.html#production-acreage-classes-quality",
     "href": "2_wheat_in_idaho_intro.html#production-acreage-classes-quality",
     "title": "2  Wheat in Idaho - Introduction",
-    "section": "3.2 Production, acreage, classes, quality",
-    "text": "3.2 Production, acreage, classes, quality\nsection text",
+    "section": "2.3 Production, acreage, classes, quality",
+    "text": "2.3 Production, acreage, classes, quality\nsection text",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Wheat in Idaho - Introduction</span>"
     ]
@@ -113,8 +133,8 @@
     "objectID": "2_wheat_in_idaho_intro.html#markets-domestic-and-export",
     "href": "2_wheat_in_idaho_intro.html#markets-domestic-and-export",
     "title": "2  Wheat in Idaho - Introduction",
-    "section": "3.3 Markets – domestic and export",
-    "text": "3.3 Markets – domestic and export\nsection text",
+    "section": "2.4 Markets – domestic and export",
+    "text": "2.4 Markets – domestic and export\nsection text",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Wheat in Idaho - Introduction</span>"
     ]
@@ -124,7 +144,7 @@
     "href": "3_growth_and_development.html",
     "title": "3  Growth and Development",
     "section": "",
-    "text": "4 Growth and development\nintro/summary text",
+    "text": "3.1 Introduction\nintro/summary text",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Growth and Development</span>"
     ]
@@ -133,8 +153,8 @@
     "objectID": "3_growth_and_development.html#spring-wheat",
     "href": "3_growth_and_development.html#spring-wheat",
     "title": "3  Growth and Development",
-    "section": "4.1 Spring wheat",
-    "text": "4.1 Spring wheat\nsection text\nLearn about the Zadoks growth staging system:\nSpring Wheat Growth and Development - UMN Extension",
+    "section": "3.2 Spring wheat",
+    "text": "3.2 Spring wheat\nsection text\nLearn about the Zadoks growth staging system:\nSpring Wheat Growth and Development - UMN Extension",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Growth and Development</span>"
     ]
@@ -143,8 +163,8 @@
     "objectID": "3_growth_and_development.html#winter-wheat",
     "href": "3_growth_and_development.html#winter-wheat",
     "title": "3  Growth and Development",
-    "section": "4.2 Winter wheat",
-    "text": "4.2 Winter wheat\nsection text\nLearn about the stages of the Feekes Growth Scale:\nWheat Growth Stages and Associated Management - Ohio Extension\nWheat Growth and Development - KSU Extension\nLearn more about winter and spring growth stages:\nWinter and Spring Wheat Growth Stages - SDSU Extension",
+    "section": "3.3 Winter wheat",
+    "text": "3.3 Winter wheat\nsection text\nLearn about the stages of the Feekes Growth Scale:\nWheat Growth Stages and Associated Management - Ohio Extension\nWheat Growth and Development - KSU Extension\nLearn more about winter and spring growth stages:\nWinter and Spring Wheat Growth Stages - SDSU Extension",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Growth and Development</span>"
     ]
@@ -154,17 +174,7 @@
     "href": "4_wheat_varieties_breeding.html",
     "title": "4  Wheat varieties and breeding",
     "section": "",
-    "text": "5 Wheat varieties and breeding\nintro/summary text",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Wheat varieties and breeding</span>"
-    ]
-  },
-  {
-    "objectID": "4_wheat_varieties_breeding.html#key-attributes-for-idaho-production-conditions",
-    "href": "4_wheat_varieties_breeding.html#key-attributes-for-idaho-production-conditions",
-    "title": "4  Wheat varieties and breeding",
-    "section": "5.1 Key attributes for Idaho production conditions",
-    "text": "5.1 Key attributes for Idaho production conditions\nsection text",
+    "text": "4.1 Key attributes for Idaho production conditions\nintro/summary text\nsection text",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Wheat varieties and breeding</span>"
     ]
@@ -173,8 +183,8 @@
     "objectID": "4_wheat_varieties_breeding.html#breeding-public-and-private-programs",
     "href": "4_wheat_varieties_breeding.html#breeding-public-and-private-programs",
     "title": "4  Wheat varieties and breeding",
-    "section": "5.2 Breeding – public and private programs",
-    "text": "5.2 Breeding – public and private programs\nsection text\nAberdeen Wheat Breeding Program\nWSU Breadlab",
+    "section": "4.2 Breeding – public and private programs",
+    "text": "4.2 Breeding – public and private programs\nsection text\nAberdeen Wheat Breeding Program\nWSU Breadlab",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Wheat varieties and breeding</span>"
     ]
@@ -183,8 +193,8 @@
     "objectID": "4_wheat_varieties_breeding.html#herbicide-resistant-varieties",
     "href": "4_wheat_varieties_breeding.html#herbicide-resistant-varieties",
     "title": "4  Wheat varieties and breeding",
-    "section": "5.3 Herbicide resistant varieties",
-    "text": "5.3 Herbicide resistant varieties\nsection text",
+    "section": "4.3 Herbicide resistant varieties",
+    "text": "4.3 Herbicide resistant varieties\nsection text",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Wheat varieties and breeding</span>"
     ]
@@ -193,8 +203,8 @@
     "objectID": "4_wheat_varieties_breeding.html#performance-trials-supporting-data",
     "href": "4_wheat_varieties_breeding.html#performance-trials-supporting-data",
     "title": "4  Wheat varieties and breeding",
-    "section": "5.4 Performance trials, supporting data",
-    "text": "5.4 Performance trials, supporting data\nsection text\nNorth Idaho Cereals\nSouth Central & Southeast Idaho Cereals\nSouthwest Idaho Cereals\nOregon Cereals\nEastern Washington Cereals WSU Breadlab",
+    "section": "4.4 Performance trials, supporting data",
+    "text": "4.4 Performance trials, supporting data\nsection text\nNorth Idaho Cereals\nSouth Central & Southeast Idaho Cereals\nSouthwest Idaho Cereals\nOregon Cereals\nEastern Washington Cereals WSU Breadlab",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Wheat varieties and breeding</span>"
     ]
