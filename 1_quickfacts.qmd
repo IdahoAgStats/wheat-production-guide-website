@@ -1,5 +1,5 @@
 ---
-title: "Summary, Basic Recommendations, and Quick Facts"
+title: "Basic Recommendations and Quick Facts"
 #format: html
 tbl-cap-location: top
 ---
@@ -13,12 +13,12 @@ tbl-cap-location: top
 ## Idaho Wheat Quick Facts  
 ***section text***  
 
-|Habit       | Harvested Area (acres) | Yield (bu/A) | Production (bu)[^1] |
+|Habit       | Harvested Area (acres) | Yield (bu/A) | Production (bu)^[1] |
 |------------|:------------:|:------------:|:------------:|
 |Winter wheat|  700,000               |   89         |  62,300,000  |
 |Spring wheat|  435,000               |   89         |  38,715,000  |
 
-[^1]: 60 lb = 1 bu
+^[1]: 60 lb = 1 bu
 
 : Statewide wheat production in Idaho, 2024  
 

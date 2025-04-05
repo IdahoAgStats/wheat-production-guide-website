@@ -2,7 +2,7 @@
 title: "Growth and Development"
 ---
 
-# Growth and development
+## Introduction
 ***intro/summary text***
 
 ## Spring wheat

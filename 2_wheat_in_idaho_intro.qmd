@@ -2,7 +2,7 @@
 title: "Wheat in Idaho - Introduction"
 ---
 
-# Wheat in Idaho - Introduction
+## Summary
 ***abstract/chapter summary***
 
 ## Agronomic zones
