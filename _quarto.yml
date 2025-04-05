@@ -12,16 +12,16 @@ book:
   title: "Idaho Wheat Production Guide"
   reader-mode: true
   
-  page-footer:
-    left: |
-      The Idaho Wheat Production Guide is produced by the University of Idaho with support from the Idaho Wheat Commission. Contributors include Idaho and regional researchers.
-    right: |
-      This book was built with <a href="https://quarto.org/">Quarto</a>.
+  #page-footer:
+    # left: |
+    #   The Idaho Wheat Production Guide is produced by the University of Idaho with support from the Idaho Wheat Commission. Contributors include Idaho and regional researchers.
+   # right: |
+   #   This book was built with <a href="https://quarto.org/">Quarto</a>.
   cover-image: images/wheat-cover.png
   favicon: images/wheat-cover.png
-  #  site-url: # a site url
-#  repo-url: "https://github.com/IdahoAgStats/wheat-production-guide-website"
-#  issue-url: "https://github.com/IdahoAgStats/wheat-production-guide-website/issues"
+  site-url: "https://idahoagstats.github.io/wheat-production-guide-website/"
+  repo-url: "https://github.com/IdahoAgStats/wheat-production-guide-website"
+  # issue-url: "https://github.com/IdahoAgStats/wheat-production-guide-website/issues"
   
   
   chapters:
