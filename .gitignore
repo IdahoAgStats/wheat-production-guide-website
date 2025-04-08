@@ -9,8 +9,6 @@
 .Renviron
 
 # Quarto things
-*_site/
-*_book/
 /.quarto/
 
 # R scripts
@@ -20,3 +18,5 @@
 /data/wpg_outline*.xlsx
 
 /_book/
+/_site/
+/renv/library/
