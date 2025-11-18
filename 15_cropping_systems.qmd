@@ -2,7 +2,7 @@
 title: "Cropping systems"
 ---
 
-# Cropping systems
+
 ***intro/summary text***
 
 ## Rotations, interactions, and management issues

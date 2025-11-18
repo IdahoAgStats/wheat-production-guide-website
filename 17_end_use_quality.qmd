@@ -2,7 +2,9 @@
 title: "End-use quality"
 ---
 
-# End-use quality
+
+![*Image Credit: J. Piaskowski*](images/more_loaves.jpg){width=70%}
+
 ***intro/summary text***
 
 ## Classes, grading, and food uses

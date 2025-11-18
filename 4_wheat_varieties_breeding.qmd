@@ -2,8 +2,9 @@
 title: "Wheat varieties and breeding"
 ---
 
-# Wheat varieties and breeding
 ***intro/summary text***
+
+![*Image: J Piaskowski*](images/ABD_plots_2.jpg)
 
 ## Key attributes for Idaho production conditions
 ***section text***

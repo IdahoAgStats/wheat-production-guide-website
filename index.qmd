@@ -8,6 +8,9 @@
 
 The Idaho Wheat Production Guide is a "one-stop shop" where Idaho wheat producers  can access the latest research results and production recommendations from wheat researchers in Idaho and surrounding region. 
 
+The Idaho Wheat Production Guide is produced by the University of Idaho with support from the Idaho Wheat Commission. Contributors include Idaho and regional researchers.
+    
+
 ***Some introductory text about the guide here***
 
 ## How to use this guide {.unnumbered}

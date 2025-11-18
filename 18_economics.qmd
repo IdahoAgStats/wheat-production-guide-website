@@ -2,7 +2,6 @@
 title: "Economics"
 ---
 
-# Economics
 ***intro/summary text***
 
 ## Production costs and budgeting

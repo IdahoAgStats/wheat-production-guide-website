@@ -2,7 +2,6 @@
 title: "Growth and Development"
 ---
 
-# Growth and development
 ***intro/summary text***
 
 ## Spring wheat
@@ -15,6 +14,9 @@ Learn about the Zadoks growth staging system:
 ***section text***  
 
 Learn about the stages of the Feekes Growth Scale:  
+
+![*Image: Jerry Downs. Adapted from EC Large (1954), Plant Pathology 3, pp128–129.*](images/growth_stages.jpg)
+
 [Wheat Growth Stages and Associated Management - Ohio Extension](https://ohioline.osu.edu/factsheet/agf-126)  
 
 [Wheat Growth and Development - KSU Extension](https://bookstore.ksre.ksu.edu/pubs/MF3300.pdf)  

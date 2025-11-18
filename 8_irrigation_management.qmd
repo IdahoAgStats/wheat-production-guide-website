@@ -2,7 +2,6 @@
 title: "Irrigation management"
 ---
 
-# Irrigation management
 ***intro/summary text***
 
 
@@ -16,4 +15,5 @@ title: "Irrigation management"
 ***section text***
 
 Resources:  
+
 [Estimating Water Requirements of Hard Red Spring Wheat for Final Irrigation](https://www.uidaho.edu/-/media/uidaho-responsive/files/extension/publications/bul/bul0833.pdf)  

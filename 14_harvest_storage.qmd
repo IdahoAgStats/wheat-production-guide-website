@@ -2,8 +2,11 @@
 title: "Harvest and storage"
 ---
 
-# Harvest and storage
+
+
 ***intro/summary text***
 
 ## Grain quality – storage issues, moisture, fumigation
 ***section text***
+
+![*Image: J. Piaskowski](images/UI_elevator.jpg)
