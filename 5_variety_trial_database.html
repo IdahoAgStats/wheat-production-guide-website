@@ -46,9 +46,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-19b65899702d30202c51e84ec946b7bc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-2882a2eac4531a965bad666b2d84f871.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-19b65899702d30202c51e84ec946b7bc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-78cfcb056e9a4ca6e47b2f7eed011cc0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-a5f2a96ba042fbf54b07ecb1ef464ba2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-78cfcb056e9a4ca6e47b2f7eed011cc0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -80,6 +80,14 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="5&nbsp; Variety trial database – Idaho Wheat Production Guide">
+<meta property="og:description" content="Resources for wheat production in Idaho and surrounding and region">
+<meta property="og:image" content="images/wheat-cover.png">
+<meta property="og:site_name" content="Idaho Wheat Production Guide">
+<meta name="twitter:title" content="5&nbsp; Variety trial database – Idaho Wheat Production Guide">
+<meta name="twitter:description" content="Resources for wheat production in Idaho and surrounding and region">
+<meta name="twitter:image" content="images/wheat-cover.png">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -269,8 +277,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Idaho Wheat Production Guide</a> 
-        <div class="sidebar-tools-main tools-wide">
-    <a href="https://github.com/IdahoAgStats/wheat-production-guide-website" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+        <div class="sidebar-tools-main">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
@@ -423,11 +430,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#variety-trial-database" id="toc-variety-trial-database" class="nav-link active" data-scroll-target="#variety-trial-database"><span class="header-section-number">6</span> Variety trial database</a>
-  <ul class="collapse">
-  <li><a href="#the-web-interface" id="toc-the-web-interface" class="nav-link" data-scroll-target="#the-web-interface"><span class="header-section-number">6.0.1</span> The Web Interface</a></li>
-  <li><a href="#mobile-app" id="toc-mobile-app" class="nav-link" data-scroll-target="#mobile-app"><span class="header-section-number">6.0.2</span> Mobile App</a></li>
-  </ul></li>
+  <li><a href="#the-web-interface" id="toc-the-web-interface" class="nav-link active" data-scroll-target="#the-web-interface"><span class="header-section-number">5.0.1</span> The Web Interface</a></li>
+  <li><a href="#mobile-app" id="toc-mobile-app" class="nav-link" data-scroll-target="#mobile-app"><span class="header-section-number">5.0.2</span> Mobile App</a></li>
+  <li><a href="#single-trial-explorer" id="toc-single-trial-explorer" class="nav-link" data-scroll-target="#single-trial-explorer"><span class="header-section-number">5.1</span> Single Trial Explorer</a></li>
+  <li><a href="#single-location-multi-year-trial-explorer" id="toc-single-location-multi-year-trial-explorer" class="nav-link" data-scroll-target="#single-location-multi-year-trial-explorer"><span class="header-section-number">5.2</span> Single Location, Multi-Year Trial Explorer</a></li>
+  <li><a href="#cultivar-explorer" id="toc-cultivar-explorer" class="nav-link" data-scroll-target="#cultivar-explorer"><span class="header-section-number">5.3</span> Cultivar Explorer</a></li>
   </ul>
 </nav>
     </div>
@@ -454,39 +461,44 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="variety-trial-database" class="level1" data-number="6">
-<h1 data-number="6"><span class="header-section-number">6</span> Variety trial database</h1>
-<p>Four years ago, the Idaho Wheat Commission funded a statewide database of wheat variety trials that expanded across the region to include Washington and Oregon, and additional crops of barley, canola, and cool season legumes. The University of Idaho in collaboration with Oregon State University and Washington State University has combined and organized these data sets into a set of tools collectively called “WAVE” - the Western Agricultural Variety Explorer.</p>
+<p>In 2020, the Idaho Wheat Commission funded a statewide database of wheat variety trials that expanded across the region to include Washington and Oregon, and additional crops of barley, canola, and cool season legumes. The University of Idaho in collaboration with Oregon State University and Washington State University has combined and organized these data sets into a set of tools collectively called “WAVE” – the Western Agricultural Variety Explorer.</p>
 <p>There are two major outputs:</p>
 <ul>
-<li><p>A web interface consisting of an online database of raw trial data.</p></li>
-<li><p>A mobile app for trial summaries. These are different tools intended for distinct audiences.</p></li>
+<li><p>A <a href="https://vartestdb.nkn.uidaho.edu/">web interface</a> consisting of an online database of raw trial data.</p></li>
+<li><p>Mobile apps for trial summaries.</p></li>
 </ul>
-<section id="the-web-interface" class="level3" data-number="6.0.1">
-<h3 data-number="6.0.1" class="anchored" data-anchor-id="the-web-interface"><span class="header-section-number">6.0.1</span> The Web Interface</h3>
+<p>These are different tools intended for distinct audiences.</p>
+<section id="the-web-interface" class="level3" data-number="5.0.1">
+<h3 data-number="5.0.1" class="anchored" data-anchor-id="the-web-interface"><span class="header-section-number">5.0.1</span> The Web Interface</h3>
 <p>The online database contains raw data down to the plot level whenever possible. This data can be searched by program (e.g.&nbsp;Southeastern and Southcentral Idaho), location, year, and market class. Anyone is welcome to use this resource, but it is intended for researchers. There is extensive trial metadata. Our goal was for every trial to include the planting date, harvest date, plot number, and trial design, in addition to year and location. When possible, we also captured exact geocoordinates of each trial, soil test information, fertilizer and other chemical applications, tillage regime, and planter type. We were also able to capture additional information on row and range position of each plot in the trial which enabled us to conduct spatial analysis of each trial.</p>
-<p>Extensive efforts were made to ensure that the data is correct and consistent terminology is used. We defined acceptable limits for many numeric variables (for example, falling number must be between 60 and 600) and standardized many categorical variables so that data sets across programs could be combined. The user guide provides more details on how to access and use the database.</p>
-<p>We have had over 2000 trials conducted across 69 locations over 20 years. Data this extensive can be used for many research applications; understanding varietal changes over time, predicting performance of trialed cultivars into a new environment that they have not previously been evaluated, evaluating how timing of planting and harvesting has changed over time, and other applications have helped us understand wheat production across Pacific Northwest production zones and how we can improve on that. The data here reflects the raw information used to populate the information in the phone app.</p>
+<p>Extensive efforts were made to ensure that the data is correct and consistent terminology is used. We defined acceptable limits for numeric variables and standardized many categorical variables so that data sets across programs could be combined. The <a href="https://vartestdb.nkn.uidaho.edu/user-guide">user guide</a> provides more details on how to access and use the database.</p>
+<p>We have had over 2000 trials conducted across 70 locations over 20 years. Data this extensive can be used for many research applications; understanding varietal changes over time, predicting performance of trialed cultivars into a new environment that they have not previously been evaluated, evaluating how timing of planting and harvesting has changed over time, and other applications have helped us understand wheat production across Pacific Northwest production zones and how we can improve on that. The data here reflects the raw information used to populate the information in the phone app.</p>
 </section>
-<section id="mobile-app" class="level3" data-number="6.0.2">
-<h3 data-number="6.0.2" class="anchored" data-anchor-id="mobile-app"><span class="header-section-number">6.0.2</span> Mobile App</h3>
+<section id="mobile-app" class="level3" data-number="5.0.2">
+<h3 data-number="5.0.2" class="anchored" data-anchor-id="mobile-app"><span class="header-section-number">5.0.2</span> Mobile App</h3>
 <p>The target audience for the mobile app are producers and industry representatives who want to look at final results from individual variety trials. The three functions of the app are single trial, multiple years, and cultivar explorer.</p>
-<section id="single-trial" class="level4">
-<h4 class="anchored" data-anchor-id="single-trial">Single Trial</h4>
+<p>::: {.callout-note appearance=“simple”, collapse=“false”}</p>
+</section>
+<section id="single-trial-explorer" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="single-trial-explorer"><span class="header-section-number">5.1</span> Single Trial Explorer</h2>
 <p>This is for examining individual trials conducted within the last 5 years. There is a filter that can be used to drill down to the program, market class, location, and year. Each trial was analyzed with a mixed model where cultivar is a fixed effect and block is a random effect. When possible, spatial covariate was included in the model to improve the accuracy of the estimates and recover more reliable rankings between the evaluated cultivars and candidate cultivars. Available trial metadata is displayed along with information for key performance indicators: yield, test weight, protein content, days to heading, falling number, and plant height. This information is not always available for all traits and trials. Data can be sorted by trait data, and users can select which traits to display or plot.</p>
+<p>:::</p>
+<p>::: {.callout-note appearance=“simple”, collapse=“false”}</p>
 </section>
-<section id="multiple-years" class="level4">
-<h4 class="anchored" data-anchor-id="multiple-years">Multiple Years</h4>
+<section id="single-location-multi-year-trial-explorer" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="single-location-multi-year-trial-explorer"><span class="header-section-number">5.2</span> Single Location, Multi-Year Trial Explorer</h2>
 <p>This data is for a single location over multiple years. Like in the single trial tab, there is a filter to choose the program, market class and location of trial to view. This data is also the product of a linear mixed model, using the estimates from the single trial analyses. Cultivar is a random effect, year is a fixed effect, and the estimates are weighted by the reciprocal of their standard errors from single trial analysis, so high precision results are weighted higher than lower precision trials. The results from these analyses are presented in plots and tables similar to what is shown in the single trial tab. The analysis is conducted across the last 5 years, but only years selected by the user will be shown.</p>
+<p>:::</p>
+<p>::: {.callout-note appearance=“simple”, collapse=“false”}</p>
 </section>
-<section id="cultivar-explorer" class="level4">
-<h4 class="anchored" data-anchor-id="cultivar-explorer">Cultivar explorer</h4>
-<p>This tab is for finding information for a specific cultivar. The results shown in this tab are derived from the analyses of individual trials and are limited to released cultivars only. Users must apply filters for market class only, then can search on cultivar name. All trials where the cultivar was tried will be shown in the filter that the user can further narrow if they want. A small number of cultivars have been trialed across a large number of locations and years; most cultivars were trialed for a few years.</p>
-<p>The phone app is available in the Apple App Store and Google Play Store. We are working to build similar resources for barley, cool- season legumes, and canola. Our homepage and long-term landing page for WAVE is [www.westernagdata.org]. Please check here for project updates and links to the database instances and web apps.</p>
+<section id="cultivar-explorer" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="cultivar-explorer"><span class="header-section-number">5.3</span> Cultivar Explorer</h2>
+<p>This tab is for finding information for a specific cultivar. The results shown in this tab are derived from the analyses of individual trials and are limited to released cultivars only. Users must apply filters for market class only, then can search on cultivar name. All trials where the cultivar was tried will be shown in the filter that the user can further narrow if they want. A small number of cultivars have been trialed across a large number of locations and years; most cultivars were trialed for a few years only.</p>
+<p>The phone app is available in the <a href="https://apps.apple.com/us/app/u-of-i-wave/id6476321661">Apple App Store</a> and <a href="https://play.google.com/store/apps/details?id=com.uidaho.rcds.wave">Google Play Store</a>. We are working to build similar resources for barley. Our homepage and long-term landing page for WAVE is [www.westernagdata.org]. Please check here for project updates and links to the database instances and web apps.</p>
+<p>:::</p>
+<p>We also previously hosted a web application for interactive trial exploration. We are pursuing relaunching that and sunsetting the phone apps.</p>
 
 
-</section>
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -576,7 +588,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/idahoagstats\.github\.io\/wheat-production-guide-website\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -921,6 +933,19 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </nav>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p><a href="https://www.uidaho.edu/extension" target="_blank"><img src="images/UI-Extension-H-4c.jpg" class="img-fluid" width="250"></a></p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 
