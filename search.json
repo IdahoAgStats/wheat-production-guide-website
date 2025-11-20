@@ -114,7 +114,7 @@
     "href": "2_wheat_in_idaho_intro.html#agronomic-zones",
     "title": "2  Wheat in Idaho - Introduction",
     "section": "Agronomic zones",
-    "text": "Agronomic zones\nLearn more about agronomic zones:\n- Agronomic Zones of the Dryland Pacific Northwest - PNW Extension - Advances in Dryland Farming in the Inland Pacific Northwest - PNW Extension",
+    "text": "Agronomic zones\nLearn more about agronomic zones:\n- Agronomic Zones of the Dryland Pacific Northwest - PNW Extension\n- Advances in Dryland Farming in the Inland Pacific Northwest - PNW Extension",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Wheat in Idaho - Introduction</span>"
     ]
@@ -580,153 +580,203 @@
     ]
   },
   {
-    "objectID": "13_drones_uav.html",
-    "href": "13_drones_uav.html",
-    "title": "13  Drones and UAV",
+    "objectID": "13_nematodes.html",
+    "href": "13_nematodes.html",
+    "title": "13  Nematodes",
+    "section": "",
+    "text": "Figure 13.1: Nematode trapping fungus. OSU Plant Clinic, 2020.\n\n\n\nFurther reading:\nCereal Cyst Nematodes: Biology and Management in Pacific Northwest Wheat, Barley, and Oat Crops\nPNW Disease Management Handbook - Pathogen Articles - Nematodes",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Nematodes</span>"
+    ]
+  },
+  {
+    "objectID": "14_drones_uav.html",
+    "href": "14_drones_uav.html",
+    "title": "14  Drones and UAV",
     "section": "",
     "text": "Applications and calibrations\nintro/summary text\nsection text",
     "crumbs": [
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Drones and UAV</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Drones and UAV</span>"
     ]
   },
   {
-    "objectID": "14_harvest_storage.html",
-    "href": "14_harvest_storage.html",
-    "title": "14  Harvest and storage",
+    "objectID": "15_harvest_storage.html",
+    "href": "15_harvest_storage.html",
+    "title": "15  Harvest and storage",
     "section": "",
-    "text": "Grain quality – storage issues, moisture, fumigation\nintro/summary text\nsection text",
+    "text": "Summary\nThis chapter emphasizes that maximizing wheat yield and quality requires careful harvest timing, precise combine adjustment, and attentive storage management. Harvest should occur before shattering from dry weather or sprouting from rain, with grain at or below 12–12.5% moisture for safe storage; wetter grain must be dried promptly, especially seed wheat, at temperatures below 110°F.\nCombine settings for cylinder speed, concave clearance, fan speed, reel speed, and ground speed should be fine-tuned in the field to minimize losses from shattering, header inefficiency, leakage, and poor separation, while managing heavy straw to avoid plugging and traction hazards. Loss measurement techniques help diagnose issues, and specialized headers or reels can improve efficiency in lodged crops. In storage, grain should be kept dry, cool (ideally below 50°F), and insect-free, with clean bins, regular inspections, and aeration to prevent heat and moisture migration that can cause spoilage, ensuring that field gains are preserved until the wheat leaves storage.",
     "crumbs": [
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Harvest and storage</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Harvest and storage</span>"
     ]
   },
   {
-    "objectID": "14_harvest_storage.html#grain-quality-storage-issues-moisture-fumigation",
-    "href": "14_harvest_storage.html#grain-quality-storage-issues-moisture-fumigation",
-    "title": "14  Harvest and storage",
-    "section": "",
-    "text": "*Image: J. Piaskowski",
+    "objectID": "15_harvest_storage.html#harvesting",
+    "href": "15_harvest_storage.html#harvesting",
+    "title": "15  Harvest and storage",
+    "section": "Harvesting",
+    "text": "Harvesting\nProper adjustment and operation of the combine reduces harvest losses. Adjust the combine initially to specifications provided by the manufacturer and field check for grain loss out the back of the combine. Depending on variety, approximately 16 to 20 kernels per square foot on the ground represents a I bushel per acre loss. Adjust air speed to separate chaff from grain without blowing grain out the back of the combine. On cylinder-type combines, adjust cylinder speed and concave clearance to thresh grain free without cracking. Periodic field checks should be made during harvest to adjust for changing moisture content of the straw and grain.\nWheat yield and volume of wheat straw is highly variable depending on production system and growing environment. High-yielding spring wheat varieties under irrigation can produce as much or more straw as high yielding dryland winter wheat, or as much as 5-7 tons of straw per acre. The key to efficient harvest is controlling the amount of material entering the cylinder for best grain separation and to avoid plugging.\n\n\n\n\n\n\nTipHarvest Safety Tip\n\n\n\nHeavy straw residue can reduce equipment traction, especially on slopes. Operators should identify areas where footing or control may be compromised and adjust their approach to maintain safe working conditions for themselves and the entire harvest crew.\n\n\nManagement of a wheat crop for optimum health and production potential must continue through harvest. There are several factors to consider both during and after wheat harvest.",
     "crumbs": [
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Harvest and storage</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Harvest and storage</span>"
     ]
   },
   {
-    "objectID": "15_cropping_systems.html",
-    "href": "15_cropping_systems.html",
-    "title": "15  Cropping systems",
+    "objectID": "15_harvest_storage.html#moisture-content",
+    "href": "15_harvest_storage.html#moisture-content",
+    "title": "15  Harvest and storage",
+    "section": "Moisture Content",
+    "text": "Moisture Content\nMoisture content is critical in preventing preharvest and postharvest losses. To minimize preharvest losses, winter wheat must be harvested before wind causes shattering under dry conditions or rain causes sprouting in the head. The grain must be dry enough for safe storage, preferably less than 12 to 12.5 percent moisture by weight. If moisture content is higher than this, the grain must be dried prior to storage. The general recommendation is to thresh at moistures not greater than 20 percent and to dry with air not exceeding 110°F (43°C), especially if the wheat is to be used for seed, since higher temperatures can damage germination.",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Harvest and storage</span>"
+    ]
+  },
+  {
+    "objectID": "15_harvest_storage.html#combine-settings",
+    "href": "15_harvest_storage.html#combine-settings",
+    "title": "15  Harvest and storage",
+    "section": "Combine Settings",
+    "text": "Combine Settings\nCombines must be properly adjusted to minimize combine harvest losses and to avoid cracking the grain, which invites greater damage from storage molds and insects. Grain left on the ground, either because of shattering or improper combine adjustments, represents grain that cannot be sold as well as a source of future volunteer plants to host diseases and insects. Straw and chaff must be spread as uniformly as possible to reduce problems in planting and performance of the following crop (see section on management considerations for conservation tillage systems).",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Harvest and storage</span>"
+    ]
+  },
+  {
+    "objectID": "15_harvest_storage.html#minimizing-losses-from-shattering-and-sprouting",
+    "href": "15_harvest_storage.html#minimizing-losses-from-shattering-and-sprouting",
+    "title": "15  Harvest and storage",
+    "section": "Minimizing Losses from Shattering and Sprouting",
+    "text": "Minimizing Losses from Shattering and Sprouting\nThe first step in minimizing losses from shattering and sprout damage is to choose the appropriate variety of wheat for your area. Harvesting at the ideal time and moisture content can reduce shattering and sprouting, but this is often beyond the grower’s control. Wheat can be harvested at a moisture content higher than what is recommended, but this grain will have to be dried before or immediately after it is placed in the bin. A second option for dealing with wet wheat is swathing and allowing it to dry in windrows on the stubble. Once the grain has reached the maximum-weight phase of grain fill (see growth and development section), the wheat can be swathed with no loss of yield. The grain is at physiological maturity by this stage, but the plant is still alive and has considerable moisture in the straw as well as in the grain. Swathing speeds the drying process for the plant and grain.",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Harvest and storage</span>"
+    ]
+  },
+  {
+    "objectID": "15_harvest_storage.html#minimizing-cracking-and-combine-losses",
+    "href": "15_harvest_storage.html#minimizing-cracking-and-combine-losses",
+    "title": "15  Harvest and storage",
+    "section": "Minimizing Cracking and Combine Losses",
+    "text": "Minimizing Cracking and Combine Losses\nFinal combine adjustments to minimize cracking and combine losses must be made in the field, several times each day and in each new field. The tendency for kernels to crack or thresh out varies by day and even by time of day, depending on the moisture content of the grain and straw. Threshability of the grain also varies by wheat variety and by weed population. Late-season green weeds may require swathing or a preharvest burndown herbicide.\nCritical adjustments on the combine include cylinder speed, fan speed, reel speed, and ground speed. The cylinder speed and concave clearance should thresh but not crack the grain. The fan speed should be adjusted to blow out chaff but not grain. Avoid header losses (broken heads) by setting the reel speed and cutting height to leave as much standing stubble as possible. Adjust ground speed to set the rate of straw feed to the straw walkers to optimize harvest efficiency. Initial adjustments should be made as close to the manufacturer’s operator manual as possible, but final adjustments should be based on the actual field performance of the combine.\nGrowers can accurately measure and monitor combine losses, including shattering, header losses, leakage from the combine, and losses out the rear of the combine, by following a few simple steps. With the straw spreader disengaged, harvest a short strip of typical grain, then stop and let the combine clean out. Mark the rear of the header (position B in Figure 1) and in front of the rear wheels of the combine (position C in Figure 15.1), then back the combine to expose this strip. The actual losses and reason for these losses can be estimated by the location and the amount of grain on the ground.\n\n\n\n\n\n\nFigure 15.1: Combine positions used to determine types of harvest losses.\n\n\n\n\nSteps to Distinguish Header Losses from Shattering\n1. Identify Two Locations:\n- Position A: Standing grain — used to measure shatter loss only.\n- Position B: Recently harvested grain — used to measure shatter loss plus header loss.\n2. Mark Sampling Areas:\n- At each position, mark at least five one-foot-square areas.\n- Ensure the sampling areas at Position B are uniformly spaced across the header swath.\n3. Collect Data at Each Area:\n- Count the number of loose kernels on the ground.\n- Count the number of broken heads on the ground.\n4. Calculate Averages:\n- For each position (A and B), calculate the average number of kernels and broken heads per square foot.\n5. Determine Header Loss:\n- Subtract the average values at Position A (shatter loss) from the average values at Position B (total loss).\n- The difference represents the header loss.",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Harvest and storage</span>"
+    ]
+  },
+  {
+    "objectID": "16_cropping_systems.html",
+    "href": "16_cropping_systems.html",
+    "title": "16  Cropping systems",
     "section": "",
     "text": "Rotations, interactions, and management issues\nintro/summary text\nsection text",
     "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Cropping systems</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Cropping systems</span>"
     ]
   },
   {
-    "objectID": "15_cropping_systems.html#organic-production",
-    "href": "15_cropping_systems.html#organic-production",
-    "title": "15  Cropping systems",
+    "objectID": "16_cropping_systems.html#organic-production",
+    "href": "16_cropping_systems.html#organic-production",
+    "title": "16  Cropping systems",
     "section": "Organic production",
     "text": "Organic production\nsection text\nLearn more:\nOrganic Small Grain Production in the Inland Pacific Northwest: A Collection of Case Studies",
     "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Cropping systems</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Cropping systems</span>"
     ]
   },
   {
-    "objectID": "16_residue_management.html",
-    "href": "16_residue_management.html",
-    "title": "16  Residue management",
+    "objectID": "17_residue_management.html",
+    "href": "17_residue_management.html",
+    "title": "17  Residue management",
     "section": "",
     "text": "Tillage and No-Till strategies\nintro/summary text\nsection text\nLearn more:\nWheat Straw Management and N Fertilizer Requirements",
     "crumbs": [
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Residue management</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Residue management</span>"
     ]
   },
   {
-    "objectID": "16_residue_management.html#conservation-practices-and-programs",
-    "href": "16_residue_management.html#conservation-practices-and-programs",
-    "title": "16  Residue management",
+    "objectID": "17_residue_management.html#conservation-practices-and-programs",
+    "href": "17_residue_management.html#conservation-practices-and-programs",
+    "title": "17  Residue management",
     "section": "Conservation practices and programs",
     "text": "Conservation practices and programs\nsection text",
     "crumbs": [
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Residue management</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Residue management</span>"
     ]
   },
   {
-    "objectID": "17_end_use_quality.html",
-    "href": "17_end_use_quality.html",
-    "title": "17  End-use quality",
+    "objectID": "18_end_use_quality.html",
+    "href": "18_end_use_quality.html",
+    "title": "18  End-use quality",
     "section": "",
     "text": "Classes, grading, and food uses\nintro/summary text\nsection text\nLearn more:\nWorking with Buyers: Wheat Classes\nWorking with Buyers: Wheat Grades and Grade Requirements",
     "crumbs": [
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>End-use quality</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>End-use quality</span>"
     ]
   },
   {
-    "objectID": "17_end_use_quality.html#quality-tests-and-interpretations",
-    "href": "17_end_use_quality.html#quality-tests-and-interpretations",
-    "title": "17  End-use quality",
+    "objectID": "18_end_use_quality.html#quality-tests-and-interpretations",
+    "href": "18_end_use_quality.html#quality-tests-and-interpretations",
+    "title": "18  End-use quality",
     "section": "Quality tests and interpretations",
     "text": "Quality tests and interpretations\nsection text\nLearn more:\nWheat and Flour Testing Methods\nWheat and Flour Testing Methods: A Guide to Understanding Wheat and Flour Quality: Version 2",
     "crumbs": [
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>End-use quality</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>End-use quality</span>"
     ]
   },
   {
-    "objectID": "17_end_use_quality.html#falling-number",
-    "href": "17_end_use_quality.html#falling-number",
-    "title": "17  End-use quality",
+    "objectID": "18_end_use_quality.html#falling-number",
+    "href": "18_end_use_quality.html#falling-number",
+    "title": "18  End-use quality",
     "section": "Falling number",
     "text": "Falling number\nsection text\nLearn more:\nManaging the Risk of Low Falling Numbers in Wheat",
     "crumbs": [
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>End-use quality</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>End-use quality</span>"
     ]
   },
   {
-    "objectID": "17_end_use_quality.html#markets-and-transportation---domestic-and-export",
-    "href": "17_end_use_quality.html#markets-and-transportation---domestic-and-export",
-    "title": "17  End-use quality",
+    "objectID": "18_end_use_quality.html#markets-and-transportation---domestic-and-export",
+    "href": "18_end_use_quality.html#markets-and-transportation---domestic-and-export",
+    "title": "18  End-use quality",
     "section": "Markets and transportation - domestic and export",
     "text": "Markets and transportation - domestic and export\nsection text",
     "crumbs": [
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>End-use quality</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>End-use quality</span>"
     ]
   },
   {
-    "objectID": "18_economics.html",
-    "href": "18_economics.html",
-    "title": "18  Economics",
+    "objectID": "19_economics.html",
+    "href": "19_economics.html",
+    "title": "19  Economics",
     "section": "",
     "text": "Production costs and budgeting\nintro/summary text\nsection text\nLearn more:\nCost and Returns Baseline for the Dryland Grain Annual Cropping Region of the Pacific Northwest for 2011–2015 with a 2016 Comparison\nSaving Energy and Fertilizer Costs: Best Management Practices for S. Idaho Grain Producers",
     "crumbs": [
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Economics</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Economics</span>"
     ]
   },
   {
-    "objectID": "18_economics.html#marketing",
-    "href": "18_economics.html#marketing",
-    "title": "18  Economics",
+    "objectID": "19_economics.html#marketing",
+    "href": "19_economics.html#marketing",
+    "title": "19  Economics",
     "section": "Marketing",
     "text": "Marketing\nsection text",
     "crumbs": [
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Economics</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Economics</span>"
     ]
   },
   {
-    "objectID": "18_economics.html#risk-analysis",
-    "href": "18_economics.html#risk-analysis",
-    "title": "18  Economics",
+    "objectID": "19_economics.html#risk-analysis",
+    "href": "19_economics.html#risk-analysis",
+    "title": "19  Economics",
     "section": "Risk analysis",
     "text": "Risk analysis\nsection text",
     "crumbs": [
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Economics</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Economics</span>"
     ]
   },
   {
-    "objectID": "19_addl_resources.html",
-    "href": "19_addl_resources.html",
-    "title": "19  Additional resources",
+    "objectID": "20_addl_resources.html",
+    "href": "20_addl_resources.html",
+    "title": "20  Additional resources",
     "section": "",
     "text": "(various links)\n\nIdaho Wheat Commission\nIdaho Grain Producers Association\nIdaho Department of Agriculture\nCIMMYT",
     "crumbs": [
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Additional resources</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Additional resources</span>"
     ]
   }
 ]
