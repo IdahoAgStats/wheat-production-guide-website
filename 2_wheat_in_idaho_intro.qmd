@@ -2,7 +2,11 @@
 title: "Wheat in Idaho - Introduction"
 ---
 
+![](images/1200x525-cereals.jpg){style="border: 4px solid #F1B300; border-block: outset 4px" }
+
 Wheat is an important crop throughout the Pacific Northwest and the US.  Growers seed nearly 1.2 million acres every year, and yearly cash receipts have averaged $600 million in recent years. This places wheat consistently in the top five for on-farm cash receipts of the crops in Idaho. While wheat is produced across the region, production systems vary greatly due to different climates, soils and availability of irrigation. Wheat production systems in Idaho can be broken down into three major areas: Northern Idaho rainfed production systems, Southern Idaho Dryland production systems and Southern Idaho irrigated production systems. 
+
+
 
 ### Northern Idaho Rainfed Wheat Production Systems
 
@@ -10,14 +14,14 @@ Northern Idaho Rainfed Wheat Production Systems are characterized by 12-24 inche
  
 ### Southern Idaho Irrigated Wheat 
 
-Key points: 
--	Wheat as a rotation crop with higher value row crops. 
--	Competition from malting barley and corn for dairies. 
--	Changes in the role of irrigated wheat in the past decade.
+Key points:  
+ -	Wheat as a rotation crop with higher value row crops  
+ -	Competition from malting barley and corn for dairies  
+ -	Changes in the role of irrigated wheat in the past decade  
 
 ### Southern Idaho Dryland Wheat
 
-Winter wheat is an especially important crop in the dryland cropping areas of southern Idaho. Approximately 125,000 acres are harvested annually, producing over 4 million bushels of grain. Southern Idaho dryland accounts for approximately 20 percent of the total state winter wheat acreage and 10 percent of the total state wheat yield. Most production in this environment is hard red winter wheat, with smaller amounts of soft white winter and hard red spring wheat. Production of hard white winter wheat is negligible at present but may increase in future years. 
+Winter wheat is an especially important crop in the dryland cropping areas of southern Idaho. Approximately 125,000 acres are harvested annually, producing over 4 million bushels of grain. Southern Idaho dryland accounts for approximately 20 percent of the total state winter wheat acreage and 10 percent of the total state wheat yield. Most production in this environment is hard red winter wheat, with smaller amounts of soft white winter and hard red spring wheat. Production of hard white winter wheat is negligible at present but may increase in future years.
 
 In addition to the challenges of maintaining profitable farming operations, wheat producers also face the challenge of conserving soil and water resources in this area of rolling landscapes with high wind and water erosion potential. High erosion potential, low crop residue production, and generally low, sporadic precipitation make profitable and sustainable cereal production challenging in this area. The goal of every producer should be to obtain optimum yields that are affordable for both short- and long-term considerations and that maximize the efficient use of available land, management resources, and the environment. This production guide brings together the best available research information on management practices for economic and environmentally sound production of wheat in Idaho.
 
@@ -25,9 +29,9 @@ In addition to the challenges of maintaining profitable farming operations, whea
 
 ## Agronomic zones
 
-Learn more about agronomic zones:  
-- [Agronomic Zones of the Dryland Pacific Northwest - PNW Extension ](https://extension.oregonstate.edu/sites/extd8/files/documents/pnw354.pdf)
-- [Advances in Dryland Farming in the Inland Pacific Northwest - PNW Extension](https://pubs.extension.wsu.edu/product/advances-in-dryland-farming-in-the-inland-pacific-northwest-pnw697-reacch-handbook/)
+Learn more about agronomic zones:\
+- [Agronomic Zones of the Dryland Pacific Northwest - PNW Extension ](https://extension.oregonstate.edu/sites/extd8/files/documents/pnw354.pdf)\
+- [Advances in Dryland Farming in the Inland Pacific Northwest - PNW Extension](https://pubs.extension.wsu.edu/product/advances-in-dryland-farming-in-the-inland-pacific-northwest-pnw697-reacch-handbook/)\
 
 
 ## Production, acreage, classes, quality
