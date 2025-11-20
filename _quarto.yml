@@ -4,20 +4,29 @@ project:
    #resources: listings
    preview:
     browser: true
-    watch-inputs: false
+    watch-inputs: true
     navigate: true
     timeout: 600
     
 book:
   title: "Idaho Wheat Production Guide"
+  description: "Resources for wheat production in Idaho and surrounding region"
   reader-mode: true
-  
+  navbar:
+    top:
+      - text: Home
+        href: https://idahoagstats.github.io/wheat-production-guide-website/
+        aria-label: Home
+      - text: About
+        href: https://idahoagstats.github.io/wheat-production-guide-website/about.html
+        aria-label: About the Project
+        search: true
+      
   page-footer:
     #left: |
     center: |
       [![](images/UI-Extension-H-4c.jpg){width=250px}](https://www.uidaho.edu/extension){target="_blank"}
    # right: |
-    #  This book was built with <a href="https://quarto.org/">Quarto</a>.
   cover-image: images/wheat-cover.png
   favicon: images/wheat-cover.png
   twitter-card: true
@@ -52,11 +61,12 @@ book:
     - 18_economics.qmd
     - 19_addl_resources.qmd
     
-  description: "Resources for wheat production in Idaho and surrounding and region"
+  
 
 
 format:
   html:
+    anchor-sections: true
 #    embed-resources: true
     #page-layout: article
     theme: 
@@ -67,11 +77,11 @@ format:
     fontsize: 1em
     smooth-scroll: true
     toc: true
-    toc-depth: 3
+    toc-depth: 4
     toc-title: On this page
     toc-location: right
     number-sections: true
-    number-depth: 3
+    number-depth: 1
     link-external-icon: false
     link-external-newwindow: true
 
