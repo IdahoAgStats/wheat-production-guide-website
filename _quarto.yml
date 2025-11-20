@@ -53,13 +53,14 @@ book:
     - 10_weed_control.qmd
     - 11_disease_disease_mgmt.qmd
     - 12_insect_pests_control.qmd
-    - 13_drones_uav.qmd
-    - 14_harvest_storage.qmd
-    - 15_cropping_systems.qmd
-    - 16_residue_management.qmd
-    - 17_end_use_quality.qmd
-    - 18_economics.qmd
-    - 19_addl_resources.qmd
+    - 13_nematodes.qmd
+    - 14_drones_uav.qmd
+    - 15_harvest_storage.qmd
+    - 16_cropping_systems.qmd
+    - 17_residue_management.qmd
+    - 18_end_use_quality.qmd
+    - 19_economics.qmd
+    - 20_addl_resources.qmd
     
   
 
