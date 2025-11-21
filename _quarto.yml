@@ -4,25 +4,35 @@ project:
    #resources: listings
    preview:
     browser: true
-    watch-inputs: false
-    navigate: true
+    watch-inputs: true
     timeout: 600
     
 book:
   title: "Idaho Wheat Production Guide"
+  description: "Resources for wheat production in Idaho and the surrounding region"
   reader-mode: true
-  
-  #page-footer:
-    # left: |
-    #   The Idaho Wheat Production Guide is produced by the University of Idaho with support from the Idaho Wheat Commission. Contributors include Idaho and regional researchers.
+  navbar:
+    top:
+      - text: Home
+        href: https://idahoagstats.github.io/wheat-production-guide-website/
+        aria-label: Home
+      - text: About
+        href: https://idahoagstats.github.io/wheat-production-guide-website/about.html
+        aria-label: About the Project
+        search: true
+      
+  page-footer:
+    #left: |
+    center: |
+      [![](images/UI-Extension-H-4c.jpg){width=250px}](https://www.uidaho.edu/extension){target="_blank"}
    # right: |
-   #   This book was built with <a href="https://quarto.org/">Quarto</a>.
   cover-image: images/wheat-cover.png
   favicon: images/wheat-cover.png
-  site-url: "https://idahoagstats.github.io/wheat-production-guide-website/"
-  repo-url: "https://github.com/IdahoAgStats/wheat-production-guide-website"
-  # issue-url: "https://github.com/IdahoAgStats/wheat-production-guide-website/issues"
-  
+  twitter-card: true
+  image: images/wheat-cover.png
+  open-graph: true
+  #  site-url: # a site url
+
   
   chapters:
     - index.qmd
@@ -39,21 +49,23 @@ book:
     - 10_weed_control.qmd
     - 11_disease_disease_mgmt.qmd
     - 12_insect_pests_control.qmd
-    - 13_drones_uav.qmd
-    - 14_harvest_storage.qmd
-    - 15_cropping_systems.qmd
-    - 16_residue_management.qmd
-    - 17_end_use_quality.qmd
-    - 18_economics.qmd
-    - 19_addl_resources.qmd
+    - 13_nematodes.qmd
+    - 14_drones_uav.qmd
+    - 15_harvest_storage.qmd
+    - 16_cropping_systems.qmd
+    - 17_residue_management.qmd
+    - 18_end_use_quality.qmd
+    - 19_economics.qmd
+    - 20_addl_resources.qmd
     
-  description: "Resources for wheat production in Idaho and surrounding and region"
-
+  
 
 format:
   html:
+    anchor-sections: true
 #    embed-resources: true
     #page-layout: article
+    linkcolor: "#008094"
     theme: 
       light: flatly
       dark: darkly
@@ -61,25 +73,33 @@ format:
     fontsize: 1em
     smooth-scroll: true
     toc: true
-    toc-depth: 3
+    toc-depth: 4
     toc-title: On this page
     toc-location: right
     number-sections: true
-    number-depth: 3
+    number-depth: 1
     link-external-icon: false
     link-external-newwindow: true
- # pdf: default
 
-#  page-navigation:
-#  back-to-top-navigation: true
-#  search:
-#    type: textbox
-#    collapse-after: 5
-#    copy-button: true
-#  navbar:
+ # pdf: default
+ #   page-navigation:
+ #     back-to-top-navigation: true
+ #     search:
+ #       type: textbox
+ #       collapse-after: 5
+ #       copy-button: true
+ # navbar:
 #    right:
 #      - href: index.qmd
 #        text: Home
 #      - about.qmd
 editor: source
 
+brand: _brand.yml
+
+custom-callout:
+  wpg:
+    color: "#F1B300"
+    icon: false
+filters:
+- custom-callout

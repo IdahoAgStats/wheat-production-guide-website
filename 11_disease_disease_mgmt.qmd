@@ -2,7 +2,6 @@
 title: "Diseases and disease management"
 ---
 
-# Diseases and disease management
 ***intro/summary text***
 
 ## Foliar diseases

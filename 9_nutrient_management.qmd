@@ -2,7 +2,7 @@
 title: "Nutrient management"
 ---
 
-# Nutrient management
+
 ***intro/summary text***
 
 ## Soil tests and interpretations
@@ -20,6 +20,7 @@ title: "Nutrient management"
 ***section text***
 
 Resources:  
+
 [Northern Idaho Fertilizer Guide: Winter Wheat](https://www.uidaho.edu/-/media/uidaho-responsive/files/extension/publications/cis/cis0453.pdf)  
 [Phosphorus Fertilization of Late-Planted Winter Wheat in No-Till Fallow](https://extension.oregonstate.edu/catalog/pub/pnw-631-phosphorus-fertilization-late-planted-winter-wheat-no-till-fallow)  
 [Northern Idaho Fertilizer Guide: Soft White Spring Wheat](https://www.uidaho.edu/-/media/UIdaho-Responsive/Files/Extension/publications/cis/cis1101.pdf)  
@@ -31,6 +32,7 @@ Resources:
 ***section text***
 
 Resources:  
+
 [Optimum Nitrogen Rates for Wheat Depend on the Environmental and Field-Specific Conditions](https://verso.uidaho.edu/esploro/outputs/newsletterArticle/Optimum-Nitrogen-Rates-for-Wheat-Depend/996749626401851)
 [Southern Idaho Fertilizer Guide: Irrigated Winter Wheat](https://www.uidaho.edu/-/media/uidaho-responsive/files/extension/publications/cis/cis0373.pdf)  
 [Southern Idaho Fertilizer Guide: Irrigated Spring Wheat](https://idahodocs.contentdm.oclc.org/digital/collection/p16293coll6/id/78702)  

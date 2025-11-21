@@ -2,7 +2,7 @@
 title: "Residue management"
 ---
 
-# Residue management
+
 ***intro/summary text***
 
 ## Tillage and No-Till strategies
