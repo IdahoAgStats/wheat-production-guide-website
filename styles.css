@@ -1,4 +1,27 @@
 /* css styles */
 
 
+.ghost-button {
+    background-color: #fff; !important;
+    color: #191919; !important;
+    border: 2px solid #191919; 
+    /*border-color: none;*/
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.ghost-button:hover {
+    background-color: rgba(255,205,63,0.8) ;
+    border: #191919;
+    color: #191919;
+    /*border-color: #575279 ;*/
+}
+
+.img-wpg{
+ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
 

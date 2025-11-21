@@ -84,17 +84,7 @@
     "href": "1_quickfacts.html#idaho-wheat-quick-facts",
     "title": "1  Basic Recommendations and Quick Facts",
     "section": "Idaho Wheat Quick Facts",
-    "text": "Idaho Wheat Quick Facts\n\nStatewide wheat production in Idaho, 2024 1\n\n\n\n\n\n\n\n\n\nHabit\nHarvested Area (acres)\nYield (bu/A)\nProduction (bu)2\n\n\n\n\nWinter wheat\n700,000\n89\n62,300,000\n\n\nSpring wheat\n435,000\n89\n38,715,000\n\n\n\n\n\nSouthern Idaho Wheat Quick Facts\n\n\n\nSoft White Spring Wheat\n\nHard Spring Wheat\n\n\n\n\n\nSoft White Winter Wheat\n\nHard Winter Wheat",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Basic Recommendations and Quick Facts</span>"
-    ]
-  },
-  {
-    "objectID": "1_quickfacts.html#footnotes",
-    "href": "1_quickfacts.html#footnotes",
-    "title": "1  Basic Recommendations and Quick Facts",
-    "section": "",
-    "text": "Source: USDA National Agricultural Statistics Service, Idaho Statistics↩︎\n60 lb = 1 bu↩︎",
+    "text": "Idaho Wheat Quick Facts\n\nStatewide wheat production in Idaho, 2024\n\n\n\n\n\n\n\n\n\nHabit\nHarvested Area (acres)\nYield (bu/A)\nProduction (bu)1\n\n\n\n\nWinter wheat\n700,000\n89\n62,300,000\n\n\nSpring wheat\n435,000\n89\n38,715,000\n\n\n\n1 60 lb = 1 buSource: USDA National Agricultural Statistics Service\n\n\n\nSouthern Idaho Wheat Factsheets\n\n\n\n Soft Wheat Spring Wheat \n Hard Spring Wheat \n\n\nSoft White Spring Wheat\n\nHard Spring Wheat\n\n\n\n\n\n Soft White Winter Wheat \n Hard Winter Wheat \n\n\nSoft White Winter Wheat\n\nHard Winter Wheat",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Basic Recommendations and Quick Facts</span>"
     ]
@@ -114,7 +104,7 @@
     "href": "2_wheat_in_idaho_intro.html#agronomic-zones",
     "title": "2  Wheat in Idaho - Introduction",
     "section": "Agronomic zones",
-    "text": "Agronomic zones\nLearn more about agronomic zones:\n- Agronomic Zones of the Dryland Pacific Northwest - PNW Extension\n- Advances in Dryland Farming in the Inland Pacific Northwest - PNW Extension",
+    "text": "Agronomic zones\nLearn more about agronomic zones:\n\nAgronomic Zones of the Dryland Pacific Northwest - PNW Extension\n\nAdvances in Dryland Farming in the Inland Pacific Northwest - PNW Extension",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Wheat in Idaho - Introduction</span>"
     ]
@@ -164,7 +154,7 @@
     "href": "4_wheat_varieties_breeding.html",
     "title": "4  Wheat varieties and breeding",
     "section": "",
-    "text": "Key attributes for Idaho production conditions\nintro/summary text\nsection text",
+    "text": "Key attributes for Idaho production conditions\nintro/summary text\nImage: J Piaskowski\nsection text",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Wheat varieties and breeding</span>"
     ]
@@ -204,37 +194,7 @@
     "href": "5_variety_trial_database.html",
     "title": "5  Variety trial database",
     "section": "",
-    "text": "The Web Interface\nIn 2020, the Idaho Wheat Commission funded a statewide database of wheat variety trials that expanded across the region to include Washington and Oregon, and additional crops of barley, canola, and cool season legumes. The University of Idaho in collaboration with Oregon State University and Washington State University has combined and organized these data sets into a set of tools collectively called “WAVE” – the Western Agricultural Variety Explorer.\nThere are two major outputs:\nThese are different tools intended for distinct audiences.\nThe online database contains raw data down to the plot level whenever possible. This data can be searched by program (e.g. Southeastern and Southcentral Idaho), location, year, and market class. Anyone is welcome to use this resource, but it is intended for researchers. There is extensive trial metadata. Our goal was for every trial to include the planting date, harvest date, plot number, and trial design, in addition to year and location. When possible, we also captured exact geocoordinates of each trial, soil test information, fertilizer and other chemical applications, tillage regime, and planter type. We were also able to capture additional information on row and range position of each plot in the trial which enabled us to conduct spatial analysis of each trial.\nExtensive efforts were made to ensure that the data is correct and consistent terminology is used. We defined acceptable limits for numeric variables and standardized many categorical variables so that data sets across programs could be combined. The user guide provides more details on how to access and use the database.\nWe have had over 2000 trials conducted across 70 locations over 20 years. Data this extensive can be used for many research applications; understanding varietal changes over time, predicting performance of trialed cultivars into a new environment that they have not previously been evaluated, evaluating how timing of planting and harvesting has changed over time, and other applications have helped us understand wheat production across Pacific Northwest production zones and how we can improve on that. The data here reflects the raw information used to populate the information in the phone app.",
-    "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Variety trial database</span>"
-    ]
-  },
-  {
-    "objectID": "5_variety_trial_database.html#single-trial-explorer",
-    "href": "5_variety_trial_database.html#single-trial-explorer",
-    "title": "5  Variety trial database",
-    "section": "Single Trial Explorer",
-    "text": "Single Trial Explorer\nThis is for examining individual trials conducted within the last 5 years. There is a filter that can be used to drill down to the program, market class, location, and year. Each trial was analyzed with a mixed model where cultivar is a fixed effect and block is a random effect. When possible, spatial covariate was included in the model to improve the accuracy of the estimates and recover more reliable rankings between the evaluated cultivars and candidate cultivars. Available trial metadata is displayed along with information for key performance indicators: yield, test weight, protein content, days to heading, falling number, and plant height. This information is not always available for all traits and trials. Data can be sorted by trait data, and users can select which traits to display or plot.",
-    "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Variety trial database</span>"
-    ]
-  },
-  {
-    "objectID": "5_variety_trial_database.html#single-location-multi-year-trial-explorer",
-    "href": "5_variety_trial_database.html#single-location-multi-year-trial-explorer",
-    "title": "5  Variety trial database",
-    "section": "Single Location, Multi-Year Trial Explorer",
-    "text": "Single Location, Multi-Year Trial Explorer\nThis data is for a single location over multiple years. Like in the single trial tab, there is a filter to choose the program, market class and location of trial to view. This data is also the product of a linear mixed model, using the estimates from the single trial analyses. Cultivar is a random effect, year is a fixed effect, and the estimates are weighted by the reciprocal of their standard errors from single trial analysis, so high precision results are weighted higher than lower precision trials. The results from these analyses are presented in plots and tables similar to what is shown in the single trial tab. The analysis is conducted across the last 5 years, but only years selected by the user will be shown.",
-    "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Variety trial database</span>"
-    ]
-  },
-  {
-    "objectID": "5_variety_trial_database.html#cultivar-explorer",
-    "href": "5_variety_trial_database.html#cultivar-explorer",
-    "title": "5  Variety trial database",
-    "section": "Cultivar Explorer",
-    "text": "Cultivar Explorer\nThis tab is for finding information for a specific cultivar. The results shown in this tab are derived from the analyses of individual trials and are limited to released cultivars only. Users must apply filters for market class only, then can search on cultivar name. All trials where the cultivar was tried will be shown in the filter that the user can further narrow if they want. A small number of cultivars have been trialed across a large number of locations and years; most cultivars were trialed for a few years only.\nThe phone app is available in the Apple App Store and Google Play Store. We are working to build similar resources for barley. Our homepage and long-term landing page for WAVE is https://www.westernagdata.org/. Please check here for project updates and links to the database instances and web apps.\n\n\n\n\n\n\nNoteNote\n\n\n\nWe also previously hosted a web application for interactive trial exploration. We are pursuing relaunching that and sunsetting the phone apps.",
+    "text": "The Idaho Wheat Commission funded a statewide database of wheat variety trials that expanded across the region to include Washington and Oregon, and additional crops of barley, canola, and cool season legumes. The University of Idaho in collaboration with Oregon State University and Washington State University has combined and organized these data sets into a set of tools collectively called “WAVE” - the Western Agricultural Variety Explorer.\nThere are two major outputs:\n\nA web interface consisting of an online database of raw trial data.\nMobile apps for trial summaries.\n\nThese are different tools intended for distinct audiences.\n\nThe Web Interface\nThe online database contains raw data down to the plot level whenever possible. This data can be searched by program (e.g. Southeastern and Southcentral Idaho), location, year, and market class. Anyone is welcome to use this resource, but it is intended for researchers. There is extensive trial metadata. Our goal was for every trial to include the planting date, harvest date, plot number, and trial design, in addition to year and location. When possible, we also captured exact geocoordinates of each trial, soil test information, fertilizer and other chemical applications, tillage regime, and planter type. We were also able to capture additional information on row and range position of each plot in the trial which enabled us to conduct spatial analysis of each trial.\nExtensive efforts were made to ensure that the data is correct and consistent terminology is used. We defined acceptable limits for numeric variables and standardized many categorical variables so that data sets across programs could be combined. The user guide provides more details on how to access and use the database.\nWe have had over 2000 trials conducted across 70 locations over 20 years. Data this extensive can be used for many research applications; understanding varietal changes over time, predicting performance of trialed cultivars into a new environment that they have not previously been evaluated, evaluating how timing of planting and harvesting has changed over time, and other applications have helped us understand wheat production across Pacific Northwest production zones and how we can improve on that. The data here reflects the raw information used to populate the information in the phone app.\n\n\nMobile App\nThe target audience for the mobile app are producers and industry representatives who want to look at final results from individual variety trials. The three functions of the app are single trial, multiple years, and cultivar explorer.\n\n\n\n\n\n\nWpgSingle Trial Explorer\n\n\n\n\n\nThis is for examining individual trials conducted within the last 5 years. There is a filter that can be used to drill down to the program, market class, location, and year. Each trial was analyzed with a mixed model where cultivar is a fixed effect and block is a random effect. When possible, spatial covariate was included in the model to improve the accuracy of the estimates and recover more reliable rankings between the evaluated cultivars and candidate cultivars. Available trial metadata is displayed along with information for key performance indicators: yield, test weight, protein content, days to heading, falling number, and plant height. This information is not always available for all traits and trials. Data can be sorted by trait data, and users can select which traits to display or plot.\n\n\n\n\n\n\n\n\n\nWpgSingle Location, Multi-Year Trial Explorer\n\n\n\n\n\nThis data is for a single location over multiple years. Like in the single trial tab, there is a filter to choose the program, market class and location of trial to view. This data is also the product of a linear mixed model, using the estimates from the single trial analyses. Cultivar is a random effect, year is a fixed effect, and the estimates are weighted by the reciprocal of their standard errors from single trial analysis, so high precision results are weighted higher than lower precision trials. The results from these analyses are presented in plots and tables similar to what is shown in the single trial tab. The analysis is conducted across the last 5 years, but only years selected by the user will be shown.\n\n\n\n\n\n\n\n\n\nWpgCultivar Explorer\n\n\n\n\n\nThis tab is for finding information for a specific cultivar. The results shown in this tab are derived from the analyses of individual trials and are limited to released cultivars only. Users must apply filters for market class only, then can search on cultivar name. All trials where the cultivar was tried will be shown in the filter that the user can further narrow if they want. A small number of cultivars have been trialed across a large number of locations and years; most cultivars were trialed for a few years.\n\n\n\nThe phone app is available in the Apple App Store and Google Play Store. We are working to build similar resources for barley. Our homepage and long-term landing page for WAVE is https://www.westernagdata.org/. Please check here for project updates and links to the database instances and web apps.\n\n\n\n\n\n\nNoteNote\n\n\n\nWe also previously hosted a web application for interactive trial exploration. We are pursuing relaunching that and sunsetting the phone apps.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Variety trial database</span>"
     ]
@@ -604,7 +564,7 @@
     "href": "15_harvest_storage.html",
     "title": "15  Harvest and storage",
     "section": "",
-    "text": "Summary\nThis chapter emphasizes that maximizing wheat yield and quality requires careful harvest timing, precise combine adjustment, and attentive storage management. Harvest should occur before shattering from dry weather or sprouting from rain, with grain at or below 12–12.5% moisture for safe storage; wetter grain must be dried promptly, especially seed wheat, at temperatures below 110°F.\nCombine settings for cylinder speed, concave clearance, fan speed, reel speed, and ground speed should be fine-tuned in the field to minimize losses from shattering, header inefficiency, leakage, and poor separation, while managing heavy straw to avoid plugging and traction hazards. Loss measurement techniques help diagnose issues, and specialized headers or reels can improve efficiency in lodged crops. In storage, grain should be kept dry, cool (ideally below 50°F), and insect-free, with clean bins, regular inspections, and aeration to prevent heat and moisture migration that can cause spoilage, ensuring that field gains are preserved until the wheat leaves storage.",
+    "text": "Summary\nImage: J Piaskowski\nThis chapter emphasizes that maximizing wheat yield and quality requires careful harvest timing, precise combine adjustment, and attentive storage management. Harvest should occur before shattering from dry weather or sprouting from rain, with grain at or below 12–12.5% moisture for safe storage; wetter grain must be dried promptly, especially seed wheat, at temperatures below 110°F.\nCombine settings for cylinder speed, concave clearance, fan speed, reel speed, and ground speed should be fine-tuned in the field to minimize losses from shattering, header inefficiency, leakage, and poor separation, while managing heavy straw to avoid plugging and traction hazards. Loss measurement techniques help diagnose issues, and specialized headers or reels can improve efficiency in lodged crops. In storage, grain should be kept dry, cool (ideally below 50°F), and insect-free, with clean bins, regular inspections, and aeration to prevent heat and moisture migration that can cause spoilage, ensuring that field gains are preserved until the wheat leaves storage.",
     "crumbs": [
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>Harvest and storage</span>"
     ]
@@ -704,7 +664,7 @@
     "href": "18_end_use_quality.html",
     "title": "18  End-use quality",
     "section": "",
-    "text": "Classes, grading, and food uses\nintro/summary text\nsection text\nLearn more:\nWorking with Buyers: Wheat Classes\nWorking with Buyers: Wheat Grades and Grade Requirements",
+    "text": "Classes, grading, and food uses\nImage: J Piaskowski\nintro/summary text\nsection text\nLearn more:\nWorking with Buyers: Wheat Classes\nWorking with Buyers: Wheat Grades and Grade Requirements",
     "crumbs": [
       "<span class='chapter-number'>18</span>  <span class='chapter-title'>End-use quality</span>"
     ]
