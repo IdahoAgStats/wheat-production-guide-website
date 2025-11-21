@@ -1,32 +1,76 @@
 ---
 title: "Basic Recommendations and Quick Facts"
+bibliography: references.bib
+link-citations: true
 #format: html
-tbl-cap-location: top
+fig-cap-location: bottom
+reference-location: margin
+reference-section-title: References
 ---
 
-## Summary
-***intro/summary text***
+## Introduction
 
-## Basic Recommendations
-***section text***
+The unique quality characteristics of wheat protein lends itself as essential to the production of leavened breads, while other classes of wheat are used in various products such as cookies, pastries, noodles, cakes and pancakes [@johnson1987].
 
-## Idaho Wheat Quick Facts  
-***section text***  
+### Origin of wheat and environmental adaptation
 
-|Habit       | Harvested Area (acres) | Yield (bu/A) | Production (bu)^[1] |
-|------------|:------------:|:------------:|:------------:|
-|Winter wheat|  700,000               |   89         |  62,300,000  |
-|Spring wheat|  435,000               |   89         |  38,715,000  |
+Wheat and other cereal grains were instrumental in the evolution of human societies [@cropsa1992]. Several of the earliest known civilizations in the Near East’s fertile crescent co-evolved with modern wheat. From the first collection and cultivation of cereals to modern production, wheat has been used predominantly as a source of food and less for feed and forage. Worldwide cultivation reflects both the capacity for environmental adaptation and the reliance of humans on wheat as a critical food source. Currently 20% of the world population’s caloric and protein intake is based on wheat [@erenstein2022], with sustainable methods of production supporting both food and economic stability.
 
-^[1]: 60 lb = 1 bu
+[![World wheat production potential [@halecki2022].](figs/1-1-global-wheat-production.png){#fig-global style="display: inline-block;" }](https://www.mdpi.com/2079-9276/11/12/118)
 
-: Statewide wheat production in Idaho, 2024  
+### US wheat cultivation
+
+Various regions in the US specialize in production of different classes of wheat. Generally, regions specialize in the production of one or two of the main market classes: soft red winter wheat, hard red winter wheat, hard red spring wheat, hard white, soft white wheat (including club wheats), and durum. The Central Plains states produce high protein wheat for bread markets while lower protein soft red wheat is produced in the eastern and southern regions east of the Mississippi. Development of production systems depends on the market, the environment, the length of the growing season and the dominant crop rotation. Unique to the PNW, five market classes are produced across the region, requiring different production practices and specialized grain handling.
+
+[![Wheat production in the United States by county, 3-year average, 2021-2023.](figs/1-2-us-wheat.png){#fig-usprod style="display: inline-block;" }](https://ipad.fas.usda.gov/countrysummary/Default.aspx?id=US&crop=Wheat)
 
 
+## Idaho Wheat Quick Facts
 
-Download printable fact sheets about wheat production in Southern Idaho:
+#### Statewide wheat production in Idaho, 2024 {#tbl-idprod}
 
-[Soft White Spring Wheat](listings/quick_facts/979_2024_sws.pdf){{< fa solid download title="download PDF file" aria-hidden="true" >}}  
-[Hard Spring Wheat](listings/quick_facts/986_2024_hsw.pdf){{< fa solid download title="download PDF file" aria-hidden="true" >}}  
-[Soft White Winter Wheat](listings/quick_facts/984_2024_sww.pdf){{< fa solid download title="download PDF file" aria-hidden="true" >}}  
-[Hard Winter Wheat](listings/quick_facts/980_2024_hww.pdf){{< fa solid download title="download PDF file" aria-hidden="true" >}}  
+| Habit | Harvested Area (acres) | Yield (bu/A) | Production (bu)^[60 lb = 1 bu] |
+|------------------|:----------------:|:----------------:|:----------------:|
+| Winter wheat | 700,000 | 89 | 62,300,000 |
+| Spring wheat | 435,000 | 89 | 38,715,000 |
+*Source: [USDA National Agricultural Statistics Service](https://www.nass.usda.gov/Statistics_by_State/Idaho/index.php)* 
+
+<br>
+  
+### Southern Idaho Wheat Factsheets
+
+
+::: {.grid}
+
+::: {.g-col-6}
+<center>
+
+{{< downloadthis ./listings/quick_facts/979_2024_sws.pdf dname="979_2024_sws.pdf" label="Soft Wheat Spring Wheat"  type="info" class="ghost-button">}}
+
+{{< downloadthis ./listings/quick_facts/986_2024_hsw.pdf dname="986_2024_hsw.pdf" label="Hard Spring Wheat"  type="info" class="ghost-button">}}
+
+</center>
+
+- [Soft White Spring Wheat](listings/quick_facts/979_2024_sws.pdf){{< fa solid download title="download PDF file" aria-hidden="true" >}}\
+- [Hard Spring Wheat](listings/quick_facts/986_2024_hsw.pdf){{< fa solid download title="download PDF file" aria-hidden="true" >}}\
+
+:::
+
+::: {.g-col-6}
+
+<center>
+{{< downloadthis ./listings/quick_facts/984_2024_sww.pdf dname="984_2024_sww.pdf" label="Soft White Winter Wheat"  type="info" class="ghost-button">}}
+
+{{< downloadthis ./listings/quick_facts/980_2024_hww.pdf dname="980_2024_hww.pdf" label="Hard Winter Wheat"  type="info" class="ghost-button">}}
+
+</center>
+
+- [Soft White Winter Wheat](listings/quick_facts/984_2024_sww.pdf){{< fa solid download title="download PDF file" aria-hidden="true" >}}\
+- [Hard Winter Wheat](listings/quick_facts/980_2024_hww.pdf){{< fa solid download title="download PDF file" aria-hidden="true" >}}
+
+:::
+
+:::
+
+
+
