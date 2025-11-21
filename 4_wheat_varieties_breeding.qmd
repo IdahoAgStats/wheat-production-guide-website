@@ -2,8 +2,12 @@
 title: "Wheat varieties and breeding"
 ---
 
-
 ***intro/summary text***
+
+<img src="/images/ABD_plots_2.jpg" alt="Small Grains Research Plots in Aberdeen, Idaho"
+style="width:95%;height:auto;box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
+*Image: J Piaskowski*
+
 
 ## Key attributes for Idaho production conditions
 ***section text***

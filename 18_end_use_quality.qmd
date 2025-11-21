@@ -2,7 +2,12 @@
 title: "End-use quality"
 ---
 
-# End-use quality
+<img src="/images/more_loaves.jpg" alt="Wheat Quality Samples"
+style="width:90%;height:auto;box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
+
+*Image: J Piaskowski*
+
+
 ***intro/summary text***
 
 ## Classes, grading, and food uses
