@@ -70,16 +70,6 @@
     ]
   },
   {
-    "objectID": "1_quickfacts.html#introduction",
-    "href": "1_quickfacts.html#introduction",
-    "title": "1  Basic Recommendations and Quick Facts",
-    "section": "",
-    "text": "Origin of wheat and environmental adaptation\nWheat and other cereal grains were instrumental in the evolution of human societies (Harlan 1992). Several of the earliest known civilizations in the Near East’s fertile crescent co-evolved with modern wheat. From the first collection and cultivation of cereals to modern production, wheat has been used predominantly as a source of food and less for feed and forage. Worldwide cultivation reflects both the capacity for environmental adaptation and the reliance of humans on wheat as a critical food source. Currently 20% of the world population’s caloric and protein intake is based on wheat (Erenstein et al. 2022), with sustainable methods of production supporting both food and economic stability.\n\n\n\n\n\n\nFigure 1.1: World wheat production potential (Halecki and Bedla 2022).\n\n\n\n\n\nUS wheat cultivation\nVarious regions in the US specialize in production of different classes of wheat. Generally, regions specialize in the production of one or two of the main market classes: soft red winter wheat, hard red winter wheat, hard red spring wheat, hard white, soft white wheat (including club wheats), and durum. The Central Plains states produce high protein wheat for bread markets while lower protein soft red wheat is produced in the eastern and southern regions east of the Mississippi. Development of production systems depends on the market, the environment, the length of the growing season and the dominant crop rotation. Unique to the PNW, five market classes are produced across the region, requiring different production practices and specialized grain handling.\n\n\n\n\n\n\nFigure 1.2: Wheat production in the United States by county, 3-year average, 2021-2023.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Basic Recommendations and Quick Facts</span>"
-    ]
-  },
-  {
     "objectID": "1_quickfacts.html#idaho-wheat-quick-facts",
     "href": "1_quickfacts.html#idaho-wheat-quick-facts",
     "title": "1  Basic Recommendations and Quick Facts",
@@ -564,7 +554,7 @@
     "href": "15_harvest_storage.html",
     "title": "15  Harvest and storage",
     "section": "",
-    "text": "Summary\nImage: J Piaskowski\nThis chapter emphasizes that maximizing wheat yield and quality requires careful harvest timing, precise combine adjustment, and attentive storage management. Harvest should occur before shattering from dry weather or sprouting from rain, with grain at or below 12–12.5% moisture for safe storage; wetter grain must be dried promptly, especially seed wheat, at temperatures below 110°F.\nCombine settings for cylinder speed, concave clearance, fan speed, reel speed, and ground speed should be fine-tuned in the field to minimize losses from shattering, header inefficiency, leakage, and poor separation, while managing heavy straw to avoid plugging and traction hazards. Loss measurement techniques help diagnose issues, and specialized headers or reels can improve efficiency in lodged crops. In storage, grain should be kept dry, cool (ideally below 50°F), and insect-free, with clean bins, regular inspections, and aeration to prevent heat and moisture migration that can cause spoilage, ensuring that field gains are preserved until the wheat leaves storage.",
+    "text": "Summary\nImage: J Piaskowski\nThis chapter emphasizes that maximizing wheat yield and quality requires careful harvest timing, precise combine adjustment, and attentive storage management. Harvest should occur before shattering from dry weather or sprouting from rain, with grain at or below 12–12.5% moisture for safe storage; wetter grain, especially seed wheat, must be dried promptly at temperatures below 110°F.\nCombine settings for cylinder speed, concave clearance, fan speed, reel speed, and ground speed should be fine-tuned in the field to minimize losses from shattering, header inefficiency, leakage, and poor separation, while managing heavy straw to avoid plugging and traction hazards. Loss-measurement techniques help diagnose issues, and specialized headers or reels can improve efficiency in lodged crops. In storage, grain should be kept dry, cool (ideally below 50°F), and insect-free, with clean bins, regular inspections, and aeration to prevent heat and moisture migration that can cause spoilage, ensuring that field grains are preserved until the wheat leaves storage.",
     "crumbs": [
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>Harvest and storage</span>"
     ]
@@ -574,7 +564,7 @@
     "href": "15_harvest_storage.html#harvesting",
     "title": "15  Harvest and storage",
     "section": "Harvesting",
-    "text": "Harvesting\nProper adjustment and operation of the combine reduces harvest losses. Adjust the combine initially to specifications provided by the manufacturer and field check for grain loss out the back of the combine. Depending on variety, approximately 16 to 20 kernels per square foot on the ground represents a I bushel per acre loss. Adjust air speed to separate chaff from grain without blowing grain out the back of the combine. On cylinder-type combines, adjust cylinder speed and concave clearance to thresh grain free without cracking. Periodic field checks should be made during harvest to adjust for changing moisture content of the straw and grain.\nWheat yield and volume of wheat straw is highly variable depending on production system and growing environment. High-yielding spring wheat varieties under irrigation can produce as much or more straw as high yielding dryland winter wheat, or as much as 5-7 tons of straw per acre. The key to efficient harvest is controlling the amount of material entering the cylinder for best grain separation and to avoid plugging.\n\n\n\n\n\n\nTipHarvest Safety Tip\n\n\n\nHeavy straw residue can reduce equipment traction, especially on slopes. Operators should identify areas where footing or control may be compromised and adjust their approach to maintain safe working conditions for themselves and the entire harvest crew.\n\n\nManagement of a wheat crop for optimum health and production potential must continue through harvest. There are several factors to consider both during and after wheat harvest.",
+    "text": "Harvesting\nProper adjustment and operation of the combine reduces harvest losses. Adjust the combine initially to specifications provided by the manufacturer and field check for grain loss out of the back of the combine. Depending on variety, approximately 16 to 20 kernels per square foot on the ground represents a one bushel per acre loss. Adjust air speed to separate chaff from grain without blowing grain out the back of the combine. On cylinder-type combines, adjust cylinder speed and concave clearance to thresh grain free without cracking. Periodic field checks should be made during harvest to adjust for changing moisture content of the straw and grain.\nWheat yield and volume of wheat straw is highly variable depending on production system and growing environment. High-yielding spring wheat varieties under irrigation can produce as much or more straw as high-yielding dryland winter wheat, or as much as 5-7 tons of straw per acre. The key to efficient harvest is controlling the amount of material entering the cylinder for best grain separation and to avoid plugging.\n\n\n\n\n\n\nTipHarvest Safety Tip\n\n\n\nHeavy straw residue can reduce equipment traction, especially on slopes. Operators should identify areas where footing or control may be compromised and adjust their approach to maintain safe working conditions for themselves and the entire harvest crew.\n\n\nManagement of a wheat crop for optimum health and production potential must continue through harvest. There are several factors to consider both during and after wheat harvest.",
     "crumbs": [
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>Harvest and storage</span>"
     ]
@@ -594,7 +584,7 @@
     "href": "15_harvest_storage.html#combine-settings",
     "title": "15  Harvest and storage",
     "section": "Combine Settings",
-    "text": "Combine Settings\nCombines must be properly adjusted to minimize combine harvest losses and to avoid cracking the grain, which invites greater damage from storage molds and insects. Grain left on the ground, either because of shattering or improper combine adjustments, represents grain that cannot be sold as well as a source of future volunteer plants to host diseases and insects. Straw and chaff must be spread as uniformly as possible to reduce problems in planting and performance of the following crop (see section on management considerations for conservation tillage systems).",
+    "text": "Combine Settings\nCombines must be properly adjusted to minimize combine harvest losses and to avoid cracking the grain, which invites greater damage from storage molds and insects. Grain left on the ground, either because of shattering or improper combine adjustments, represents grain that cannot be sold, as well as a source of future volunteer plants to host diseases and insects. Straw and chaff must be spread as uniformly as possible to reduce problems in planting and performance of the following crop (see Section 17.3: Management considerations for conservation tillage systems).",
     "crumbs": [
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>Harvest and storage</span>"
     ]
@@ -604,7 +594,7 @@
     "href": "15_harvest_storage.html#minimizing-losses-from-shattering-and-sprouting",
     "title": "15  Harvest and storage",
     "section": "Minimizing Losses from Shattering and Sprouting",
-    "text": "Minimizing Losses from Shattering and Sprouting\nThe first step in minimizing losses from shattering and sprout damage is to choose the appropriate variety of wheat for your area. Harvesting at the ideal time and moisture content can reduce shattering and sprouting, but this is often beyond the grower’s control. Wheat can be harvested at a moisture content higher than what is recommended, but this grain will have to be dried before or immediately after it is placed in the bin. A second option for dealing with wet wheat is swathing and allowing it to dry in windrows on the stubble. Once the grain has reached the maximum-weight phase of grain fill (see growth and development section), the wheat can be swathed with no loss of yield. The grain is at physiological maturity by this stage, but the plant is still alive and has considerable moisture in the straw as well as in the grain. Swathing speeds the drying process for the plant and grain.",
+    "text": "Minimizing Losses from Shattering and Sprouting\nThe first step in minimizing losses from shattering and sprout damge is to choose the appropriate variety of wheat for your area. Harvesting at the ideal time and moisture content can reduce shattering and sprouting, but this is often beyond the grower’s control. Wheat can be harvested at a moisture content higher than what is recommended, but this grain will have to be dried before or immediately after it is placed in the bin. A second option for dealing with wet wheat is swathing and allowing it to dry in windrows on the stubble. Once the grain has reached the maximum-weight phase of grain fill (see growth and development section), the wheat can be swathed with no loss of yield. The grain is at physiological maturity by this stage, but the plant is still alive and has considerable moisture in the straw as well as in the grain. Swathing speeds the drying process for the plant and grain.",
     "crumbs": [
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>Harvest and storage</span>"
     ]
@@ -654,7 +644,17 @@
     "href": "17_residue_management.html#conservation-practices-and-programs",
     "title": "17  Residue management",
     "section": "Conservation practices and programs",
-    "text": "Conservation practices and programs\nsection text",
+    "text": "Conservation practices and programs",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Residue management</span>"
+    ]
+  },
+  {
+    "objectID": "17_residue_management.html#sec-management-considerations-for-conservation-tillage-systems",
+    "href": "17_residue_management.html#sec-management-considerations-for-conservation-tillage-systems",
+    "title": "17  Residue management",
+    "section": "Management considerations for conservation tillage",
+    "text": "Management considerations for conservation tillage\nsection text",
     "crumbs": [
       "<span class='chapter-number'>17</span>  <span class='chapter-title'>Residue management</span>"
     ]
