@@ -24,7 +24,7 @@ color:
     orange: "#FF6F20"
     pink: "#FF3D7F"
     green: "#28A745"
-    blue: "#1034a6 "
+    blue: "#1034a6" # removed space inside quote
     
   background: white
   foreground: ui-black
@@ -44,7 +44,9 @@ typography:
     - family: IBM Plex Mono
       source: google
     - family: Gintronic
-      #source: google
+      source: file # troubleshoot Gintronic source (Adobe font)
+      files:
+        - https://use.typekit.net/cir0tsu.css
 
   base:
     family: Public Sans
