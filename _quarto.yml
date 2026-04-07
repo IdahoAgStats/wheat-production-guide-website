@@ -7,18 +7,20 @@ project:
     watch-inputs: true
     timeout: 600
     
+bibliography: references.bib
+    
 book:
   title: "Idaho Wheat Production Guide"
   description: "Resources for wheat production in Idaho and the surrounding region"
   reader-mode: true
   navbar:
     top:
-      - text: Home
-        href: https://idahoagstats.github.io/wheat-production-guide-website/
-        aria-label: Home
-      - text: About
-        href: https://idahoagstats.github.io/wheat-production-guide-website/about.html
-        aria-label: About the Project
+      # - text: Home
+      #   href: https://idahoagstats.github.io/wheat-production-guide-website/
+      #   aria-label: Home
+      # - text: About
+      #   href: https://idahoagstats.github.io/wheat-production-guide-website/about.html
+      #   aria-label: About the Project
         search: true
       
   page-footer:
@@ -73,14 +75,17 @@ format:
     fontsize: 1em
     smooth-scroll: true
     toc: true
-    toc-depth: 4
+    toc-depth: 5
     toc-title: On this page
     toc-location: right
     number-sections: true
     number-depth: 1
     link-external-icon: false
     link-external-newwindow: true
-
+    comments: 
+      hypothesis: 
+        theme: clean
+        
  # pdf: default
  #   page-navigation:
  #     back-to-top-navigation: true
