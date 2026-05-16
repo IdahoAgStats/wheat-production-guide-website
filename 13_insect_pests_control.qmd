@@ -2,13 +2,13 @@
 title: "Insect pests and control"
 ---
 
-***intro/summary text***
+
 
 Learn more:  
 [Insect Management Handbook](https://pnwhandbooks.org/insect)
 
 ## Integrated pest management
-***section text***
+
 
 ## Aphids
 ***section text***
