@@ -23,7 +23,6 @@ Various regions in the US specialize in production of different classes of wheat
 
 ![Wheat production in the United States by county, in metric tons. 3-year average, 2021-2023.](figs/1-2-us-wheat.png){#fig-us-wheat style="display: inline-block;" }
 
-
 ## Idaho Wheat Quick Facts
 
 #### Statewide wheat production in Idaho, 2024 {#tbl-idprod}
