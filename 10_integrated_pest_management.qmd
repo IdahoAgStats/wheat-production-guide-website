@@ -1,5 +1,11 @@
 ---
-title: "Integrated pest management in wheat production"
+title: "Integrated pest management"
 author: "Desiree Wickwar"
 ---
+
+Introduction
+
+Integrated pest management (IPM) is an approach to managing insects, diseases, weeds, and other pests that aims to keep pest populations and pest-related damage below levels that reduce yield or profitability, while limiting unnecessary costs and undue risks to human and environmental health. As the name suggests, IPM employs the integration of an array of pest management tactics and tools, avoiding reliance on any one pest management practice and combining tactics with different strengths to achieve consistent pest management results. Those same IPM goals and practices also promote plant and soil health benefits to optimize on-farm economic sustainability.
+Creating an IPM program starts with knowledge of pest biology (e.g., information about its lifecycle) as well as knowledge of how the pest interacts with the crop (e.g., how and when the pest is most likely to cause economic damage). This information is used to select the most effective and appropriate management tools. IPM programs often have preventive and low-input management practices at their core, while allowing for more intensive, corrective measures when necessary. 
+This chapter describes the general principle and process of IPM as they apply to wheat production. Subsequent chapters in this guide provide detailed information on specific wheat pests, including their biology, impacts, monitoring, and management options.
 
