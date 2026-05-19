@@ -48,17 +48,18 @@ book:
     - 7_planting.qmd
     - 8_irrigation_management.qmd
     - 9_nutrient_management.qmd
-    - 10_weed_control.qmd
-    - 11_disease_disease_mgmt.qmd
-    - 12_insect_pests_control.qmd
-    - 13_nematodes.qmd
-    - 14_drones_uav.qmd
-    - 15_harvest_storage.qmd
-    - 16_cropping_systems.qmd
-    - 17_residue_management.qmd
-    - 18_end_use_quality.qmd
-    - 19_economics.qmd
-    - 20_addl_resources.qmd
+    - 10_integrated_pest_management.qmd
+    - 11_weed_control.qmd
+    - 12_disease_disease_mgmt.qmd
+    - 13_insect_pests_control.qmd
+    - 14_nematodes.qmd
+    - 15_drones_uav.qmd
+    - 16_harvest_storage.qmd
+    - 17_cropping_systems.qmd
+    - 18_residue_management.qmd
+    - 19_end_use_quality.qmd
+    - 20_economics.qmd
+    - 21_addl_resources.qmd
     
   
 
