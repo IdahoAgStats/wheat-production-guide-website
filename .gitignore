@@ -21,3 +21,5 @@
 /_site/
 /renv/library/
 .positai
+
+**/*.quarto_ipynb
