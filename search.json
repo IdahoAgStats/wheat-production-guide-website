@@ -124,7 +124,17 @@
     "href": "3_growth_and_development.html",
     "title": "3  Growth and Development",
     "section": "",
-    "text": "Spring wheat\nintro/summary text\nsection text\nLearn about the Zadoks growth staging system:\nSpring Wheat Growth and Development - UMN Extension",
+    "text": "Summary",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Growth and Development</span>"
+    ]
+  },
+  {
+    "objectID": "3_growth_and_development.html#spring-wheat",
+    "href": "3_growth_and_development.html#spring-wheat",
+    "title": "3  Growth and Development",
+    "section": "Spring wheat",
+    "text": "Spring wheat\nsection text\nLearn about the Zadoks growth staging system:\nSpring Wheat Growth and Development - UMN Extension",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Growth and Development</span>"
     ]
@@ -390,353 +400,373 @@
     ]
   },
   {
-    "objectID": "10_weed_control.html",
-    "href": "10_weed_control.html",
-    "title": "10  Weed control",
+    "objectID": "10_integrated_pest_management.html",
+    "href": "10_integrated_pest_management.html",
+    "title": "10  Integrated pest management",
+    "section": "",
+    "text": "Introduction\nIntegrated pest management (IPM) is an approach to managing insects, diseases, weeds, and other pests that aims to keep pest populations and pest-related damage below levels that reduce yield or profitability, while limiting unnecessary costs and undue risks to human and environmental health. As the name suggests, IPM employs the integration of an array of pest management tactics and tools, avoiding reliance on any one pest management practice and combining tactics with different strengths to achieve consistent pest management results. Those same IPM goals and practices also promote plant and soil health benefits to optimize on-farm economic sustainability. Creating an IPM program starts with knowledge of pest biology (e.g., information about its lifecycle) as well as knowledge of how the pest interacts with the crop (e.g., how and when the pest is most likely to cause economic damage). This information is used to select the most effective and appropriate management tools. IPM programs often have preventive and low-input management practices at their core, while allowing for more intensive, corrective measures when necessary. This chapter describes the general principle and process of IPM as they apply to wheat production. Subsequent chapters in this guide provide detailed information on specific wheat pests, including their biology, impacts, monitoring, and management options.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Integrated pest management</span>"
+    ]
+  },
+  {
+    "objectID": "11_weed_control.html",
+    "href": "11_weed_control.html",
+    "title": "11  Weed control",
     "section": "",
     "text": "Cultural practices\nintro/summary text\nResources:\nWeed Management Handbook\nsection text",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Weed control</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Weed control</span>"
     ]
   },
   {
-    "objectID": "10_weed_control.html#chemicals",
-    "href": "10_weed_control.html#chemicals",
-    "title": "10  Weed control",
+    "objectID": "11_weed_control.html#chemicals",
+    "href": "11_weed_control.html#chemicals",
+    "title": "11  Weed control",
     "section": "Chemicals",
     "text": "Chemicals\nsection text",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Weed control</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Weed control</span>"
     ]
   },
   {
-    "objectID": "10_weed_control.html#groups-interactions-carryover",
-    "href": "10_weed_control.html#groups-interactions-carryover",
-    "title": "10  Weed control",
+    "objectID": "11_weed_control.html#groups-interactions-carryover",
+    "href": "11_weed_control.html#groups-interactions-carryover",
+    "title": "11  Weed control",
     "section": "Groups, interactions, carryover",
     "text": "Groups, interactions, carryover\nsection text\nResources:\nUnderstanding Herbicide Mode of Action\nSummary of Herbicide Mechanism of Action According to the Weed Science Society of America",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Weed control</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Weed control</span>"
     ]
   },
   {
-    "objectID": "10_weed_control.html#labels-and-recommendations",
-    "href": "10_weed_control.html#labels-and-recommendations",
-    "title": "10  Weed control",
+    "objectID": "11_weed_control.html#labels-and-recommendations",
+    "href": "11_weed_control.html#labels-and-recommendations",
+    "title": "11  Weed control",
     "section": "Labels and recommendations",
     "text": "Labels and recommendations\nsection text",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Weed control</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Weed control</span>"
     ]
   },
   {
-    "objectID": "10_weed_control.html#herbicide-resistance",
-    "href": "10_weed_control.html#herbicide-resistance",
-    "title": "10  Weed control",
+    "objectID": "11_weed_control.html#herbicide-resistance",
+    "href": "11_weed_control.html#herbicide-resistance",
+    "title": "11  Weed control",
     "section": "Herbicide resistance",
     "text": "Herbicide resistance\nsection text",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Weed control</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Weed control</span>"
     ]
   },
   {
-    "objectID": "10_weed_control.html#chemical-rotations-management-strategies",
-    "href": "10_weed_control.html#chemical-rotations-management-strategies",
-    "title": "10  Weed control",
+    "objectID": "11_weed_control.html#chemical-rotations-management-strategies",
+    "href": "11_weed_control.html#chemical-rotations-management-strategies",
+    "title": "11  Weed control",
     "section": "Chemical rotations, management strategies",
     "text": "Chemical rotations, management strategies\nsection text",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Weed control</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Weed control</span>"
     ]
   },
   {
-    "objectID": "11_disease_disease_mgmt.html",
-    "href": "11_disease_disease_mgmt.html",
-    "title": "11  Diseases and disease management",
+    "objectID": "12_disease_disease_mgmt.html",
+    "href": "12_disease_disease_mgmt.html",
+    "title": "12  Diseases and disease management",
     "section": "",
     "text": "Foliar diseases\nintro/summary text\nsection text",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Diseases and disease management</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Diseases and disease management</span>"
     ]
   },
   {
-    "objectID": "11_disease_disease_mgmt.html#spike-and-seed-borne-diseases",
-    "href": "11_disease_disease_mgmt.html#spike-and-seed-borne-diseases",
-    "title": "11  Diseases and disease management",
+    "objectID": "12_disease_disease_mgmt.html#spike-and-seed-borne-diseases",
+    "href": "12_disease_disease_mgmt.html#spike-and-seed-borne-diseases",
+    "title": "12  Diseases and disease management",
     "section": "Spike and seed-borne diseases",
     "text": "Spike and seed-borne diseases\nsection text\nLearn more:\nSeedborne Diseases of Cereals",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Diseases and disease management</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Diseases and disease management</span>"
     ]
   },
   {
-    "objectID": "11_disease_disease_mgmt.html#soil-borne-diseases",
-    "href": "11_disease_disease_mgmt.html#soil-borne-diseases",
-    "title": "11  Diseases and disease management",
+    "objectID": "12_disease_disease_mgmt.html#soil-borne-diseases",
+    "href": "12_disease_disease_mgmt.html#soil-borne-diseases",
+    "title": "12  Diseases and disease management",
     "section": "Soil-borne diseases",
     "text": "Soil-borne diseases\nsection text",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Diseases and disease management</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Diseases and disease management</span>"
     ]
   },
   {
-    "objectID": "12_insect_pests_control.html",
-    "href": "12_insect_pests_control.html",
-    "title": "12  Insect pests and control",
+    "objectID": "13_insect_pests_control.html",
+    "href": "13_insect_pests_control.html",
+    "title": "13  Insect pests and control",
     "section": "",
-    "text": "Integrated pest management\nintro/summary text\nLearn more:\nInsect Management Handbook\nsection text",
+    "text": "Integrated pest management\nLearn more:\nInsect Management Handbook",
     "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Insect pests and control</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Insect pests and control</span>"
     ]
   },
   {
-    "objectID": "12_insect_pests_control.html#aphids",
-    "href": "12_insect_pests_control.html#aphids",
-    "title": "12  Insect pests and control",
+    "objectID": "13_insect_pests_control.html#aphids",
+    "href": "13_insect_pests_control.html#aphids",
+    "title": "13  Insect pests and control",
     "section": "Aphids",
     "text": "Aphids\nsection text",
     "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Insect pests and control</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Insect pests and control</span>"
     ]
   },
   {
-    "objectID": "12_insect_pests_control.html#wireworm",
-    "href": "12_insect_pests_control.html#wireworm",
-    "title": "12  Insect pests and control",
+    "objectID": "13_insect_pests_control.html#wireworm",
+    "href": "13_insect_pests_control.html#wireworm",
+    "title": "13  Insect pests and control",
     "section": "Wireworm",
     "text": "Wireworm\nsection text",
     "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Insect pests and control</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Insect pests and control</span>"
     ]
   },
   {
-    "objectID": "12_insect_pests_control.html#hessian-fly",
-    "href": "12_insect_pests_control.html#hessian-fly",
-    "title": "12  Insect pests and control",
+    "objectID": "13_insect_pests_control.html#hessian-fly",
+    "href": "13_insect_pests_control.html#hessian-fly",
+    "title": "13  Insect pests and control",
     "section": "Hessian fly",
     "text": "Hessian fly\nsection text\nLearn more:\nHessian Fly Management in Wheat",
     "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Insect pests and control</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Insect pests and control</span>"
     ]
   },
   {
-    "objectID": "12_insect_pests_control.html#nematodes",
-    "href": "12_insect_pests_control.html#nematodes",
-    "title": "12  Insect pests and control",
+    "objectID": "13_insect_pests_control.html#nematodes",
+    "href": "13_insect_pests_control.html#nematodes",
+    "title": "13  Insect pests and control",
     "section": "Nematodes",
     "text": "Nematodes\nsection text\nLearn more:\nCereal Cyst Nematodes: Biology and Management in Pacific Northwest Wheat, Barley, and Oat Crops",
     "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Insect pests and control</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Insect pests and control</span>"
     ]
   },
   {
-    "objectID": "13_nematodes.html",
-    "href": "13_nematodes.html",
-    "title": "13  Nematodes",
+    "objectID": "14_nematodes.html",
+    "href": "14_nematodes.html",
+    "title": "14  Nematodes",
     "section": "",
-    "text": "Figure 13.1: Nematode trapping fungus. OSU Plant Clinic, 2020.\n\n\n\nFurther reading:\nCereal Cyst Nematodes: Biology and Management in Pacific Northwest Wheat, Barley, and Oat Crops\nPNW Disease Management Handbook - Pathogen Articles - Nematodes",
+    "text": "Figure 14.1: Nematode trapping fungus. OSU Plant Clinic, 2020.\n\n\n\nFurther reading:\nCereal Cyst Nematodes: Biology and Management in Pacific Northwest Wheat, Barley, and Oat Crops\nPNW Disease Management Handbook - Pathogen Articles - Nematodes",
     "crumbs": [
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Nematodes</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Nematodes</span>"
     ]
   },
   {
-    "objectID": "14_drones_uav.html",
-    "href": "14_drones_uav.html",
-    "title": "14  Drones and UAV",
+    "objectID": "15_drones_uav.html",
+    "href": "15_drones_uav.html",
+    "title": "15  Drones and UAV",
     "section": "",
     "text": "Applications and calibrations\nintro/summary text\nsection text",
     "crumbs": [
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Drones and UAV</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Drones and UAV</span>"
     ]
   },
   {
-    "objectID": "15_harvest_storage.html",
-    "href": "15_harvest_storage.html",
-    "title": "15  Harvest and storage",
+    "objectID": "16_harvest_storage.html",
+    "href": "16_harvest_storage.html",
+    "title": "16  Harvest and storage",
     "section": "",
     "text": "Summary\nImage: J Piaskowski\nThis chapter emphasizes that maximizing wheat yield and quality requires careful harvest timing, precise combine adjustment, and attentive storage management. Harvest should occur before shattering from dry weather or sprouting from rain, with grain at or below 12–12.5% moisture for safe storage; wetter grain, especially seed wheat, must be dried promptly at temperatures below 110°F.\nCombine settings for cylinder speed, concave clearance, fan speed, reel speed, and ground speed should be fine-tuned in the field to minimize losses from shattering, header inefficiency, leakage, and poor separation, while managing heavy straw to avoid plugging and traction hazards. Loss-measurement techniques help diagnose issues, and specialized headers or reels can improve efficiency in lodged crops. In storage, grain should be kept dry, cool (ideally below 50°F), and insect-free, with clean bins, regular inspections, and aeration to prevent heat and moisture migration that can cause spoilage, ensuring that field grains are preserved until the wheat leaves storage.",
     "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Harvest and storage</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Harvest and storage</span>"
     ]
   },
   {
-    "objectID": "15_harvest_storage.html#harvesting",
-    "href": "15_harvest_storage.html#harvesting",
-    "title": "15  Harvest and storage",
+    "objectID": "16_harvest_storage.html#harvesting",
+    "href": "16_harvest_storage.html#harvesting",
+    "title": "16  Harvest and storage",
     "section": "Harvesting",
     "text": "Harvesting\nProper adjustment and operation of the combine reduces harvest losses. Adjust the combine initially to specifications provided by the manufacturer and field check for grain loss out of the back of the combine. Depending on variety, approximately 16 to 20 kernels per square foot on the ground represents a one bushel per acre loss. Adjust air speed to separate chaff from grain without blowing grain out the back of the combine. On cylinder-type combines, adjust cylinder speed and concave clearance to thresh grain free without cracking. Periodic field checks should be made during harvest to adjust for changing moisture content of the straw and grain.\nWheat yield and volume of wheat straw is highly variable depending on production system and growing environment. High-yielding spring wheat varieties under irrigation can produce as much or more straw as high-yielding dryland winter wheat, or as much as 5-7 tons of straw per acre. The key to efficient harvest is controlling the amount of material entering the cylinder for best grain separation and to avoid plugging.\n\n\n\n\n\n\nTipHarvest Safety Tip\n\n\n\nHeavy straw residue can reduce equipment traction, especially on slopes. Operators should identify areas where footing or control may be compromised and adjust their approach to maintain safe working conditions for themselves and the entire harvest crew.\n\n\nManagement of a wheat crop for optimum health and production potential must continue through harvest. There are several factors to consider both during and after wheat harvest.",
     "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Harvest and storage</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Harvest and storage</span>"
     ]
   },
   {
-    "objectID": "15_harvest_storage.html#moisture-content",
-    "href": "15_harvest_storage.html#moisture-content",
-    "title": "15  Harvest and storage",
+    "objectID": "16_harvest_storage.html#moisture-content",
+    "href": "16_harvest_storage.html#moisture-content",
+    "title": "16  Harvest and storage",
     "section": "Moisture Content",
     "text": "Moisture Content\nMoisture content is critical in preventing preharvest and postharvest losses. To minimize preharvest losses, winter wheat must be harvested before wind causes shattering under dry conditions or rain causes sprouting in the head. The grain must be dry enough for safe storage, preferably less than 12 to 12.5 percent moisture by weight. If moisture content is higher than this, the grain must be dried prior to storage. The general recommendation is to thresh at moistures not greater than 20 percent and to dry with air not exceeding 110°F (43°C), especially if the wheat is to be used for seed, since higher temperatures can damage germination.",
     "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Harvest and storage</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Harvest and storage</span>"
     ]
   },
   {
-    "objectID": "15_harvest_storage.html#combine-settings",
-    "href": "15_harvest_storage.html#combine-settings",
-    "title": "15  Harvest and storage",
+    "objectID": "16_harvest_storage.html#combine-settings",
+    "href": "16_harvest_storage.html#combine-settings",
+    "title": "16  Harvest and storage",
     "section": "Combine Settings",
-    "text": "Combine Settings\nCombines must be properly adjusted to minimize combine harvest losses and to avoid cracking the grain, which invites greater damage from storage molds and insects. Grain left on the ground, either because of shattering or improper combine adjustments, represents grain that cannot be sold, as well as a source of future volunteer plants to host diseases and insects. Straw and chaff must be spread as uniformly as possible to reduce problems in planting and performance of the following crop (see Section 17.3: Management considerations for conservation tillage systems).",
+    "text": "Combine Settings\nCombines must be properly adjusted to minimize combine harvest losses and to avoid cracking the grain, which invites greater damage from storage molds and insects. Grain left on the ground, either because of shattering or improper combine adjustments, represents grain that cannot be sold, as well as a source of future volunteer plants to host diseases and insects. Straw and chaff must be spread as uniformly as possible to reduce problems in planting and performance of the following crop (see Section 18.3: Management considerations for conservation tillage systems).",
     "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Harvest and storage</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Harvest and storage</span>"
     ]
   },
   {
-    "objectID": "15_harvest_storage.html#minimizing-losses-from-shattering-and-sprouting",
-    "href": "15_harvest_storage.html#minimizing-losses-from-shattering-and-sprouting",
-    "title": "15  Harvest and storage",
+    "objectID": "16_harvest_storage.html#minimizing-losses-from-shattering-and-sprouting",
+    "href": "16_harvest_storage.html#minimizing-losses-from-shattering-and-sprouting",
+    "title": "16  Harvest and storage",
     "section": "Minimizing Losses from Shattering and Sprouting",
-    "text": "Minimizing Losses from Shattering and Sprouting\nThe first step in minimizing losses from shattering and sprout damge is to choose the appropriate variety of wheat for your area. Harvesting at the ideal time and moisture content can reduce shattering and sprouting, but this is often beyond the grower’s control. Wheat can be harvested at a moisture content higher than what is recommended, but this grain will have to be dried before or immediately after it is placed in the bin. A second option for dealing with wet wheat is swathing and allowing it to dry in windrows on the stubble. Once the grain has reached the maximum-weight phase of grain fill (see growth and development section), the wheat can be swathed with no loss of yield. The grain is at physiological maturity by this stage, but the plant is still alive and has considerable moisture in the straw as well as in the grain. Swathing speeds the drying process for the plant and grain.",
+    "text": "Minimizing Losses from Shattering and Sprouting\nThe first step in minimizing losses from shattering and sprout damage is to choose the appropriate variety of wheat for your area. Harvesting at the ideal time and moisture content can reduce shattering and sprouting, but this is often beyond the grower’s control. Wheat can be harvested at a moisture content higher than what is recommended, but this grain will have to be dried before or immediately after it is placed in the bin.\nA second option for dealing with wet wheat is swathing and allowing it to dry in windrows on the stubble. Once the grain has reached the maximum-weight phase of grain fill (see Section 3.1: Growth and development), the wheat can be swathed with no loss of yield. The grain is at physiological maturity by this stage, but the plant is still alive and has considerable moisture in the straw as well as in the grain. Swathing speeds the drying process for the plant and grain.",
     "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Harvest and storage</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Harvest and storage</span>"
     ]
   },
   {
-    "objectID": "15_harvest_storage.html#minimizing-cracking-and-combine-losses",
-    "href": "15_harvest_storage.html#minimizing-cracking-and-combine-losses",
-    "title": "15  Harvest and storage",
+    "objectID": "16_harvest_storage.html#minimizing-cracking-and-combine-losses",
+    "href": "16_harvest_storage.html#minimizing-cracking-and-combine-losses",
+    "title": "16  Harvest and storage",
     "section": "Minimizing Cracking and Combine Losses",
-    "text": "Minimizing Cracking and Combine Losses\nFinal combine adjustments to minimize cracking and combine losses must be made in the field, several times each day and in each new field. The tendency for kernels to crack or thresh out varies by day and even by time of day, depending on the moisture content of the grain and straw. Threshability of the grain also varies by wheat variety and by weed population. Late-season green weeds may require swathing or a preharvest burndown herbicide.\nCritical adjustments on the combine include cylinder speed, fan speed, reel speed, and ground speed. The cylinder speed and concave clearance should thresh but not crack the grain. The fan speed should be adjusted to blow out chaff but not grain. Avoid header losses (broken heads) by setting the reel speed and cutting height to leave as much standing stubble as possible. Adjust ground speed to set the rate of straw feed to the straw walkers to optimize harvest efficiency. Initial adjustments should be made as close to the manufacturer’s operator manual as possible, but final adjustments should be based on the actual field performance of the combine.\nGrowers can accurately measure and monitor combine losses, including shattering, header losses, leakage from the combine, and losses out the rear of the combine, by following a few simple steps. With the straw spreader disengaged, harvest a short strip of typical grain, then stop and let the combine clean out. Mark the rear of the header (position B in Figure 1) and in front of the rear wheels of the combine (position C in Figure 15.1), then back the combine to expose this strip. The actual losses and reason for these losses can be estimated by the location and the amount of grain on the ground.\n\n\n\n\n\n\nFigure 15.1: Combine positions used to determine types of harvest losses.\n\n\n\n\nSteps to Distinguish Header Losses from Shattering\n1. Identify Two Locations:\n- Position A: Standing grain — used to measure shatter loss only.\n- Position B: Recently harvested grain — used to measure shatter loss plus header loss.\n2. Mark Sampling Areas:\n- At each position, mark at least five one-foot-square areas.\n- Ensure the sampling areas at Position B are uniformly spaced across the header swath.\n3. Collect Data at Each Area:\n- Count the number of loose kernels on the ground.\n- Count the number of broken heads on the ground.\n4. Calculate Averages:\n- For each position (A and B), calculate the average number of kernels and broken heads per square foot.\n5. Determine Header Loss:\n- Subtract the average values at Position A (shatter loss) from the average values at Position B (total loss).\n- The difference represents the header loss.",
+    "text": "Minimizing Cracking and Combine Losses\nFinal combine adjustments to minimize cracking and combine losses must be made in the field, several times each day and in each new field. The tendency for kernels to crack or thresh out varies by day and even by time of day, depending on the moisture content of the grain and straw. Threshability of the grain also varies by wheat variety and by weed population. Late-season green weeds may require swathing or a preharvest burndown herbicide.\nCritical adjustments on the combine include cylinder speed, fan speed, reel speed, and ground speed. The cylinder speed and concave clearance should thresh but not crack the grain. The fan speed should be adjusted to blow out chaff but not grain. Avoid header losses (broken heads) by setting the reel speed and cutting height to leave as much standing stubble as possible. Adjust ground speed to set the rate of straw feed to the straw walkers to optimize harvest efficiency. Initial adjustments should be made as close to the manufacturer’s operator manual as possible, but final adjustments should be based on the actual field performance of the combine.\nGrowers can accurately measure and monitor combine losses, including shattering, header losses, leakage from the combine, and losses out the rear of the combine, by following a few simple steps. With the straw spreader disengaged, harvest a short strip of typical grain, then stop and let the combine clean out. Mark the rear of the header (position B in Figure 16.1) and in front of the rear wheels of the combine (position C in Figure 16.1), then back the combine to expose this strip. The actual losses and reason for these losses can be estimated by the location and the amount of grain on the ground.\n\n\n\n\n\n\nFigure 16.1: Combine positions used to determine types of harvest losses.\n\n\n\n\nSteps to Distinguish Header Losses from Shattering\n\nIdentify Two Locations:\n\n\n\nPosition A: Standing grain — used to measure shatter loss only.\n\nPosition B: Recently harvested grain — used to measure shatter loss plus header loss.\n\n\nMark Sampling Areas:\n\n\n\nAt each position, mark at least five one-foot-square areas.\n\nEnsure the sampling areas at Position B are uniformly spaced across the header swath.\n\n\nCollect Data at Each Area:\n\n\n\nCount the number of loose kernels on the ground.\n\nCount the number of broken heads on the ground.\n\n\nCalculate Averages:\n\n\n\nFor each position (A and B), calculate the average number of kernels and broken heads per square foot.\n\n\nDetermine Header Loss:\n\n\n\nSubtract the average values at Position A (shatter loss) from the average values at Position B (total loss).\n\nThe difference represents the header loss.\n\n\n\n\nTable 16.1: Kernel weights and concentration to estimate 1 bushel per acre harvest loss.\n\n\n\n\n\nAverage Kernel Weight\n1 bu/ac equivalent\n\n\n\n\n(mg)\n(kernels/sqft)\n\n\n25\n25\n\n\n30\n20\n\n\n&gt;40\n15\n\n\n\n\n\n\nHeader losses usually indicate that either the reel is revolving too slowly or too fast, or it is too high or low above the cutter bar. The reel should be eight to twelve inches in front of the cutter bar and should turn about 25 percent faster than the ground speed of the combine. For wheat that has lodged, a pick-up reel will minimize header losses. Stripper headers have been shown to be particularly effective in harvesting lodged grain. Both stripper headers and air reels generally reduce grain losses and improve harvest efficiency compared to the traditional reels. For more information on stripper headers in use on dryland grain farms, see STRIPPER HEADER AND DIRECT SEEDING: RON AND ANDY JURIS Farmer-to-Farmer Case Study Series: Increasing Resilience among Cereal-Based Farmers in the Inland Pacific Northwest.\nGrowers can evaluate combine leakage by examining the grain on the ground between position B and C. The previous estimates of losses from shattering and damage from the header will indicate kernels already lost before the grain went into the combine. Concentrations of kernels in small areas indicate major leaks from the machine.\nImproper fan speed adjustment may be responsible for grain loss. Kernels on the ground behind the combine may indicate that too much air is preventing the grain from settling through the chaffer (also called upper sieve) and sieve. Too little air can cause the chaffer to clog with chaff and straw so the grain cannot settle out. Losses from the rear of the combine can also indicate that there is too much straw for proper separation. Unthreshed heads in the straw behind the combine may indicate that the cylinder speed and/or concave setting should be adjusted for better threshing, or that the grain is not ripe and is too wet to harvest.\nSome varieties are more difficult to thresh cleanly. Growers should regularly check for unthreshed heads and white-caps (pieces of heads where the glumes did not separate from the grain kernel) and make needed adjustments to improve grain cleanliness and combine efficiency. Environmental conditions during grain development and maturation will also influence ease of threshing.",
     "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Harvest and storage</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Harvest and storage</span>"
     ]
   },
   {
-    "objectID": "16_cropping_systems.html",
-    "href": "16_cropping_systems.html",
-    "title": "16  Cropping systems",
+    "objectID": "16_harvest_storage.html#storage-management",
+    "href": "16_harvest_storage.html#storage-management",
+    "title": "16  Harvest and storage",
+    "section": "Storage Management",
+    "text": "Storage Management\nThe benefits of managing for optimal health and productivity of the wheat crop and harvesting with the highest possible efficiency can be lost if the grain deteriorates in storage because of molds or insects. Management of the grain must continue until the wheat is removed from storage.\nImproperly stored grain can negatively affect the downstream grain market. Millers often reject grain containing live insects and may enforce strict limits on insect fragments and insect-damaged kernels. Additionally, much of Idaho’s grain is exported and international buyers often have their own quality standards. The management of on-farm grain storage should focus on minimizing penalties at the time of sale, and meeting the quality requirements set by end users.\nThe hazards to grain during storage, including molds, insects, loss of weight, and chemical changes, are all related directly or indirectly to higher moisture or temperature of the grain. Grain deterioration in storage can be minimized or prevented altogether by keeping the grain dry, cool, and free from insects. Grain moisture content should be 12 percent or less. Air should be below 50°F, and preferably lower. Every effort should be made to eliminate all sources of grain-storage insects from old grain left in the bin or grain auger or other sources. Even a few insects harbored in the bin or introduced with the grain can lead to a serious infestation over time, given the right conditions.\nPreventative Measures:\n\nClean all grain trucks and harvesting equipment thoroughly before harvest begins.\n\nSanitize and prepare storage bins prior to filling.\n\nRemove weeds and clean up any spilled grain around storage bins to reduce pest pressure.\n\nStore grain at proper moisture level &lt;12%.\n\nAvoid storing newly harvested grain on top of older grain.\n\nConsider applying an insect control agent to stored grain to prevent infestation such as insect growth regulators (IGRs), diatomaceoues earth or other EPA approved insecticides.\n\n\n\n\nTable 16.2: Insecticides labeled as empty bin treatments\n\n\n\n\n\n\n\n\n\nActive Ingredient\nUsage / Notes\n\n\n\n\nCyfluthrin / Beta-cyfluthrin\nResidual empty-bin surface insecticide\n\n\nDeltamethrin\nResidual empty-bin surface insecticide\n\n\nDiatomaceous earth (labeled for grain)\nEmpty bin treatment\n\n\nPhosphine\nFumigant; restricted use; label-required monitoring\n\n\n\n\n\n\n\n\n\nTable 16.3: Insecticides labeled for use as grain protectants\n\n\n\n\n\n\n\n\n\nActive Ingredient\nUsage / Notes\n\n\n\n\nMethoprene\nIGR; controls immature stages only\n\n\nPyriproxyfen\nIGR; long residual control\n\n\nSpinosad\nReduced-risk grain protectant\n\n\nPyrethrins + PBO\nShort residual; knockdown\n\n\nDiatomaceous earth (labeled for grain)\nApplied to top/bottom of grain to reduce test weight loss\n\n\n\n\n\n\nMonitoring:\nBins should be checked for insects and mold at least every two to three weeks, and more frequently during periods of large temperature fluctuations.\nA monitoring protocol is one of the most effective tools for preventing storage losses. Grain should be checked for pests at least monthly throughout the winter, and weekly or bi‑weekly during late summer and fall before outdoor temperatures drop. A rapid increase in grain temperature may indicate a developing pest or moisture problem.\nGrain pitfall probe traps are an effective way to monitor insect activity in stored grain. When checked regularly, these traps help detect changes in insect populations and can aid in identifying the insect species.\nGrain temperature probes are another valuable tool for monitoring grain quality and detecting insect‑damaged kernels.\nIn addition to these tools, managers should routinely check storage areas for any unusual odors that could indicate spoilage or infestation. Consistent monitoring is an important post‑harvest practice and plays a key role in mitigating storage losses.\nAeration and dryers:\nIt is almost impossible to have a bin of grain with uniform moisture content. When outdoor temperatures drop in the fall and winter, the grain near the bin wall cools, resulting in downward airflow near the exterior of the bin. Meanwhile, the insulated grain in the center of the bin stays warm creating upward flow toward the top center of the bin. This circulation pattern can lead to areas of concentrated heat and moisture, leading to grain crusting and favorable conditions for insects and fungal contamination. Left alone, heat and moisture will rise and concentrate near the top of the bin creating a potential favorable environment for insects and fungal contamination, causing grain spoilage. Consequently, aeration is the safest way to reduce both grain moisture in the bin and to reduce grain temperature.\nFor additional information on grain storage, see University of Idaho CIS 518 Maintaining Stored Grain Quality.",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Harvest and storage</span>"
+    ]
+  },
+  {
+    "objectID": "17_cropping_systems.html",
+    "href": "17_cropping_systems.html",
+    "title": "17  Cropping systems",
     "section": "",
     "text": "Rotations, interactions, and management issues\nintro/summary text\nsection text",
     "crumbs": [
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Cropping systems</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Cropping systems</span>"
     ]
   },
   {
-    "objectID": "16_cropping_systems.html#organic-production",
-    "href": "16_cropping_systems.html#organic-production",
-    "title": "16  Cropping systems",
+    "objectID": "17_cropping_systems.html#organic-production",
+    "href": "17_cropping_systems.html#organic-production",
+    "title": "17  Cropping systems",
     "section": "Organic production",
     "text": "Organic production\nsection text\nLearn more:\nOrganic Small Grain Production in the Inland Pacific Northwest: A Collection of Case Studies",
     "crumbs": [
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Cropping systems</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Cropping systems</span>"
     ]
   },
   {
-    "objectID": "17_residue_management.html",
-    "href": "17_residue_management.html",
-    "title": "17  Residue management",
+    "objectID": "18_residue_management.html",
+    "href": "18_residue_management.html",
+    "title": "18  Residue management",
     "section": "",
     "text": "Tillage and No-Till strategies\nintro/summary text\nsection text\nLearn more:\nWheat Straw Management and N Fertilizer Requirements",
     "crumbs": [
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Residue management</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Residue management</span>"
     ]
   },
   {
-    "objectID": "17_residue_management.html#conservation-practices-and-programs",
-    "href": "17_residue_management.html#conservation-practices-and-programs",
-    "title": "17  Residue management",
+    "objectID": "18_residue_management.html#conservation-practices-and-programs",
+    "href": "18_residue_management.html#conservation-practices-and-programs",
+    "title": "18  Residue management",
     "section": "Conservation practices and programs",
     "text": "Conservation practices and programs",
     "crumbs": [
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Residue management</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Residue management</span>"
     ]
   },
   {
-    "objectID": "17_residue_management.html#sec-management-considerations-for-conservation-tillage-systems",
-    "href": "17_residue_management.html#sec-management-considerations-for-conservation-tillage-systems",
-    "title": "17  Residue management",
+    "objectID": "18_residue_management.html#sec-management-considerations-for-conservation-tillage-systems",
+    "href": "18_residue_management.html#sec-management-considerations-for-conservation-tillage-systems",
+    "title": "18  Residue management",
     "section": "Management considerations for conservation tillage",
     "text": "Management considerations for conservation tillage\nsection text",
     "crumbs": [
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Residue management</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Residue management</span>"
     ]
   },
   {
-    "objectID": "18_end_use_quality.html",
-    "href": "18_end_use_quality.html",
-    "title": "18  End-use quality",
+    "objectID": "19_end_use_quality.html",
+    "href": "19_end_use_quality.html",
+    "title": "19  End-use quality",
     "section": "",
     "text": "Classes, grading, and food uses\nImage: J Piaskowski\nintro/summary text\nsection text\nLearn more:\nWorking with Buyers: Wheat Classes\nWorking with Buyers: Wheat Grades and Grade Requirements",
     "crumbs": [
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>End-use quality</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>End-use quality</span>"
     ]
   },
   {
-    "objectID": "18_end_use_quality.html#quality-tests-and-interpretations",
-    "href": "18_end_use_quality.html#quality-tests-and-interpretations",
-    "title": "18  End-use quality",
+    "objectID": "19_end_use_quality.html#quality-tests-and-interpretations",
+    "href": "19_end_use_quality.html#quality-tests-and-interpretations",
+    "title": "19  End-use quality",
     "section": "Quality tests and interpretations",
     "text": "Quality tests and interpretations\nsection text\nLearn more:\nWheat and Flour Testing Methods\nWheat and Flour Testing Methods: A Guide to Understanding Wheat and Flour Quality: Version 2",
     "crumbs": [
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>End-use quality</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>End-use quality</span>"
     ]
   },
   {
-    "objectID": "18_end_use_quality.html#falling-number",
-    "href": "18_end_use_quality.html#falling-number",
-    "title": "18  End-use quality",
+    "objectID": "19_end_use_quality.html#falling-number",
+    "href": "19_end_use_quality.html#falling-number",
+    "title": "19  End-use quality",
     "section": "Falling number",
     "text": "Falling number\nsection text\nLearn more:\nManaging the Risk of Low Falling Numbers in Wheat",
     "crumbs": [
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>End-use quality</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>End-use quality</span>"
     ]
   },
   {
-    "objectID": "18_end_use_quality.html#markets-and-transportation---domestic-and-export",
-    "href": "18_end_use_quality.html#markets-and-transportation---domestic-and-export",
-    "title": "18  End-use quality",
+    "objectID": "19_end_use_quality.html#markets-and-transportation---domestic-and-export",
+    "href": "19_end_use_quality.html#markets-and-transportation---domestic-and-export",
+    "title": "19  End-use quality",
     "section": "Markets and transportation - domestic and export",
     "text": "Markets and transportation - domestic and export\nsection text",
     "crumbs": [
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>End-use quality</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>End-use quality</span>"
     ]
   },
   {
-    "objectID": "19_economics.html",
-    "href": "19_economics.html",
-    "title": "19  Economics",
+    "objectID": "20_economics.html",
+    "href": "20_economics.html",
+    "title": "20  Economics",
     "section": "",
     "text": "Production costs and budgeting\nintro/summary text\nsection text\nLearn more:\nCost and Returns Baseline for the Dryland Grain Annual Cropping Region of the Pacific Northwest for 2011–2015 with a 2016 Comparison\nSaving Energy and Fertilizer Costs: Best Management Practices for S. Idaho Grain Producers",
     "crumbs": [
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Economics</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Economics</span>"
     ]
   },
   {
-    "objectID": "19_economics.html#marketing",
-    "href": "19_economics.html#marketing",
-    "title": "19  Economics",
+    "objectID": "20_economics.html#marketing",
+    "href": "20_economics.html#marketing",
+    "title": "20  Economics",
     "section": "Marketing",
     "text": "Marketing\nsection text",
     "crumbs": [
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Economics</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Economics</span>"
     ]
   },
   {
-    "objectID": "19_economics.html#risk-analysis",
-    "href": "19_economics.html#risk-analysis",
-    "title": "19  Economics",
+    "objectID": "20_economics.html#risk-analysis",
+    "href": "20_economics.html#risk-analysis",
+    "title": "20  Economics",
     "section": "Risk analysis",
     "text": "Risk analysis\nsection text",
     "crumbs": [
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Economics</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Economics</span>"
     ]
   },
   {
-    "objectID": "20_addl_resources.html",
-    "href": "20_addl_resources.html",
-    "title": "20  Additional resources",
+    "objectID": "21_addl_resources.html",
+    "href": "21_addl_resources.html",
+    "title": "21  Additional resources",
     "section": "",
     "text": "(various links)\n\nIdaho Wheat Commission\nIdaho Grain Producers Association\nIdaho Department of Agriculture\nCIMMYT",
     "crumbs": [
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Additional resources</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Additional resources</span>"
     ]
   }
 ]
