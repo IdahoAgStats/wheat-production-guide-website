@@ -1,9 +1,9 @@
 Version: 1.0
 ProjectId: fc83e5ab-1e88-42e8-b280-91ce8e05c919
 
-RestoreWorkspace: Default
-SaveWorkspace: Default
-AlwaysSaveHistory: Default
+RestoreWorkspace: No
+SaveWorkspace: No
+AlwaysSaveHistory: Yes
 
 EnableCodeIndexing: Yes
 UseSpacesForTab: Yes
@@ -12,5 +12,8 @@ Encoding: UTF-8
 
 RnwWeave: Sweave
 LaTeX: pdfLaTeX
+
+BuildType: Website
+WebsitePath: C:/Users/Emily/Desktop/wheat-production-guide-website
 
 MarkdownReferences: Document
