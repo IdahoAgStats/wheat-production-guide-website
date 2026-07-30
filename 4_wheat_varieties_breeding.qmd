@@ -2,7 +2,6 @@
 title: "Wheat varieties and breeding"
 ---
 
-***intro/summary text***
 
 <img src="/images/ABD_plots_2.jpg" alt="Small Grains Research Plots in Aberdeen, Idaho"
 style="width:95%;height:auto;box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
@@ -10,10 +9,29 @@ style="width:95%;height:auto;box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
 
 
 ## Key attributes for Idaho production conditions
-***section text***
+
 
 ## Breeding – public and private programs
-***section text***
+
+
+
+Table 1. Spring and Winter Wheat Cultivars Released by University of Idaho currently in Production.
+```{r}
+#| include: true
+#| output: true
+#| echo: false
+
+files <- list.files(here::here("data"), pattern = "^tbl_4_1")
+
+tbl_4_1 <- read.csv(file = here::here(
+  "data", files), na.strings = "") |> 
+  purrr::set_names(
+    nm = c("Variety", "Class", "Release Type", "Year", "PI/PVP", 
+           "PVP Date", "Intellectual Property"))
+
+knitr::kable(tbl_4_1)
+```
+
 
 [Aberdeen Wheat Breeding Program](https://www.uidaho.edu/cals/aberdeen-research-and-extension-center/wheat-breeding)  
 [WSU Breadlab](https://breadlab.wsu.edu/research/wsu-breadlab-varieties/)  
