@@ -1,6 +1,6 @@
 ---
 title: "Integrated pest management"
-author: "Desiree Wickwar"
+author: "Desireè Wickwar"
 ---
 
 ## Introduction
@@ -49,7 +49,7 @@ Determining whether pest management is necessary is another key component of an 
   +	**Economic injury level (EIL)** – The lowest pest density at which the cost of damage equals the cost of control.  
   +	**Action threshold (AT)/Economic threshold** – The pest density or damage level at which action should be taken to prevent reaching the economic injury level.
 
-![Pest population growth (abundance) over time, and the impacts of the action threshold (AT) and the economic injury level (EIL) in pest management decision-making. The action threshold represents the pest density or damage level at which management action should be taken to prevent the population from reaching the economic injury level—the point at which the cost of pest damage equals the cost of control. Using an action threshold to guide treatment timing helps ensure interventions occur early enough to avoid economic loss, while preventing unnecessary treatments when pest populations are unlikely to reach damaging levels. EIL = economic injury level; AT = action threshold (economic threshold).](figs/Figure10-2.png){#fig-pest-at-eil}  
+![Pest population growth (abundance) over time, and the impacts of the action threshold (AT) and the economic injury level (EIL) in pest management decision-making. The action threshold represents the pest density or damage level at which management action should be taken to prevent the population from reaching the economic injury level—the point at which the cost of pest damage equals the cost of control. Using an action threshold to guide treatment timing helps ensure interventions occur early enough to avoid economic loss, while preventing unnecessary treatments when pest populations are unlikely to reach damaging levels.](figs/Figure10-2.png){#fig-pest-at-eil}  
 
 For many wheat pests, research-based action thresholds are available and should be used whenever possible. In some situations, there may be insufficient research to establish an exact threshold. In such cases, assessment relies on informed judgment and consideration of several factors:  
 
@@ -124,4 +124,27 @@ Always follow label directions – including rates, timing, and restrictions –
 ## Putting IPM Into Practice
 
 Integrated pest management is a framework that supports informed decision-making and economically sound pest management. By combining monitoring, science-based management thresholds, cultural practices, biological control, and careful use of pesticides, producers can manage pests effectively while protecting yield, profitability, and the long-term sustainability of wheat production systems.  
+
+::: {.wpg title="Wheat Streak Mosaic Virus Example" collapse="true" icon="false"} 
+
+- **Monitor:** When scouting, look for stunting and green or yellow streaks or spots on leaves. Keep in mind that symptoms of WSMV and Barley Yellow Dwarf Virus often co-occur and may also be mistaken for nutrient deficiency or water stress. The presence of the vector of WSMV, the wheat curl mite (Aceria tosichella), is a good indicator that WSM is the cause of symptoms. Curled leaf edges sometimes contain these tiny mites, which are most reliably detected with the use of a hand lens on the lower leaves of the plant.  
+
+- **Assess:** In areas with a history of economic WSMV infection and where wheat seedlings and mature wheat plants are present simultaneously, there is a higher risk of WSMV and preventive measures may be warranted.  
+
+- **Manage:** There are no chemical remedies once plants are infected with WSMV, so prevention is key for management. Rotate out of cereal crops periodically and manage grassy weeds and volunteer cereals to reduce reservoirs of virus and vectors. Late autumn seeding and practices that encourage rapid growth can help minimize losses from WSMV. Consider planting wheat varieties with WSMV resistance or tolerance where possible.  
+- **Evaluate:** Knowing that winter wheat, and wheat crops that were planted when mature cereals or grassy weeds were present as a "green bridge" are most susceptible, continue to scout these crops most diligently for WSMV symptoms.  
+
+:::
+
+::: {.wpg title="Hessian Fly IPM Example" collapse="true" icon="false"}
+
+- **Monitor:** Hessian fly should be monitored with pheromone-baited sticky traps, keeping weekly counts of adults captured. Additionally, soil temperature and degree day data can be used to predict adult emergence timing. Before tillering, sweep net sampling can also help detect adult flies. Where adults are detected, tillers should be visually examined to determine if puparia are present. Coordinated monitoring amongst growers is recommended for areawide control.  
+
+- **Assess:** Formal thresholds for treatment of hessian fly in wheat are lacking, but there are general recommendations growers can keep in mind. Where greater than 20% of tillers are infested in winter wheat, and 38% of tillers are infested in spring wheat, economic losses are possible.  
+
+- **Manage:** Using scouting data, plant after peak adult fly emergence to reduce the number of eggs laid on tillers where possible. In areas with a history of infestation, plant resistant cultivars. Reducing carryover and hosts available for flies by removing or burying crop residues, rotating to non-host crops, and by controlling volunteer wheat and grassy weeds. Neonicotinoid seed or in-furrow treatments are often effective at controlling the fall generation of hessian fly, but show reduced efficacy in management of the spring generation. Foliar insecticides may be effective at control of adults, eggs, and newly hatched larvae, but are not effective once larvae have moved into the protection of the leaf sheaf or within the stem.  
+
+- **Evaluate:** Keeping in mind that it is generally best to keep tiller infestation rates below 20% in winter wheat, and 38% in spring wheat, continue to monitor for the presence of hessian fly after initial treatments. Additional applications may be necessary for subsequent fly generations.
+
+:::
 
