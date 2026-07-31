@@ -24,10 +24,9 @@ book:
         search: true
       
   page-footer:
-    #left: |
     center: |
       [![](images/UI-Extension-H-4c.jpg){width=250px}](https://www.uidaho.edu/extension){target="_blank"}
-   # right: |
+    border: true
   cover-image: images/wheat-cover.png
   favicon: images/wheat-cover.png
   twitter-card: true
