@@ -1,0 +1,16 @@
+Stage,Generation,No. of lines,Designation,Location
+Creation of Genetic Variation,Crossing,800,"2, 3, or 4 parents","Moscow/Aberdeen, Idaho"
+,F1,800,Headrows,"Moscow/Aberdeen, Idaho"
+Inbreeding,F2,750,Bulk population,"Moscow/Aberdeen, Idaho"
+,F3,400,Bulk population,"Moscow/Aberdeen, Idaho"
+,F4,200 - 300,Bulk population,"Moscow/Aberdeen, Idaho"
+Line Evaluation,F5,20000 - 30000,Head rows,"Moscow/Aberdeen, Idaho"
+,F6,1000 - 2000,Observation yield test,"1-2 locations, Idaho"
+Selection,F7,600 - 800,Preliminary yield test,"Multiple locations, Idaho"
+,F8,200 - 300,Elite yield test,"Multiple locations, Idaho"
+,F9,50 - 100,Elite yield test,"Multiple locations, Idaho"
+,F10,8 - 15,Regional testing,"Multiple locations, ID, OR, and WA"
+,F11,3 - 5,State and Regional testing,"Multiple locations, ID, OR, and WA"
+,F12,2 - 3,"State and Regional testing, breeder seed","Multiple locations, ID, OR, and WA"
+,F13,2 - 3,"State and Regional testing, release","Multiple locations, ID, OR, and WA"
+,Cultivar,,,
