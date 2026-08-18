@@ -3,7 +3,7 @@ title: "Variety trial database"
 ---
 
 
-The Idaho Wheat Commission funded a statewide database of wheat variety trials that expanded across the region to include Washington and Oregon, and additional crops of barley, canola, and cool season legumes. The University of Idaho in collaboration with Oregon State University and Washington State University has combined and organized these data sets into a set of tools collectively called “[WAVE” - the Western Agricultural Variety Explorer](https://www.westernagdata.org/){.external target="_blank"}. <!--- Is .external target="_blank" needed? This is already covered in two _quarto.yml options: link-external-icon: (currently false but can be enabled) and link-external-newwindow: true (all external links open in a new window). 
+The Idaho Wheat Commission funded a statewide database of wheat variety trials that expanded across the region to include Washington and Oregon, and additional crops of barley, canola, and cool season legumes. The University of Idaho in collaboration with Oregon State University and Washington State University has combined and organized these data sets into a set of tools collectively called “[WAVE” - the Western Agricultural Variety Explorer](https://www.westernagdata.org/){.external target="_blank"}. <!--- Is .external target="_blank" needed? This is already covered in two _quarto.yml options: link-external-icon: (currently false but can be enabled) and link-external-newwindow: true (all external links open in a new window). --->
 
 
 There are two major outputs:  
