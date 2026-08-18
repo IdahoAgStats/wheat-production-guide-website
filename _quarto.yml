@@ -85,6 +85,8 @@ format:
     comments: 
       hypothesis: 
         theme: clean
+        openSidebar: false
+        showHighlights: whenSidebarOpen
         
  # pdf: default
  #   page-navigation:
