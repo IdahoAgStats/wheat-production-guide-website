@@ -1,7 +1,6 @@
 ---
 title: "Basic Recommendations and Quick Facts"
 link-citations: true
-#format: html
 fig-cap-location: bottom
 reference-location: margin
 reference-section-title: References
