@@ -9,7 +9,7 @@ style="width:95%;height:auto;box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
 *Image: J Piaskowski*
 
 
-## Key attributes for Idaho production conditions
+### Key attributes for Idaho production conditions
 
 Idaho’s wheat production contributes significantly to both domestic and international wheat markets. Nationally, Idaho ranks among the top eight states for wheat and wheat-product exports, with approximately 50% of the wheat grain production destined for the export market.  
 
@@ -20,17 +20,18 @@ Southeast Idaho has a unique irrigation infrastructure. In this area, stripe rus
 Wheat in Northern Idaho is grown in a rainfed environment resulting in different diseases and pests. Biotic stresses include stripe rust, take-all, eyespot (strawbreaker foot rot), snow mold, barley yellow dwarf, wheat streak mosaic virus (WSMV), soilborne wheat mosaic virus (SBWMV), wireworms, aphids, cereal leaf beetle, Hessian fly, grasshoppers, and nematodes. Abiotic stresses include drought and heat, aluminum toxicity, and winter cold injury.  
 
 
-## Wheat Cultivar Development at the University of Idaho
+### Wheat Cultivar Development at the University of Idaho
 
-The University of Idaho has two breeding programs:  one located on Moscow campus in the Northern panhandle of the state, and another located in Aberdeen Research & Extension Center in Southeast Idaho. The northern program focuses on the soft white winter wheat development in partnership with Limagrain Cereal Seeds (LCS). The southern program focuses on spring wheat development in three market classes:  soft white spring, hard white spring, and hard red spring. Released cultivars from both breeding programs are included in **Table 4.1** below.
+The University of Idaho has two breeding programs:  one located on Moscow campus in the Northern panhandle of the state, and another located in Aberdeen Research & Extension Center in Southeast Idaho. The northern program focuses on the soft white winter wheat development in partnership with Limagrain Cereal Seeds (LCS). The southern program focuses on spring wheat development in three market classes:  soft white spring, hard white spring, and hard red spring. Released cultivars from both breeding programs are included in Table 4.1 below.
 
 
-##### **Table 4.1.** Spring and Winter Wheat Cultivars Released by University of Idaho currently in Production.
 ```{r}
 #| label: tbl-ui-cultivar
 #| include: true
 #| output: true
 #| echo: false
+#| tbl-cap: 'Spring and winter wheat cultivars released by University of Idaho currently in production.'  
+
 
 files <- list.files(here::here("data"), pattern = "^tbl_4_1")
 
@@ -43,9 +44,8 @@ tbl_4_1 <- read.csv(file = here::here(
   dplyr::select(-`PVP Date`)
 
 
-DT::datatable(tbl_4_1, rownames = FALSE, 
-              elementId = "tbl_ui_cultivar",
-              caption = FALSE,
+DT::datatable(tbl_4_1, 
+              rownames = FALSE, 
               filter = "top")
 ```
 
