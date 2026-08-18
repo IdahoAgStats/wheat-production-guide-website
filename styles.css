@@ -2,8 +2,8 @@
 
 
 .ghost-button {
-    background-color: #fff; !important;
-    color: #191919; !important;
+    background-color: #fff !important;
+    color: #191919 !important;
     border: 2px solid #191919; 
     /*border-color: none;*/
     padding: 10px 20px;
@@ -22,6 +22,35 @@
 }
 
 .img-wpg{
- box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  width: 95%;
+  height: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+.tablecontainer {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+ /* border: 1px solid #857550; */
+  border-collapse: collapse;
+}
+
+th {
+  border-collapse: collapse;
+  padding: 5em;
+  text-align: left;
+  vertical-align: bottom;
+  background-color: rgba(241,179,0,0.5);
+  color: #fff;
+}
+
+td {
+  padding: 5em;
+  text-align: left;
+
+}
