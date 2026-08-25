@@ -54,6 +54,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-8ee0eeb995b31203150a464352052aec.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark-b359c2ac2b63f52156b5d53e1e15bd47.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="site_libs/bootstrap/bootstrap-8ee0eeb995b31203150a464352052aec.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -114,9 +117,11 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
 <meta property="og:description" content="Resources for wheat production in Idaho and the surrounding region">
 <meta property="og:image" content="images/ABD_plots_2.jpg">
 <meta property="og:site_name" content="Idaho Wheat Production Guide">
+<meta property="og:image:alt" content="Small Grains Research Plots in Aberdeen, Idaho.">
 <meta name="twitter:title" content="2&nbsp; Wheat in Idaho - Introduction – Idaho Wheat Production Guide">
 <meta name="twitter:description" content="Resources for wheat production in Idaho and the surrounding region">
 <meta name="twitter:image" content="images/ABD_plots_2.jpg">
+<meta name="twitter:image:alt" content="Small Grains Research Plots in Aberdeen, Idaho.">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -293,7 +298,27 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
     <span class="navbar-title">Idaho Wheat Production Guide</span>
     </a>
   </div>
-        <div class="quarto-navbar-tools tools-end">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./21_addl_resources.html"> 
+<span class="menu-text">Resources</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
@@ -301,7 +326,6 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
   </div>
 </a>
 </div>
-          <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
@@ -503,8 +527,8 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/ABD_plots_2.jpg" class="img-wpg img-fluid figure-img"></p>
-<figcaption>Wheat plots in Aberdeen, Idaho.</figcaption>
+<p><a href="images/ABD_plots_2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Small Grains Research Plots in Aberdeen, Idaho."><img src="images/ABD_plots_2.jpg" class="img-wpg img-fluid figure-img" alt="Small Grains Research Plots in Aberdeen, Idaho."></a></p>
+<figcaption>Small Grains Research Plots in Aberdeen, Idaho.</figcaption>
 </figure>
 </div>
 <p>Wheat is an important crop throughout the Pacific Northwest and the US. Growers seed nearly 1.2 million acres every year, and yearly cash receipts have averaged $600 million in recent years. This places wheat consistently in the top five for on-farm cash receipts of the crops in Idaho. While wheat is produced across the region, production systems vary greatly due to different climates, soils and availability of irrigation. Wheat production systems in Idaho can be broken down into three major areas: Northern Idaho rainfed production systems, Southern Idaho Dryland production systems and Southern Idaho irrigated production systems.</p>
@@ -654,6 +678,8 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
             if (link.getAttribute("rel") === null) {
               link.setAttribute("rel", "noopener");
             }
+            // default icon
+            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -993,6 +1019,38 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
