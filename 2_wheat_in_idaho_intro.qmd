@@ -1,8 +1,9 @@
 ---
 title: "Wheat in Idaho - Introduction"
+lightbox: auto
 ---
 
-![Wheat plots in Aberdeen, Idaho.](images/ABD_plots_2.jpg){.img-wpg}
+![Small Grains Research Plots in Aberdeen, Idaho.](images/ABD_plots_2.jpg){.img-wpg}
 
 Wheat is an important crop throughout the Pacific Northwest and the US.  Growers seed nearly 1.2 million acres every year, and yearly cash receipts have averaged $600 million in recent years. This places wheat consistently in the top five for on-farm cash receipts of the crops in Idaho. While wheat is produced across the region, production systems vary greatly due to different climates, soils and availability of irrigation. Wheat production systems in Idaho can be broken down into three major areas: Northern Idaho rainfed production systems, Southern Idaho Dryland production systems and Southern Idaho irrigated production systems. 
 
