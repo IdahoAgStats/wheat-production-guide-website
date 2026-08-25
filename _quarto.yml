@@ -13,15 +13,22 @@ book:
   title: "Idaho Wheat Production Guide"
   description: "Resources for wheat production in Idaho and the surrounding region"
   reader-mode: true
+  back-to-top-navigation: true
   navbar:
-    top:
+    search: true
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd 
+      - text: "Resources"
+        href: 21_addl_resources.qmd
       # - text: Home
       #   href: https://idahoagstats.github.io/wheat-production-guide-website/
       #   aria-label: Home
       # - text: About
       #   href: https://idahoagstats.github.io/wheat-production-guide-website/about.html
       #   aria-label: About the Project
-        search: true
       
   page-footer:
     center: |
@@ -80,7 +87,7 @@ format:
     toc-location: right
     number-sections: true
     number-depth: 1
-    link-external-icon: false
+    link-external-icon: true
     link-external-newwindow: true
     comments: 
       hypothesis: 
