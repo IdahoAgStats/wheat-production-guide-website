@@ -125,7 +125,7 @@ Always follow label directions – including rates, timing, and restrictions –
 
 Integrated pest management is a framework that supports informed decision-making and economically sound pest management. By combining monitoring, science-based management thresholds, cultural practices, biological control, and careful use of pesticides, producers can manage pests effectively while protecting yield, profitability, and the long-term sustainability of wheat production systems.  
 
-::: {.wpg title="Wheat Streak Mosaic Virus Example" collapse="true" icon="false"} 
+::: {.wpg title="Wheat Streak Mosaic Virus Example" collapse="false" icon="false"} 
 
 - **Monitor:** When scouting, look for stunting and green or yellow streaks or spots on leaves. Keep in mind that symptoms of WSMV and Barley Yellow Dwarf Virus often co-occur and may also be mistaken for nutrient deficiency or water stress. The presence of the vector of WSMV, the wheat curl mite (Aceria tosichella), is a good indicator that WSM is the cause of symptoms. Curled leaf edges sometimes contain these tiny mites, which are most reliably detected with the use of a hand lens on the lower leaves of the plant.  
 
@@ -136,7 +136,7 @@ Integrated pest management is a framework that supports informed decision-making
 
 :::
 
-::: {.wpg title="Hessian Fly IPM Example" collapse="true" icon="false"}
+::: {.wpg title="Hessian Fly IPM Example" collapse="false" icon="false"}
 
 - **Monitor:** Hessian fly should be monitored with pheromone-baited sticky traps, keeping weekly counts of adults captured. Additionally, soil temperature and degree day data can be used to predict adult emergence timing. Before tillering, sweep net sampling can also help detect adult flies. Where adults are detected, tillers should be visually examined to determine if puparia are present. Coordinated monitoring amongst growers is recommended for areawide control.  
 
