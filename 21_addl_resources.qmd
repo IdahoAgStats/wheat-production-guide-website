@@ -7,5 +7,6 @@ title: "Additional resources"
 - [Idaho Wheat Commission](https://www.idahowheat.org/)
 - [Idaho Grain Producers Association](https://www.idahograin.org/)
 - [Idaho Department of Agriculture](https://agri.idaho.gov/)
-- [CIMMYT](https://www.cimmyt.org/work/wheat-research/)
+- [Innovative Agriculture & Marketing Partnership for Idaho](https://iamp.uidaho.edu/)
+- [CIMMYT Global Wheat Program](https://www.cimmyt.org/work/wheat-research/)
 
