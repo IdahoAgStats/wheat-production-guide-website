@@ -3,7 +3,10 @@ title: "Wheat in Idaho - Introduction"
 lightbox: auto
 ---
 
-![Small Grains Research Plots in Aberdeen, Idaho.](images/ABD_plots_2.jpg){.img-wpg}
+![Small Grains Research Plots in Aberdeen, Idaho.](images/ABD_plots_2.jpg){.img-wpg img alt="Photo of dense, rectangular wheat research plots extending into the distance on a sunny day in Aberdeen, Idaho. The green wheat appears to be a few feet tall, with clean, mowed borders separating the plots."}
+*Image: J Piaskowski*
+<!--<img src="/images/ABD_plots_2.jpg" alt="Small Grains Research Plots in Aberdeen, Idaho"
+style="width:95%;height:auto;box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">-->
 
 Wheat is an important crop throughout the Pacific Northwest and the US.  Growers seed nearly 1.2 million acres every year, and yearly cash receipts have averaged $600 million in recent years. This places wheat consistently in the top five for on-farm cash receipts of the crops in Idaho. While wheat is produced across the region, production systems vary greatly due to different climates, soils and availability of irrigation. Wheat production systems in Idaho can be broken down into three major areas: Northern Idaho rainfed production systems, Southern Idaho Dryland production systems and Southern Idaho irrigated production systems. 
 
@@ -15,11 +18,7 @@ Northern Idaho Rainfed Wheat Production Systems are characterized by 12-24 inche
  
 ### Southern Idaho Irrigated Wheat 
 
-Key points:  
-
-*	Wheat as a rotation crop with higher value row crops  
-*	Competition from malting barley and corn for dairies  
-*	Changes in the role of irrigated wheat in the past decade  
+Production conditions in southern Idaho vary with geography and availability of irrigation, and wheat is often considered a rotation crop with higher value row crops such as potatoes and sugar beets. Western Idaho grain production is part of a diverse irrigated cropping system at lower elevations (2-3,000 feet above sea level). Eastward, the upper elevation production systems at elevations ranging from 5,000 to greater than 6,000 feet are primarily limited to dryland grain production. Along the Snake River Plain in eastern and southern Idaho, the irrigated cropping system rotations include potatoes, sugar beets, alfalfa, and other forage crops. The majority of irrigated winter wheat production is soft white winter and hard red winter. The spring wheat classes include hard red spring, hard white spring and soft white spring wheat. In areas where natural precipitation is less than 10 inches per year, irrigation is critical to successful production. Upper elevation areas receive as much as 18 inches of natural precipitation, where grain can be successfully produced in dryland production.
 
 ### Southern Idaho Dryland Wheat
 
@@ -33,8 +32,8 @@ In addition to the challenges of maintaining profitable farming operations, whea
 
 Learn more about agronomic zones:
 
-* [Agronomic Zones of the Dryland Pacific Northwest - PNW Extension ](https://extension.oregonstate.edu/sites/extd8/files/documents/pnw354.pdf)\
-* [Advances in Dryland Farming in the Inland Pacific Northwest - PNW Extension](https://pubs.extension.wsu.edu/product/advances-in-dryland-farming-in-the-inland-pacific-northwest-pnw697-reacch-handbook/)\
+* [Agronomic Zones of the Dryland Pacific Northwest - PNW Extension ](https://verso.uidaho.edu/esploro/outputs/996749646401851)\
+* [Advances in Dryland Farming in the Inland Pacific Northwest - PNW Extension](https://verso.uidaho.edu/esploro/outputs/996749637401851)\
 
 
 ## Production, acreage, classes, quality
