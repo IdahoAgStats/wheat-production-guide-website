@@ -3,11 +3,7 @@ title: "Wheat varieties and breeding"
 lightbox: auto
 ---
 
-![Small Grains Research Plots in Aberdeen, Idaho](images/ABD_plots_2.jpg){.img-wpg}  
-<!--<img src="/images/ABD_plots_2.jpg" alt="Small Grains Research Plots in Aberdeen, Idaho"
-style="width:95%;height:auto;box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">-->
-*Image: J Piaskowski*
-
+![University of Idaho Extension team guides a crop tour in Lewiston, Idaho.](images/4_lewiston_tour.jpg){.img-wpg  fig-alt="A large group looks on as the UI Extension team guides a field tour. A sign in the field with an Idaho Wheat Commission logo reads: 'Wheat Grower Dollars at Work.'"}  
 
 ## Key attributes for Idaho production conditions
 
@@ -19,6 +15,8 @@ Southeast Idaho has a unique irrigation infrastructure. In this area, stripe rus
 
 Wheat in Northern Idaho is grown in a rainfed environment resulting in different diseases and pests. Biotic stresses include stripe rust, take-all, eyespot (strawbreaker foot rot), snow mold, barley yellow dwarf, wheat streak mosaic virus (WSMV), soilborne wheat mosaic virus (SBWMV), wireworms, aphids, cereal leaf beetle, Hessian fly, grasshoppers, and nematodes. Abiotic stresses include drought and heat, aluminum toxicity, and winter cold injury.  
 
+
+[2026 Preferred Wheat Varieties](https://wpcdn.web.wsu.edu/cahnrs/uploads/sites/16/2026-Preferred-Varieties-Brochure.pdf) - Annual brochure produced jointly by Washington, Oregon, and Idaho Wheat Commissions to provide quality data for varieties grown in the Pacific Northwest region. Varieties are statistically ranked based on a minimum of three years' end-use quality data in a cross-environment study conducted by the USDA-ARS Western Wheat Quality Lab (WWQL) in Pullman, WA.
 
 ## Wheat Cultivar Development at the University of Idaho
 
