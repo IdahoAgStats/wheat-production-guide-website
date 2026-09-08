@@ -30,7 +30,7 @@ The amount of water a soil will store for crop use is called the *available wate
 Available water-holding capacities vary widely among soil texture types found in the Pacific Northwest. Loamy soils usually have AWHC values above 2 inches/foot, making them ideal to support consistent crop growth. Sandy soils typically hold less than 1 inch of available water per foot due to their larger pore spaces and lower surface area. Sandy loam soils generally fall somewhere in between these two extremes and are common in many irrigated agricultural regions of the Pacific Northwest.  
 
 Available water-holding capacities for most agricultural soil series found in southern Idaho are listed in Table 10. For more detailed site-specific information, consult University of Idaho CIS 236, Available Water-holding Capacities of Soils in Southern Idaho, which provides AWHC estimates of soils where irrigated wheat is commonly grown. 
-The AWHC of a soil profile varies with depth, as soil texture at different depths can vary considerably throughout the root zone. To calculate the total AWHC of a field for wheat production, first determine the thickness and texture of each soil layer within the effective root zone, which is typically around 3 feet for wheat. Then, apply the AWHC value for each layer to estimate total water storage. For example, a soil profile that is sandy in the top foot but transitions to sandy loam in the second and third feet will have different water-holding characteristics in each layer. An example calculation is shown in Table 11.  
+The AWHC of a soil profile varies with depth, as soil texture at different depths can vary considerably throughout the root zone. To calculate the total AWHC of a field for wheat production, first determine the thickness and texture of each soil layer within the effective root zone, which is typically around 3 feet for wheat. Then, apply the AWHC value for each layer to estimate total water storage. For example, a soil profile that is sandy in the top foot but transitions to sandy loam in the second and third feet will have different water-holding characteristics in each layer. An example calculation is shown in @tbl-asm.  
 
 If you are interested in determining the AWHC for a specific field or location, the [USDA Web Soil Survey](https://websoilsurvey.nrcs.usda.gov/app/WebSoilSurvey.aspx) is a valuable resource.  
 
@@ -55,7 +55,7 @@ Today, ET data are widely available through state and regional weather networks 
 | Sandy               |	1.0	                | x	| 1.0	         | = | 1.0              |
 | Sandy Loam	        | 2.0                 |	x	| 1.5	         | = | 3.0              |
 | Total ASM (inches)  |                     |   |              |   | 4.0              |
-: Table 11: Example calculation of total available soil moisture (ASM) for a soil profile containing different soil types. {#tbl-asm}
+: Example calculation of total available soil moisture (ASM) for a soil profile containing different soil types. {#tbl-asm}
 
 
 ## Irrigation systems and scheduling
@@ -75,8 +75,6 @@ To prepare for peak demand, center pivot systems should be started early in the 
 
 During peak ET periods (@fig-et), center pivot systems may need to be operated continuously with one rotation completed every 36 hours. In fields that are prone to runoff, conservation tillage practices or residue management can help minimize erosion. As ET demands decline later in the season (@fig-et), pivot application capacity will meet or exceed ET demands, allowing soil moisture to be replenished.  
 
-![A simplified representation of measured evapotranspiration (ET) for a center-pivot irrigated spring wheat in the Raft River Basin near Declo, Idaho. ET was measured using an eddy covariance system. Spring wheat was planted on April 16th, 2025, and was harvested on August 1st, 2025.](figs/fig-8-2.png){#fig-et}
-
 **Surface Systems** - By the time the first irrigation is applied, a normal wheat crop will typically have roots established to a depth of 1 foot. During the initial irrigation events with gravity systems, infiltration rates are often high, leading to overirrigation. Except in light, sandy soils, the first irrigation should be delayed until soil moisture levels decline to 40 percent ASM at a 4- to 6-inch depth. This depletion level usually corresponds to late tiller development. In areas with dry winters, fall pre-irrigation may be required to ensure adequate soil moisture at planting. However, spring pre-irrigation in dry winter areas may delay seeding dates due to wet field conditions. Soil moisture levels should be maintained at or above 60 percent ASM from the boot to flowering growth stages. Soil moisture levels can be reduced to 50 percent ASM between irrigations, but should not be reduced further.
 
 **Wheel Line and Hand-Move Systems** - For wheel line (a.k.a., side-roll) and hand-move sprinkler systems, the first irrigation should wet the soil to a depth of 6-8 inches. To prevent water stress, initial sets should be scheduled early enough that ASM does not fall below 50 percent (60 percent during tillering and from booting to flowering) at the 4–6-inch depth on the final set of the first irrigation pass.  
@@ -87,6 +85,9 @@ The second irrigation pass should apply enough water to recharge the soil profil
 
 Unnecessary irrigation late in the season wastes water, increases energy costs, heightens the risk of lodging, and reduces profitability. In many cases, irrigators apply more late-season irrigation than is necessary for optimum yields. 
 
-Resources:  
+![A simplified representation of measured evapotranspiration (ET) for a center-pivot irrigated spring wheat in the Raft River Basin near Declo, Idaho. ET was measured using an eddy covariance system. Spring wheat was planted on April 16th, 2025, and was harvested on August 1st, 2025.](figs/fig-8-2.png){#fig-et}
 
-[Estimating Water Requirements of Hard Red Spring Wheat for Final Irrigation](https://www.uidaho.edu/-/media/uidaho-responsive/files/extension/publications/bul/bul0833.pdf)  
+As shown in @fig-et, from the soft dough stage to maturity, wheat requires approximately 2.5 inches of ASM. At the soft-dough stage, kernels are fully formed and exude a dough-like texture when pressed between the thumb and index finger.) On soils with a total AWHC of 2.5 inches or greater, the final irrigation can be applied at the soft dough stage. On soils with a total AWHC of less than 2.5 inches, irrigation after the soft dough stage may be required, but total water applied beyond the soft dough stage should not exceed 2.5 inches.
+
+### Resources
+[Estimating Water Requirements of Hard Red Spring Wheat for Final Irrigation](https://www.uidaho.edu/extension/publications/bul-0833)  
