@@ -3,7 +3,7 @@ title: "Wheat in Idaho - Introduction"
 lightbox: auto
 ---
 
-![Small Grains Research Plots in Aberdeen, Idaho.](images/ABD_plots_2.jpg){.img-wpg img alt="Photo of dense, rectangular wheat research plots extending into the distance on a sunny day in Aberdeen, Idaho. The green wheat appears to be a few feet tall, with clean, mowed borders separating the plots."}
+![Small Grains Research Plots in Aberdeen, Idaho.](images/ABD_plots_2.jpg){.img-wpg  fig-alt="Photo of dense, rectangular wheat research plots extending into the distance on a sunny day in Aberdeen, Idaho. The green wheat appears to be a few feet tall, with clean, mowed borders separating the plots."}
 *Image: J Piaskowski*
 <!--<img src="/images/ABD_plots_2.jpg" alt="Small Grains Research Plots in Aberdeen, Idaho"
 style="width:95%;height:auto;box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">-->
