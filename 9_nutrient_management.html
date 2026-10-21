@@ -2,10 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Erin Brooks">
+<meta name="author" content="Kendall Kahl">
+<meta name="author" content="Mario E. de Haro-Martí">
 <meta name="description" content="Resources for wheat production in Idaho and the surrounding region">
 
 <title>9&nbsp; Nutrient management – Idaho Wheat Production Guide</title>
@@ -46,14 +49,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-0f05cba98e93abd5bfacabf37e46c573.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-36489fe9f95e83378e31b3375ef0b6a4.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-0f05cba98e93abd5bfacabf37e46c573.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-d01a0285907841b456cc330c33c4178b.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0fdbf094c65d9082aef9456916f93799.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-d01a0285907841b456cc330c33c4178b.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-edf9100532a4e9efabe17021ec31f4ef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-d5f748049f7eae759925b0bfebbbc796.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-edf9100532a4e9efabe17021ec31f4ef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ebba650c80367756f13d22c84c7374d2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-7d012039bf6392667d2f5a022b9278b8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-ebba650c80367756f13d22c84c7374d2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -108,15 +111,46 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
 }
 </style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="9&nbsp; Nutrient management – Idaho Wheat Production Guide">
 <meta property="og:description" content="Resources for wheat production in Idaho and the surrounding region">
-<meta property="og:image" content="images/wheat-cover.png">
+<meta property="og:image" content="images/9_cover.png">
 <meta property="og:site_name" content="Idaho Wheat Production Guide">
+<meta property="og:image:alt" content="">
 <meta name="twitter:title" content="9&nbsp; Nutrient management – Idaho Wheat Production Guide">
 <meta name="twitter:description" content="Resources for wheat production in Idaho and the surrounding region">
-<meta name="twitter:image" content="images/wheat-cover.png">
+<meta name="twitter:image" content="images/9_cover.png">
+<meta name="twitter:image:alt" content="">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -488,8 +522,27 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#soil-tests-and-interpretations" id="toc-soil-tests-and-interpretations" class="nav-link active" data-scroll-target="#soil-tests-and-interpretations">Soil tests and interpretations</a></li>
-  <li><a href="#sap-and-tissue-analyses" id="toc-sap-and-tissue-analyses" class="nav-link" data-scroll-target="#sap-and-tissue-analyses">Sap and tissue analyses</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#forms-of-nitrogen-and-plant-available-nutrients" id="toc-forms-of-nitrogen-and-plant-available-nutrients" class="nav-link" data-scroll-target="#forms-of-nitrogen-and-plant-available-nutrients">Forms of Nitrogen and Plant Available Nutrients</a></li>
+  <li><a href="#nutrient-management-planning-and-assessment" id="toc-nutrient-management-planning-and-assessment" class="nav-link" data-scroll-target="#nutrient-management-planning-and-assessment">Nutrient Management Planning and Assessment</a></li>
+  <li><a href="#basics-of-fertilizer-guides-and-nutrient-rate-studies" id="toc-basics-of-fertilizer-guides-and-nutrient-rate-studies" class="nav-link" data-scroll-target="#basics-of-fertilizer-guides-and-nutrient-rate-studies">Basics of Fertilizer Guides and Nutrient Rate Studies</a>
+  <ul>
+  <li><a href="#sap-testing" id="toc-sap-testing" class="nav-link" data-scroll-target="#sap-testing">Sap Testing</a></li>
+  </ul></li>
+  <li><a href="#types-and-forms-of-fertilizer" id="toc-types-and-forms-of-fertilizer" class="nav-link" data-scroll-target="#types-and-forms-of-fertilizer">Types and Forms of Fertilizer</a>
+  <ul>
+  <li><a href="#organic-sources" id="toc-organic-sources" class="nav-link" data-scroll-target="#organic-sources">Organic Sources</a></li>
+  <li><a href="#synthetic-fertilizers" id="toc-synthetic-fertilizers" class="nav-link" data-scroll-target="#synthetic-fertilizers">Synthetic fertilizers</a></li>
+  </ul></li>
+  <li><a href="#improving-nutrient-use-efficiency" id="toc-improving-nutrient-use-efficiency" class="nav-link" data-scroll-target="#improving-nutrient-use-efficiency">Improving Nutrient Use Efficiency</a></li>
+  <li><a href="#management-strategies-for-long-term-sustainability" id="toc-management-strategies-for-long-term-sustainability" class="nav-link" data-scroll-target="#management-strategies-for-long-term-sustainability">Management Strategies for Long-term Sustainability</a></li>
+  <li><a href="#fertility-guide-structure" id="toc-fertility-guide-structure" class="nav-link" data-scroll-target="#fertility-guide-structure">Fertility Guide Structure</a>
+  <ul>
+  <li><a href="#nitrogen-supply-ns" id="toc-nitrogen-supply-ns" class="nav-link" data-scroll-target="#nitrogen-supply-ns">Nitrogen Supply (N<sub>s</sub>)</a></li>
+  <li><a href="#nitrogen-soil-test-nspre" id="toc-nitrogen-soil-test-nspre" class="nav-link" data-scroll-target="#nitrogen-soil-test-nspre">Nitrogen Soil Test (N<sub>s,pre</sub>)</a></li>
+  <li><a href="#nitrogen-mineralization-nmin" id="toc-nitrogen-mineralization-nmin" class="nav-link" data-scroll-target="#nitrogen-mineralization-nmin">Nitrogen Mineralization (N<sub>min</sub>)</a></li>
+  <li><a href="#nitrogen-from-previous-crop-residue-nres" id="toc-nitrogen-from-previous-crop-residue-nres" class="nav-link" data-scroll-target="#nitrogen-from-previous-crop-residue-nres">Nitrogen from Previous Crop Residue (N<sub>res</sub>)</a></li>
+  </ul></li>
   <li><a href="#calculator---rates-dates-yield-goals" id="toc-calculator---rates-dates-yield-goals" class="nav-link" data-scroll-target="#calculator---rates-dates-yield-goals">Calculator - rates / dates / yield goals</a></li>
   <li><a href="#northern-idaho---n-fertility-macro-nutrients-micro-nutrients" id="toc-northern-idaho---n-fertility-macro-nutrients-micro-nutrients" class="nav-link" data-scroll-target="#northern-idaho---n-fertility-macro-nutrients-micro-nutrients">Northern Idaho - N fertility; Macro-nutrients; Micro-nutrients</a></li>
   <li><a href="#southern-idaho-irrigated---n-fertility-macro-nutrients-micro-nutrients" id="toc-southern-idaho-irrigated---n-fertility-macro-nutrients-micro-nutrients" class="nav-link" data-scroll-target="#southern-idaho-irrigated---n-fertility-macro-nutrients-micro-nutrients">Southern Idaho irrigated - N fertility; Macro-nutrients; Micro-nutrients</a></li>
@@ -513,12 +566,21 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Nutrient management</span></h1>
+<p class="subtitle lead">Soil Fertility, Fertilizer Strategies, and Post-Harvest Evaluation</p>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Erin Brooks </p>
+             <p>Kendall Kahl </p>
+             <p>Mario E. de Haro-Martí </p>
+          </div>
+  </div>
     
   
     
@@ -529,14 +591,198 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
 </header>
 
 
-<p><strong><em>intro/summary text</em></strong></p>
-<section id="soil-tests-and-interpretations" class="level2">
-<h2 class="anchored" data-anchor-id="soil-tests-and-interpretations">Soil tests and interpretations</h2>
-<p><strong><em>section text</em></strong></p>
+<p><img src="images/9_cover.png" class="img-wpg img-fluid" alt=""></p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Crop productivity can be limited by many factors including water, weeds, pests, diseases, pH, and nutrient deficiency. In the western US, crop productivity is primarily limited by the availability of water. With wet, cold winters and dry, hot summers the productivity of a crop is largely dictated by the plant available water during the growing season. If stored water for diversion is available such as reservoirs and groundwater then timely irrigation can overcome water limitations. The ability of a soil to retain water (i.e.&nbsp;soil water holding capacity) between infrequent rainfall events, which can be impacted by soil management practices, such as tillage and soil amendments, is also a critical factor limiting crop productivity.</p>
+<p>After water and climate limitations are considered, one of the next challenges is identifying potential nutrient limitations to the plant. Nutrient availability is largely controlled by soil physical, chemical, and biological attributes. Deficient nutrients can be identified and supplemented to a field through direct fertilizer application; however, to maximize efficiency, minimize environmental pollutants and support long-term soil health, best management practices recommend precision applications to minimize excess fertilizer in agricultural soils.</p>
 </section>
-<section id="sap-and-tissue-analyses" class="level2">
-<h2 class="anchored" data-anchor-id="sap-and-tissue-analyses">Sap and tissue analyses</h2>
-<p><strong><em>section text</em></strong></p>
+<section id="forms-of-nitrogen-and-plant-available-nutrients" class="level2">
+<h2 class="anchored" data-anchor-id="forms-of-nitrogen-and-plant-available-nutrients">Forms of Nitrogen and Plant Available Nutrients</h2>
+<p>Generally, the total nutrient content in soils far exceeds that which is required to grow a plant. However, the majority of the nutrients are often in a form not directly consumable by a plant. Nutrients exist in two general chemical forms: <strong>organic</strong> (bound to carbon atoms) and <strong>inorganic</strong> (generally not bound to carbon atoms). Nutrients in an organic form, such as those within crop residue and soil organic matter, cannot be directly consumed by a plant and require decomposition and mineralization processes to transform nutrients into inorganic, plant-available forms, such as ammonium (NH<sub>4</sub><sup>+</sup>) or nitrate (NO<sub>3</sub><sup>-</sup>).</p>
+<p>This decomposition process is driven by microbial activity, and the rate at which it occurs depends on temperature, moisture, the amount and composition of organic material, the diversity and abundance of the microbial population and other environmental conditions. Not all inorganic forms of nutrients are available either. The inorganic mineral particles of soil contain micronutrients that only become available to plants through weathering either by water or can also be accelerated through root exudates<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. Positively charged inorganic forms of nutrients can also strongly bind to negatively charged soil minerals, particularly clay particles, or other negatively charged molecules bound to soils which make these nutrients unavailable to plants. Many of the plant-available nutrients can also be transported and transformed by water and air, and therefore the amount of nutrients available to a plant can change throughout a cropping year.</p>
+</section>
+<section id="nutrient-management-planning-and-assessment" class="level2">
+<h2 class="anchored" data-anchor-id="nutrient-management-planning-and-assessment">Nutrient Management Planning and Assessment</h2>
+<p>Understanding the factors driving the changes in the amount of plant-available nutrients throughout the year is critical for developing an efficient nutrient management plan for a farm that minimizes the risk of nutrient stress, optimizes profitability as well as long term sustainability. A nutrient management plan should not be limited to soil sampling or other methods to estimate available nutrients at planting and fertilizer application to meet potential plant needs but should also be considered within the context of crop rotations and other cultural practices that impact long-term soil health properties, such as increasing organic matter, microbial populations, soil water retention, and remediation of soil acidification. The nutrient management plan should focus on meeting crop needs and minimizing excessive applications, which can negatively impact the environment and overall profitability. Nutrient management plans should include an evaluation of nutrient uptake efficiencies and explore methods to improve efficiencies through the 4Rs strategy (Right Source, Right Rate, Right Time, and Right Place). Nutrient management plans should also be adaptive and respond to changes in soil health, biology and organic nutrient pools.</p>
+</section>
+<section id="basics-of-fertilizer-guides-and-nutrient-rate-studies" class="level2">
+<h2 class="anchored" data-anchor-id="basics-of-fertilizer-guides-and-nutrient-rate-studies">Basics of Fertilizer Guides and Nutrient Rate Studies</h2>
+<p>Crop specific soil fertility guides have been created specifically for growing wheat in both irrigated and non-irrigated regions of Idaho. The University of Idaho has created fertility guides for North Idaho Soft White Winter Wheat, North Idaho Spring Wheat (which provides recommendations for soft white and hard red spring wheat), Irrigated Winter Wheat, and Irrigated Soft White Spring Wheat. Additional regional wheat-based fertility guides are available for eastern Washington through Washington State University and eastern Oregon through Oregon State University which provides valuable fertility information particularly for drier regions which incorporate summer fallow prior to seeding winter wheat.</p>
+<p>These fertility guides are based on fertilizer rate experiments in replicated plot trials using conventional cropping and tillage practices at the time of the studies. Many of these guides were originally developed decades ago using varieties that aren’t widely used today, and typically plot trials investigated the impact of a particular nutrient by varying the application rate of only one critical nutrient (e.g.&nbsp;nitrogen) while ensuring that all remaining essential plant nutrients were not limiting plant growth. The optimal fertilizer rate would be based on the point at which additional added nutrient did not make any significant impact on crop yield.</p>
+<p>Inherent to each plot trial is some quantity of nutrient loss that is influenced by local soil and environmental conditions and climatic factors. For nitrogen, major loss pathways include leaching, volatilization (off-gassing) or immobilization (both temporary to semi-permanent). Nutrient loss is also influenced by the type of fertilizer, the timing of applications, precipitation or irrigation rates, and soil type. In the decades since these trials were conducted, soil conditions, farm equipment, crop varieties/plant breeding, and fertilizer products have advanced to improve efficiency. Additionally, in many parts of the state, producers now apply nitrogen stabilizers and inhibitors to minimize over winter losses of nitrate.</p>
+<div class="callout callout-style-default callout-wpg no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Wpg</span>Using Fertility Guides:  Adjust for Nutrient-Use Efficiency
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Recommendations in the fertility guides include <strong>inherent losses.</strong> If measures are taken to monitor and improve nutrient-use efficiency, optimal fertilizer rates for the cropping system could be well below fertility guide recommendations.</p>
+</div>
+</div>
+<p>In contrast, if a grower has poor soil with a tendency to transport nutrients by leaching or runoff, then nutrient stress may occur despite applying recommended rates unless steps are taken to ensure environmental losses are minimized (e.g., split applications of fertilizer). It is not uncommon for nitrogen rates in fertility guides to assume only 50% of the nitrogen fertilizer is taken up by the crop with the remaining portion either lost to the environment or temporarily immobilized<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> in soil microbial communities.</p>
+<p>Fertilizer recommendations can be provided in a fertility guide as a fixed minimum threshold based on a soil nutrient concentration (ppm) or mass (lb/ac) before yield is impaired based on pre-plant soil sampling (e.g., phosphorus) or can be related to the potential crop yield goal (e.g., nitrogen) where the amount of nutrient recommended to be available in the soil increases with the crop yield goal expected by a producer. Specifically for nitrogen, the wheat-based soil fertility guides provide a recommended unit nitrogen requirement (UNR) in lb N per bushel, which estimates the overall nitrogen supply required to meet a specific crop yield goal.</p>
+<div class="callout callout-style-default callout-wpg no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Wpg</span>Using Fertility Guides:  Soil Sampling
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>All of the regional wheat-based fertility guides currently available to producers <strong>require accurate and representative soil samples be taken to document available nutrients in the field.</strong></p>
+<p>The University of Idaho wheat-based fertility guides provide recommendations specifically for nitrogen, phosphorus, potassium, and sulfur with acknowledgment of copper (Cu), iron (Fe), manganese (Mn), molybdenum (Mo), boron (B), and zinc (Zn) as other important yet seldom deficient micronutrients.</p>
+</div>
+</div>
+<section id="sap-testing" class="level3">
+<h3 class="anchored" data-anchor-id="sap-testing">Sap Testing</h3>
+<p>There is growing interest in the wheat industry in the use of plant sap testing, which involves taking old and new plant leaf samples from representative plants during the growing season and sending them to labs that can extract the sap in the stems and assess the concentration of many nutrients. Specific labs then provide an interpretation of deficiencies across a wide range of nutrients which then can be applied as an in-season foliar spray.</p>
+<p>Currently there are a limited number of labs that can analyze sap samples, and no university-based recommendations for sap testing exist. Producers should use caution when relying on in-season foliar sprays, as there is a risk the applied nutrients will not be taken up by plants but rather remain isolated on near-surface soils or crop leaves, particularly in dryland wheat crops. Sap testing and foliar sprays are an active area of research in the region.</p>
+</section>
+</section>
+<section id="types-and-forms-of-fertilizer" class="level2">
+<h2 class="anchored" data-anchor-id="types-and-forms-of-fertilizer">Types and Forms of Fertilizer</h2>
+<p>One key aspect of a nutrient management plan is the selection of the type of fertilizer. Nutrients can be applied to a field through organic sources, synthetic inorganic sources or a combination of both. Where affordable and available, organic nutrient sources (e.g., manure, compost, worm castings) can be applied to meet nutrient deficiencies while also providing micronutrients and carbon additions that can stimulate microbial activity.</p>
+<section id="organic-sources" class="level3">
+<h3 class="anchored" data-anchor-id="organic-sources">Organic Sources</h3>
+<p>The nutrient content in some organic sources (i.e., composts) can vary; testing these products is recommended to accurately assess the total nutrients applied to the field. It is important to know the contents of both organic and inorganic forms of nutrients – particularly N and P. The <strong>carbon to nitrogen ratio (C:N)</strong> is another important factor to consider. An organic amendment with a C:N ratio greater than 30:1 may <em>reduce</em> available N (through immobilization processes), whereas a C:N ratio less than 20:1 will result in a net release of N, and more rapid conversion to plant-available forms.</p>
+<p>University research has produced general recommendations as to the percentage of the total nitrogen in applied organic sources that should be expected to become available to a plant. The percentage of the total nitrogen in fresh beef-derived manure, stockpiled dairy manure, dairy cow separated solids, and composted beef manure that may be generally considered to become available during the first year of application is 22.5%, 15%, 2.5%, and 5%, respectively.</p>
+<p>Long-term, repeated annual application of manure can also lead to increased organic nitrogen carryover. When applying straight manure or compost, it is recommended to test soil regularly to monitor the accumulation of salts and phosphorus and avoid excessive concentrations, which can pose problems to soil health and water quality that are challenging to remediate.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Learn more about fertilizing with manure, compost, and other organic amendments">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Learn more about fertilizing with manure, compost, and other organic amendments
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p><a href="https://pubs.extension.wsu.edu/product/fertilizing-with-manure/">PNW 533 - Fertilizing with Manure and Other Organic Amendments</a><br>
+<em>Andy Bary, Craig Cogger, and Dan Sullivan, 2016.</em><br>
+* Are you thinking about using manure to fertilize your farm but want more information? Properly managed manure applications recycle nutrients to crops, improve soil quality, and protect water quality. From deciding whether manure is right for your farm to learning how to calibrate manure applications, this publication takes you through the process of fertilizing with manure and other organic amendments.</p>
+<p><a href="https://www.uidaho.edu/extension/publications/pnw-0673">PNW 673 - Sampling Dairy Manure and Compost for Nutrient Analysis</a><br>
+<em>Amber Moore, Mario de Haro-Marti, and Lide Chen, 2014.</em><br>
+* Testing the nutrient content of dairy manure or compost reveals nutrient value and determines the application rate, but it must be done correctly. This six-page guide shows you how to conduct a proper test, from obtaining a representative sample (summarized in a handy two-page, illustrated section), selecting a reliable testing laboratory, determining which lab analyses are needed (including total nitrogen, nitrate nitrogen, ammonium nitrogen, total phosphorus, total potassium and solids) to estimating nutrient availability and calculating all the results.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="synthetic-fertilizers" class="level3">
+<h3 class="anchored" data-anchor-id="synthetic-fertilizers">Synthetic fertilizers</h3>
+<p>There are many options for producers opting to apply synthetic fertilizers ranging from pressured gas, liquids, and solids. In each case the proportion of a specific nutrient per unit mass or volume can vary greatly. Depending on the fertilizer source, the nitrogen can be provided in various proportions of ammonia and nitrate. Ammonia-based fertilizers have a positive charge and therefore have the added benefit of binding to soil as ammonium, which minimizes transport by water. Depending on soil moisture, temperature and pH, soil microbes convert ammonium to nitrate which is a readily available form for uptake by plants, but also susceptible to leaching. Through this nitrification process, hydrogen ions are released resulting in a decrease in soil pH. In wet, high pH soils, ammonium is susceptible to loss through <strong>volatilization</strong><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>, a process referred to as <strong>ammonification</strong>.</p>
+<div class="callout callout-style-default callout-wpg no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Wpg</span>Soil Acidification:  Challenges in Northern Idaho
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>In North Idaho, soil acidity has become a major management concern and has resulted in many growers applying lime to their fields to reverse this trend. The acidification of soils particularly in the band where fertilizer is applied is due to both the nitrification of ammonia-based fertilizer and the excessive leaching of base cations when bonded with negatively charged nitrate ions.</p>
+<p>In higher precipitation regions where runoff and nitrogen leaching can be excessive, it is recommended to <strong>split fertilizer applications for winter wheat</strong> where a small portion of the nitrogen is applied at planting and a larger portion is applied in the spring after snowmelt and wet winter months. This strategy can help reduce losses and may reduce the total quantity of nitrogen fertilizer that is required.</p>
+<p>However, producers in North Idaho face an additional challenge, particularly in the high precipitation zones (e.g., &gt;22 inches) in soils with restrictive layers that create perched water tables. In these areas, extended saturated soils in the spring limit the ability to drive equipment into fields to top dress nitrogen.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-wpg no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Wpg</span>Southern Idaho:  Strategies for Alkaline Soils
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>In South Idaho, soils tend to be more alkaline which requires unique strategies to avoid excess loss of nutrients and ensure applied fertilizers are available to the plants. Specifically in alkaline soils, phosphorus can be tied up with calcium in the soil resulting in potential crop nutrient stress.</p>
+<p>Nitrogen fertilizers often produce a quicker and more pronounced ammonification response than in acidic soils, potentially improving short‑term crop uptake but also increasing the risk of ammonia volatilization, particularly in warm dry soils.</p>
+<p>Producers often add additional sulfur to drop soil pH to more neutral ranges to avoid phosphorus binding and minimize ammonia volatilization. Precise application rates and timing are crucial to avoiding nutrient losses and environmental impacts.</p>
+</div>
+</div>
+</div>
+<p><strong>Anhydrous ammonia</strong> is a commonly-used fertilizer applied to fields 1-2 inches below the seed. It is often the cheapest and most concentrated nitrogen source, composed of 82% nitrogen as ammonia. <strong>Urea</strong> is another common fertilizer that can be applied as a dry solid or in liquid fertilizer blends and is composed of 46% nitrogen. Urea is highly volatile and can lead to considerable ammonia losses if dry fertilizer is not incorporated in the soil soon after application, particularly under warm, moist soil conditions. Two common liquid-based fertilizers are <strong>Aqua-ammonia</strong> (20% ammonia-nitrogen) and <strong>UAN-32</strong> (32% total nitrogen, composed of 25% ammonia, 25% nitrate, 50% urea forms). An additional dry fertilizer source that provides both nitrogen and sulfur is <strong>ammonium-sulfate</strong>, which is composed of 21% ammonium nitrogen and 24% sulfur.</p>
+</section>
+</section>
+<section id="improving-nutrient-use-efficiency" class="level2">
+<h2 class="anchored" data-anchor-id="improving-nutrient-use-efficiency">Improving Nutrient Use Efficiency</h2>
+<p>Fertilizer costs are one of the largest annual expenses to a producer and excess applications of synthetic and organic fertilizers can have negative consequences on soil health and the environment. Annual monitoring and evaluation is recommended to improve nutrient use efficiency at the farm and field level, to improve profitability and to reduce potential environmental degradation.</p>
+<p>Several technological advances exist that can improve fertilizer application efficiency and better target appropriate application rates. In many large production farms, reducing the area of a field that receives overlapping fertilizer through the acquisition of GPS-guided autosteer and section or nozzle control can help avoid over-application and pay off through reduced fertilizer costs and improved yields within a few years. For example, a 6-inch reduction in the overlap between adjacent passes with a sprayer or drill with a 40 ft applicator is a 1.3% (0.5 ft / 40ft = 0.013 or 1.3%) reduction in required fertilizer costs.<br>
+For big farms with several applications of fertilizer, this 1.3% reduction in purchased fertilizer could make purchasing autosteer and GPS-guided systems pay off within two years. In diverse fields where expected crop yield varies dramatically, variable rate fertilizer application strategies based on two or more management zones that delineate differences in expected crop yield due to variability in soil type can make a farm more profitable through reduced fertilizer costs. The greatest cost savings often occur when producers drop fertilizer rates on the poorest ground within the field, particularly if the yield varies by more than 10% across a single managed field. Crop yield monitors can be used to monitor crop variability and can then be used to create multiple management zones to distinguish regions of unique crop response.</p>
+<p>Several cultural practices can also help improve nutrient use efficiency. Producers may consider building soil organic matter, water, and nutrient holding capacity through compost or biochar or other high-carbon amendments in areas of fields that consistently underperform. Timing fertilizer applications to better align with growth stages that require more nutrients can also minimize losses and reduce overall application rates. However, efficient and effective timing of fertilizer application is dependent on many factors. In southern Idaho irrigated crops, research has shown that split applications at planting and jointing does not improve yield, or may even reduce yield, in hard and soft white spring wheat and spring barley. In well-drained soils, applying irrigation more efficiently to avoid over application of water can reduce nitrate leaching and could potentially reduce the required amount of nitrogen fertilizer.</p>
+</section>
+<section id="management-strategies-for-long-term-sustainability" class="level2">
+<h2 class="anchored" data-anchor-id="management-strategies-for-long-term-sustainability">Management Strategies for Long-term Sustainability</h2>
+<p>Long-term goals of sustainable nutrient management include building the soil’s capacity to retain and cycle nutrients, incorporate the use of organic forms of nutrients, and improve overall nutrient use efficiency of crop production systems. Increasing the diversity of crop rotations, incorporating intercropping and cover cropping with or without grazing are strategies that can supply and cycle organic nutrients, with potential to improve soil structure, soil water retention, reduce weed and disease pressure, improve crop yield and can promote larger and diverse populations of above and below ground beneficial insects and microorganisms.</p>
+<p>As soil health improves and microbial activity increases, there is greater potential for microbial mineralization processes to increase available nutrient supply particularly at times when crop nutrient demands are high. Producers should be able to see increases in soil organic matter, increase in soil structure as manifested in increased aggregate stability, a softening of the soil and gradual reduction in density of hard pans, an increase in infiltration and reduction in surface runoff, and a potential deepening of the maximum rooting depth.</p>
+<p>One easy monitoring approach to document potential changes in nutrient cycling is to analyze post-harvest soil samples for inorganic N, particularly in highly productive years, to determine the amount of residual nitrogen in the soil. If a large amount of inorganic nitrogen remains in the soil after harvest in a highly productive year, the nutrient mineralization processes are likely larger than expected, or losses were less than expected, indicating an opportunity to cut back synthetic fertilizer rates in future years.</p>
+<p>Using crop rotations and crop residue retention (i.e., non-harvested plant components) to cycle and store nutrients is another important and common cultural practice for maintaining long-term soil health and soil nutrient supply. Decomposition of crop residue provides carbon and other plant essential nutrients, supporting soil organism populations and the release of nutrients to future crops. A common strategy is to grow legumes before high N requirement crops, such as winter wheat, to supply nitrogen through fixation with symbiotic microorganisms, but also through the retention of high N crop residues. Another important factor to monitor is the amount of nutrients cycling through crops to differentiate between nutrients that are removed at harvest versus what is retained in the field as crop residue, and can be estimated using common grain quality metrics (see nitrogen harvest index in section 9.6 below). These values, in combination with post-harvest soil N measurements and applied fertilizer rate information provide an easy indication of nitrogen use efficiency at the end of each season that can be used for monitoring and improving nutrient management practices over time.</p>
+<p>Including variable nitrogen fertilizer rate strips in fields is another important strategy to determine optimal nitrogen fertilizer rates appropriate for local soil and climate conditions. Ideally, a crop yield monitor would allow for quick analysis of yield differences in each strip. If crop yield monitors are not available, freely availably satellite imagery can be used to evaluate relative differences within a field. In this case, producers should ensure fertilizer strips are at least twice as wide as the spatial resolution (i.e., pixel size) being detected by satellite imagery (see more detail below).</p>
+</section>
+<section id="fertility-guide-structure" class="level2">
+<h2 class="anchored" data-anchor-id="fertility-guide-structure">Fertility Guide Structure</h2>
+<p>The basic structure of all wheat-based fertility guides for the western US is largely consistent. In nearly all guides the total recommended supply of nitrogen (Nₛ) that a grower should ensure is available to a plant during a growing season is directly related to expected crop yield. The recommended amount of nitrogen fertilizer (N<sub>fert</sub>) is calculated by estimating the deficit of inorganic nitrogen that will be in the soil after major sources and sinks of N are estimated and accounted for, as shown in the equation below:</p>
+<p><span class="math display">\[
+N_{fert}  =  N_s  −  N_{s,pre}  −  N_{min}  ±  N_{res}
+\]</span></p>
+<p>The major sources and sinks of N include the amount of inorganic nitrogen already in the soil at planting (N<sub>s,pre</sub>), the inorganic N that will likely become available through N mineralization of soil organic matter (N<sub>min</sub>) over the growing season, and the nitrogen that may become available or be consumed through the breakdown of a plant residue from a previous crop (N<sub>res</sub>).</p>
+<section id="nitrogen-supply-ns" class="level3">
+<h3 class="anchored" data-anchor-id="nitrogen-supply-ns">Nitrogen Supply (N<sub>s</sub>)</h3>
+<p>The nitrogen supply recommendation is based on fertility trials designed to identify the optimal fertilizer rate which maximizes crop yield. In nearly every fertility guide the amount of nitrogen supply (lb) required to produce a single bushel of wheat is referred to as the <strong>unit nitrogen requirement (UNR)</strong>. It is important to point out that N<sub>s</sub> includes not only the amount of nitrogen that will directly be consumed by the plant to achieve the desired crop yield but also implicitly includes an estimate of the amount of nitrogen losses that typically occur in a conventional farming system including nitrogen leaching, volatilization, and denitrification – this is considered the nitrogen uptake efficiency rate.</p>
+<p><strong>Table 9.1</strong></p>
+</section>
+<section id="nitrogen-soil-test-nspre" class="level3">
+<h3 class="anchored" data-anchor-id="nitrogen-soil-test-nspre">Nitrogen Soil Test (N<sub>s,pre</sub>)</h3>
+<p>All fertility guides recommend soil sampling to assess the amount of inorganic N (nitrate or ammonium) in the soil prior to planting. Soils should be sampled at least two weeks prior to anticipated soil application to ensure the soil analysis labs can return test results before fertilization. Soils should be sampled in 1 ft increments down to an effective rooting depth.</p>
+<p>In general, it is recommended for the deeper soils in the high precipitation zones of Eastern Washington, Eastern Oregon and North Idaho that soils are sampled down to 3 to 4 ft whereas in the more arid soils of Southern Idaho soil sampling only needs to occur in the top 2 ft. Lab analysis results are often provided in concentration units of parts per million (ppm) by mass (i.e.&nbsp;mg/kg). To convert from ppm units to pounds per acre per foot requires an assumption of the bulk density of the soil. In general for fine dryland soils in North Idaho, Eastern Washington, and Eastern Oregon multiply by a factor of 3.5 whereas use 4 for the more coarse soils in southern Idaho.</p>
+<p><strong>Table 9.2</strong></p>
+</section>
+<section id="nitrogen-mineralization-nmin" class="level3">
+<h3 class="anchored" data-anchor-id="nitrogen-mineralization-nmin">Nitrogen Mineralization (N<sub>min</sub>)</h3>
+<p>The nitrogen which becomes available during the growing season through the breakdown of organic forms of nitrogen to inorganic plant available nitrogen is called nitrogen mineralization (N<sub>min</sub>). Nitrogen mineralization is greatest in warm, moist soils (68 – 86°F, 80-100% of field capacity soil moisture) and generally increases with greater soil organic matter. Soils with abundant and diverse microbial communities and a large supply of low carbon/high nitrogen soil organic matter would be capable of generating large amounts of inorganic N through mineralization processes. In arid soils with little organic matter N<sub>min</sub> may be insignificant.</p>
+<p>Nitrogen mineralization can range from as little as 10 to over 100 lb N/ac, and while it can be a substantial contributor to N supply, only rough estimates are available and actual rates are difficult to predict. It is currently recommended that in the intermediate to high precipitation zones of North Idaho, Eastern Washington and Eastern Oregon that producers assume 20 lbs of N will become available to the crop for every 1 percent organic matter in the soil in fields managed following a conventional till system. This drops to 17 lbs N for every 1 percent organic matter in fields managed following a no-till system.</p>
+<p><strong>Table 9.3</strong></p>
+</section>
+<section id="nitrogen-from-previous-crop-residue-nres" class="level3">
+<h3 class="anchored" data-anchor-id="nitrogen-from-previous-crop-residue-nres">Nitrogen from Previous Crop Residue (N<sub>res</sub>)</h3>
+<p>Most fertility guides recommend producers specifically account for the nitrogen that becomes available through the breakdown of any previous crop residue having a low C/N ratio (e.g.&nbsp;legume crop residue) left on the field, or the additional amount of nitrogen that will be needed to compensate for crop residue with a high C/N ratio (e.g.&nbsp;cereal grains) during decomposition processes by soil microbes. Fertility guides provide estimated quantities of N that may become available (i.e.&nbsp;N credit) to either winter or spring wheat, or some provide estimates for specific types of legumes (Table 9.4).</p>
+<p><strong>Table 9.4</strong></p>
+<p><strong>Table 9.5</strong></p>
+<div class="callout callout-style-default callout-wpg no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Wpg</span>Example 1:  North Idaho Soft White Winter Wheat (Joe Vandal)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Joe Vandal lives in a 21-inch precipitation zone in North Idaho and is planning on planting soft white winter wheat this fall. He is a no-till farmer. He took soil samples from the top three feet. The soil test indicated he has 2.2% soil organic matter in the top 1 ft of soil. The field was planted to chickpeas the previous year and yielded 2,000 lb/ac. His winter wheat yield goal for the field this year is 120 bu/ac.</p>
+<section id="step-1-calculate-nitrogen-supply-ns" class="level5">
+<h5 class="anchored" data-anchor-id="step-1-calculate-nitrogen-supply-ns">Step 1: Calculate Nitrogen Supply (N<sub>s</sub>)</h5>
+<p>According to the North Idaho Fertility Guide, the recommended UNR for soft white winter wheat in a 21-in precipitation zone is 2.5 lb N/bu:</p>
+</section>
+</div>
+</div>
+</div>
+</section>
 </section>
 <section id="calculator---rates-dates-yield-goals" class="level2">
 <h2 class="anchored" data-anchor-id="calculator---rates-dates-yield-goals">Calculator - rates / dates / yield goals</h2>
@@ -608,6 +854,14 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
 <a href="https://www.uidaho.edu/extension/publications/bul/bul957">Irrigation and Nitrogen Fertilization Affect End-Use Quality of Spring Wheat of Three Market Classes</a></p>
 
 
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>molecules released by plant roots<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>made unavailable<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>converting to ammonia gas<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
 </section>
 
 </main> <!-- /main -->
