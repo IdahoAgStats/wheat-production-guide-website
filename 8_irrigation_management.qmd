@@ -19,7 +19,6 @@ Effective irrigation scheduling is essential for optimizing yield and water use 
 
 
 ## Crop water use and evapotranspiration
-***section text***
 
 ## Soil Available Water-Holding Capacity
 
@@ -29,10 +28,10 @@ The amount of water a soil will store for crop use is called the *available wate
 
 Available water-holding capacities vary widely among soil texture types found in the Pacific Northwest. Loamy soils usually have AWHC values above 2 inches/foot, making them ideal to support consistent crop growth. Sandy soils typically hold less than 1 inch of available water per foot due to their larger pore spaces and lower surface area. Sandy loam soils generally fall somewhere in between these two extremes and are common in many irrigated agricultural regions of the Pacific Northwest.  
 
-Available water-holding capacities for most agricultural soil series found in southern Idaho are listed in Table 10. For more detailed site-specific information, consult University of Idaho CIS 236, Available Water-holding Capacities of Soils in Southern Idaho, which provides AWHC estimates of soils where irrigated wheat is commonly grown. 
+Available water-holding capacities for most agricultural soil series found in southern Idaho are listed in *Table 10*. For more detailed site-specific information, consult University of Idaho CIS 236, *Available Water-holding Capacities of Soils in Southern Idaho*, which provides AWHC estimates of soils where irrigated wheat is commonly grown. 
 The AWHC of a soil profile varies with depth, as soil texture at different depths can vary considerably throughout the root zone. To calculate the total AWHC of a field for wheat production, first determine the thickness and texture of each soil layer within the effective root zone, which is typically around 3 feet for wheat. Then, apply the AWHC value for each layer to estimate total water storage. For example, a soil profile that is sandy in the top foot but transitions to sandy loam in the second and third feet will have different water-holding characteristics in each layer. An example calculation is shown in @tbl-asm.  
 
-If you are interested in determining the AWHC for a specific field or location, the [USDA Web Soil Survey](https://websoilsurvey.nrcs.usda.gov/app/WebSoilSurvey.aspx) is a valuable resource.  
+If you are interested in determining the AWHC for a specific field or location, the [USDA *Web Soil Survey*](https://websoilsurvey.nrcs.usda.gov/app/WebSoilSurvey.aspx) is a valuable resource.  
 
 Total AWHC of a soil profile represents the total available soil moisture (ASM) in inches between irrigation events that is available for crop uptake. Understanding ASM is essential for setting appropriate irrigation thresholds and avoiding under- and over-irrigation.  
 
@@ -44,7 +43,7 @@ Available soil moisture can be determined through direct measurement of soil wat
 -	Gravimetric sampling (weighing samples before and after oven drying)  
 -	Soil moisture sensors such as tensiometers, time-domain reflectometry (TDR), or capacitance probes.  
 
-One of the most practical methods of estimating soil moisture depletion is called the “water budget” or “checkbook” method (see [PNW 288, Irrigation Scheduling](https://hdl.handle.net/2376/7117), and University of Idaho MS 39, Soil Moisture Scheduling Card). Once the soil has drained to field capacity (generally 1 to 2 days after full irrigation), further losses of soil moisture occur primarily through ET. If the AWHC of the full soil profile and the amount of soil moisture lost to ET each day are known, then ASM can be estimated by subtracting the sum of the daily ET values from the initial soil water content.  
+One of the most practical methods of estimating soil moisture depletion is called the “water budget” or “checkbook” method (see [PNW 288, *Irrigation Scheduling*](https://hdl.handle.net/2376/7117), and University of Idaho MS 39, *Soil Moisture Scheduling Card*). Once the soil has drained to field capacity (generally 1 to 2 days after full irrigation), further losses of soil moisture occur primarily through ET. If the AWHC of the full soil profile and the amount of soil moisture lost to ET each day are known, then ASM can be estimated by subtracting the sum of the daily ET values from the initial soil water content.  
 
 Today, ET data are widely available through state and regional weather networks (e.g. [AgriMet](https://www.usbr.gov/pn/agrimet/) and [OpenET](https://etdata.org/)), on-farm weather stations (e.g. [METER Group](https://metergroup.com/products/atmos-41/), [Davis Instruments](https://www.davisinstruments.com/pages/weather-stations), [Campbell Scientific](https://www.campbellsci.com/automated-weather-stations), etc.), and irrigation scheduling tools. Remember, while water budgets provide useful estimates of soil moisture depletion, periodic field-based measurements (using soil moisture sensors or manual checks) are recommended to validate estimates for more accuracy.  
 
