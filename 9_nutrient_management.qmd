@@ -37,19 +37,20 @@ Inherent to each plot trial is some quantity of nutrient loss that is influenced
 
 Recommendations in the fertility guides include **inherent losses.** If measures are taken to monitor and improve nutrient-use efficiency, optimal fertilizer rates for the cropping system could be well below fertility guide recommendations.  
 
+In contrast, if a grower has poor soil with a tendency to transport nutrients by leaching or runoff, then nutrient stress may occur despite applying recommended rates unless steps are taken to ensure environmental losses are minimized (e.g., split applications of fertilizer). **It is not uncommon for nitrogen rates in fertility guides to assume only 50% of the nitrogen fertilizer is taken up by the crop,** with the remaining portion either lost to the environment or temporarily immobilized^[made unavailable] in soil microbial communities.
+
 :::
 
-In contrast, if a grower has poor soil with a tendency to transport nutrients by leaching or runoff, then nutrient stress may occur despite applying recommended rates unless steps are taken to ensure environmental losses are minimized (e.g., split applications of fertilizer). It is not uncommon for nitrogen rates in fertility guides to assume only 50% of the nitrogen fertilizer is taken up by the crop with the remaining portion either lost to the environment or temporarily immobilized^[made unavailable] in soil microbial communities.
 
-Fertilizer recommendations can be provided in a fertility guide as a fixed minimum threshold based on a soil nutrient concentration (ppm) or mass (lb/ac) before yield is impaired based on pre-plant soil sampling (e.g., phosphorus) or can be related to the potential crop yield goal (e.g., nitrogen) where the amount of nutrient recommended to be available in the soil increases with the crop yield goal expected by a producer. Specifically for nitrogen, the wheat-based soil fertility guides provide a recommended unit nitrogen requirement (UNR) in lb N per bushel, which estimates the overall nitrogen supply required to meet a specific crop yield goal.  
+Fertilizer recommendations may be provided in a fertility guide as a fixed minimum threshold based on a soil nutrient concentration (ppm) or mass (lb/ac) before yield is impaired based on pre-plant soil sampling (e.g., phosphorus) or can be related to the potential crop yield goal (e.g., nitrogen) where the amount of nutrient recommended to be available in the soil increases with the crop yield goal expected by a producer. Specifically for nitrogen, the wheat-based soil fertility guides provide a recommended **unit nitrogen requirement (UNR)** in lb N per bushel, which estimates the overall nitrogen supply required to meet a specific crop yield goal.  
 
 ::: {.wpg title="Using Fertility Guides:  Soil Sampling" icon="false"}
 
 All of the regional wheat-based fertility guides currently available to producers **require accurate and representative soil samples be taken to document available nutrients in the field.**  
 
 The University of Idaho wheat-based fertility guides provide recommendations specifically for nitrogen, phosphorus, potassium, and sulfur with acknowledgment of copper (Cu), iron (Fe), manganese (Mn), molybdenum (Mo), boron (B), and zinc (Zn) as other important yet seldom deficient micronutrients.  
-:::
 
+:::
 
 
 ### Sap Testing
@@ -76,6 +77,7 @@ Long-term, repeated annual application of manure can also lead to increased orga
 
 [PNW 533 - Fertilizing with Manure and Other Organic Amendments](https://pubs.extension.wsu.edu/product/fertilizing-with-manure/)  
 *Andy Bary, Craig Cogger, and Dan Sullivan, 2016.*  
+
 * Are you thinking about using manure to fertilize your farm but want more
 information? Properly managed manure applications recycle nutrients to crops,
 improve soil quality, and protect water quality. From deciding whether manure
@@ -85,6 +87,7 @@ organic amendments.
 
 [PNW 673 - Sampling Dairy Manure and Compost for Nutrient Analysis](https://www.uidaho.edu/extension/publications/pnw-0673)  
 *Amber Moore, Mario de Haro-Marti, and Lide Chen, 2014.*  
+
 * Testing the nutrient content of dairy manure or compost reveals nutrient value and determines the application rate, but it must be done correctly. This six-page guide shows you how to conduct a proper test, from obtaining a representative sample (summarized in a handy two-page, illustrated section), selecting a reliable testing laboratory, determining which lab analyses are needed (including total nitrogen, nitrate nitrogen, ammonium nitrogen, total phosphorus, total potassium and solids) to estimating nutrient availability and calculating all the results.  
 
 ::: 
@@ -122,10 +125,13 @@ Producers often add additional sulfur to drop soil pH to more neutral ranges to 
 
 Fertilizer costs are one of the largest annual expenses to a producer and excess applications of synthetic and organic fertilizers can have negative consequences on soil health and the environment. Annual monitoring and evaluation is recommended to improve nutrient use efficiency at the farm and field level, to improve profitability and to reduce potential environmental degradation.  
 
-Several technological advances exist that can improve fertilizer application efficiency and better target appropriate application rates. In many large production farms, reducing the area of a field that receives overlapping fertilizer through the acquisition of GPS-guided autosteer and section or nozzle control can help avoid over-application and pay off through reduced fertilizer costs and improved yields within a few years. For example, a 6-inch reduction in the overlap between adjacent passes with a sprayer or drill with a 40 ft applicator is a 1.3% (0.5 ft / 40ft = 0.013 or 1.3%) reduction in required fertilizer costs.  
-For big farms with several applications of fertilizer, this 1.3% reduction in purchased fertilizer could make purchasing autosteer and GPS-guided systems pay off within two years.  In diverse fields where expected crop yield varies dramatically, variable rate fertilizer application strategies based on two or more management zones that delineate differences in expected crop yield due to variability in soil type can make a farm more profitable through reduced fertilizer costs. The greatest cost savings often occur when producers drop fertilizer rates on the poorest ground within the field, particularly if the yield varies by more than 10% across a single managed field. Crop yield monitors can be used to monitor crop variability and can then be used to create multiple management zones to distinguish regions of unique crop response.  
+Several technological advances exist that can improve fertilizer application efficiency and better target appropriate application rates. In many large production farms, reducing the area of a field that receives overlapping fertilizer through the acquisition of GPS-guided autosteer and section or nozzle control can help avoid over-application and pay off through reduced fertilizer costs and improved yields within a few years.  
 
-Several cultural practices can also help improve nutrient use efficiency. Producers may consider building soil organic matter, water, and nutrient holding capacity through compost or biochar or other high-carbon amendments in areas of fields that consistently underperform. Timing fertilizer applications to better align with growth stages that require more nutrients can also minimize losses and reduce overall application rates. However, efficient and effective timing of fertilizer application is dependent on many factors. In southern Idaho irrigated crops, research has shown that split applications at planting and jointing does not improve yield, or may even reduce yield, in hard and soft white spring wheat and spring barley. In well-drained soils, applying irrigation more efficiently to avoid over application of water can reduce nitrate leaching and could potentially reduce the required amount of nitrogen fertilizer.  
+For example, a 6-inch reduction in the overlap between adjacent passes with a sprayer or drill with a 40 ft applicator is a 1.3% (0.5 ft / 40ft = 0.013 or 1.3%) reduction in required fertilizer costs. For big farms with several applications of fertilizer, this 1.3% reduction in purchased fertilizer could make purchasing autosteer and GPS-guided systems pay off within two years. In diverse fields where expected crop yield varies dramatically, variable rate fertilizer application strategies based on two or more management zones that delineate differences in expected crop yield due to variability in soil type can make a farm more profitable through reduced fertilizer costs.  
+
+The greatest cost savings often occur when producers drop fertilizer rates on the poorest ground within the field, particularly if the yield varies by more than 10% across a single managed field. Crop yield monitors can be used to monitor crop variability and can then be used to create multiple management zones to distinguish regions of unique crop response.  
+
+Several cultural practices can also help improve nutrient use efficiency. Producers may consider building soil organic matter, water, and nutrient holding capacity through compost or biochar or other high-carbon amendments in areas of fields that consistently underperform. Timing fertilizer applications to better align with growth stages that require more nutrients can also minimize losses and reduce overall application rates. However, efficient and effective timing of fertilizer application is dependent on many factors. In southern Idaho irrigated crops, research has shown that split applications at planting and jointing do not improve yield, or may even reduce yield, in hard and soft white spring wheat and spring barley. In well-drained soils, applying irrigation more efficiently to avoid over-application of water can reduce nitrate leaching and could potentially reduce the required amount of nitrogen fertilizer.  
 
 
 ## Management Strategies for Long-term Sustainability
@@ -190,18 +196,14 @@ Joe Vandal lives in a 21-inch precipitation zone in North Idaho and is planning 
 According to the North Idaho Fertility Guide, the recommended UNR for soft white winter wheat in a 21-in precipitation zone is 2.5 lb N/bu:  
 
 
-
-
 :::
 
 
 ## Calculator - rates / dates / yield goals
-***section text***
 
 [OSU Organic Fertilizer and Cover Crop Calculators](https://smallfarms.oregonstate.edu/calculator)  
 
 ## Northern Idaho - N fertility; Macro-nutrients; Micro-nutrients
-***section text***
 
 Resources:  
 
