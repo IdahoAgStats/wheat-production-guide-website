@@ -7,7 +7,9 @@ project:
     watch-inputs: true
     timeout: 600
     
-bibliography: references.bib
+bibliography: references.bib 
+tbl-cap-location: top 
+fig-cap-location: bottom 
     
 book:
   title: "Idaho Wheat Production Guide"
