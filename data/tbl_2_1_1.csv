@@ -1,0 +1,7 @@
+Zone,Description,GDD,Soil depth,Annual precipitation,What it generally means
+1,Cold-moist,<700,Any,>16 in.,"Moisture is generally adequate, but the growing season is cool and relatively short."
+2,Cool-moist,"700-1,000",Any,>16 in.,Moisture and temperature generally favor annual cereal production where soils and topography allow cultivation.
+3,Cool-deep-moderately dry,"700-1,000",>40 in.,14-16 in.,"Deep soils usually recharge in most years, allowing annual cropping in most years. Fallow may be useful in drier years."
+4,Cool-shallow-dry,"<1,000",<40 in.,10-16 in.,"Shallow soils usually refill during winter, so summer fallow provides little additional water-storage benefit."
+5,Cool-deep-dry,"<1,000",>40 in.,10-14 in.,Winter precipitation is often not enough to refill the deep soil profile. Summer fallow can help store water for the following crop.
+6,Hot-very dry,">1,000",Any,<10 in.,Low precipitation and hot conditions generally make irrigation necessary for dependable crop production.
