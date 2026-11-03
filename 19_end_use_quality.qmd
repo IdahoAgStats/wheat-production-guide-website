@@ -1,5 +1,10 @@
 ---
-title: "End-use quality"
+title: "End-use quality" 
+author: 
+  - name: Sarah Windes 
+lightbox: true 
+fig-cap-location: top 
+tbl-cap-location: top 
 ---
 
 <img src="/images/more_loaves.jpg" alt="Wheat Quality Samples"
@@ -7,11 +12,99 @@ style="width:90%;height:auto;box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
 
 *Image: J Piaskowski*
 
+## Introduction
 
-***intro/summary text***
+Wheat is not a uniform commodity. It is a raw material for a wide range of foods and industrial products used worldwide. This reality underscores a core principle: quality is paramount. When millers, bakers, or other end users encounter processing difficulties, the value of a lot declines. The following sections summarize the factors that create quality variation—what makes grain more or less valuable.  
 
-## Classes, grading, and food uses
-***section text***
+Different end products demand flours with specific functional properties to meet processing and finished product targets. Suitability is largely determined by:  
+
+*	Kernel texture (hardness)  
+*	Starch characteristics  
+*	Gluten composition, which governs dough strength, extensibility, and handling  
+
+Matching a wheat variety to its appropriate end-use product begins with assessing composition and milling potential. Routine tests quantify moisture, protein, kernel texture, grain soundness, ash, and related components. Composition provides a first approximation of processing potential.  
+
+More reliable prediction requires tools that measure or model the functional behavior of flour, dough, or key constituents (e.g., gluten, starch, arabinoxylans). Common approaches include:  
+
+*	Starch and flour pasting properties  
+*	Solvent Retention Capacity (SRC)  
+*	Dough testing and rheological prediction of dough properties  
+
+In the Idaho and Pacific Northwest, soft white wheat is primarily used for cookies, crackers, cakes, batters and breadings, and selected noodle types. Hard red spring and hard red winter wheats are preferred for tortillas, yeast leavened pan and hearth breads, and yellow alkaline noodles requiring stronger gluten. Across these applications, regional wheats are noted for efficient milling, producing bright, low ash flours with high extraction rates and consistent baking performance.  
+
+Wheat quality is genetically complex. Breeders, in close collaboration with cereal chemists, are responsible for ensuring new varieties meet milling and baking requirements. Varieties are developed to align with established market classes and grades, supporting predictable performance from field to finished product.  
+
+By aligning production with end use specifications and delivering clean, sound grain, Idaho and PNW growers ensure the value of their crop, strengthen buyer confidence, and sustain the region’s reputation for high-quality flours with reliable end-use performance.  
+
+## Classes and grading
+
+### The U.S. System of Classes
+
+The U.S. system of marketing wheat relies on statutory standards set out by Congress and administered by the Federal Grain Inspection Service (FGIS) in the Grain Inspection, Packers, and Stockyards Administration (GIPSA) of the U.S. Department of Agriculture and its approved state inspection agencies. The standards define wheat classes and set out the rules for determining grades within classes. The standards have evolved over time to reflect important issues and concerns of the marketplace. The official standards currently list the following eight classes and subclasses of wheat:  
+
+1. **Durum wheat.** All varieties of white (amber) durum wheat. This class is divided into the following three subclasses:  
+
+  i) Hard Amber Durum wheat. Durum wheat with 75 percent or more of hard and vitreous kernels of amber color.  
+  
+  ii)	Amber Durum wheat. Durum wheat with 60 percent or more but less than 75 percent of hard and vitreous kernels of amber color.  
+  
+  iii)	Durum wheat. Durum wheat with less than 60 percent of hard and vitreous kernels of amber color.  
+  
+2. **Hard Red Spring wheat.** All varieties of Hard Red Spring wheat. This class shall be divided into the following three subclasses:  
+
+  i)	Dark Northern Spring wheat. Hard Red Spring wheat with 75 percent or more of dark, hard, and vitreous kernels.  
+  
+  ii)	Northern Spring wheat. Hard Red Spring wheat with 25 percent or more but less than 75 percent of dark, hard, and vitreous kernels.  
+  
+  iii) Red Spring wheat. Hard Red Spring wheat with less than 25 percent of dark, hard, and vitreous kernels.  
+  
+3. **Hard Red Winter wheat.** All varieties of Hard Red Winter wheat. There are no subclasses in this class.  
+
+4. **Soft Red Winter wheat.** All varieties of Soft Red Winter wheat. There are no subclasses in this class.  
+
+5. **Hard White wheat.** All hard endosperm white wheat varieties. There are no subclasses in this class.
+
+6. **Soft White wheat.** All soft endosperm white wheat varieties. This class is divided into the following three subclasses:  
+
+  i) Soft White wheat. Soft endosperm white wheat varieties which contain not more than 10 percent of white club wheat.  
+  
+  ii) White Club wheat. Soft endosperm white club wheat varieties containing not more than 10 percent of other soft white wheats.  
+  
+  iii) Western White wheat. Soft White wheat containing more than 10 percent of white club wheat and more than 10 percent of other soft white wheats.  
+  
+7. **Unclassed wheat.** Any variety of wheat that is not classifiable under other criteria provided in the wheat standards. There are no subclasses in this class. This class includes any wheat which is other than red or white in color.  
+
+8. **Mixed wheat.** Any mixture of wheat that consists of less than 90 percent of one class and more than 10 percent of one other class, or a combination of classes that meet the definition of wheat.
+
+![Wheat classes grown in the United States.  
+Source: <https://uswheat.org/working-with-buyers/wheat-classes>](figs/19_wht_prod_2020.png)
+
+### The U.S. System of Grades
+
+In addition to class and subclass, individual lots of wheat receive a **grade**. Grades aim to describe in general terms the relative quality of different grain lots within a market class. As such, grade-determining factors largely reflect aspects of a grain lot that would pose a processing problem or advantage, or a potential health or sanitation concern. 
+
+@tbl-grades lists the current grade-determining factors for wheat; a brief explanation of each and why it is important follows. Before the grade-determining factors are measured, dockage is removed. Dockage is mostly non-wheat material that can be easily removed by sieving and is separated using the Carter Dockage Tester. Dockage also includes underdeveloped, shriveled, and broken kernels that cannot be easily recovered from the separated portion. Dockage, foreign material, and shrunken and broken kernels, besides being costly to separate, represent non-millable material. Any value associated with this material often depends on the availability of pelletizing equipment and the proximity of feed markets.  
+
+It must be emphasized that although limits for damaged kernels, foreign material, and shrunken and broken kernels are set by the standards that determine official grade, customers may specify tighter limits. Also, although dockage is not a grade-determining factor, many of our “cash” customers overseas are setting tighter limits in their contract specifications. For example, contracts may specify maximum dockage in the range of 0.5 to 1 percent, but may further require that the dockage present be subtracted from the delivered weight.  
+
+Increasingly, 2-to 3-fold discount penalties are applied for dockage levels above certain thresholds. Similarly, pressure continues to reduce levels of foreign material and shrunken and broken kernels. Recent analysis indicated that to be fully competitive with Australia and Canada, our industry would need to be able to consistently offer cleaned wheat with maximum 0.2 percent dockage, 0.2 percent foreign materials, and 0.7 percent shrunken and broken kernels. The message is clear: deliver cleaner wheat that is more nearly all convertible to flour. 
+
+#### Wheat Grades and Grade Requirements
+
+```{r} 
+#| label: tbl-grades
+#| echo: false 
+#| fig-cap: "(a) Grades and grade requirements for all classes of wheat, except Mixed wheat.\\  (b) Grades and grade requirements for Mixed wheat. Mixed wheat is graded according to the U.S. numerical and U.S. Sample grade requirements of the class of wheat that predominates in the mixture, except that the factor wheat of other classes is disregarded."
+
+knitr::include_graphics(here::here("figs", "19_1_us_wheat_standards.png"))
+```
+Table Source: [United States Standards for Wheat – Grades and grade requirements for wheat. 7 CFR 810.2204.](https://www.ams.usda.gov/sites/default/files/media/WheatStandards.pdf)  
+
+
+
+
+
+
 
 Learn more:  
 [Working with Buyers: Wheat Classes](https://www.uswheat.org/working-with-buyers/wheat-classes/)  
