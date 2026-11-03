@@ -2,10 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.19">
+<meta name="generator" content="quarto-1.11.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Sarah Windes">
 <meta name="description" content="Resources for wheat production in Idaho and the surrounding region">
 
 <title>19&nbsp; End-use quality – Idaho Wheat Production Guide</title>
@@ -42,18 +43,22 @@ ul.task-list li input[type="checkbox"] {
 <link href="./images/wheat-cover.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-d01a0285907841b456cc330c33c4178b.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0fdbf094c65d9082aef9456916f93799.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-d01a0285907841b456cc330c33c4178b.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-916e1d957aa2e2d21c4002595b1ed413.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-9f18ae6aabaf6c0e00f98c5a006862d7.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-916e1d957aa2e2d21c4002595b1ed413.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7b4cbeac6f1ba5404971e9ae45c61129.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-6afea1b5a3533b28e4f4aeb4ec09adc8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-7b4cbeac6f1ba5404971e9ae45c61129.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e2791bf6b58bfe1bb7fbd6013e772eb2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-074586fea1fe2ec6ce24b78aab01c737.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-e2791bf6b58bfe1bb7fbd6013e772eb2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -122,7 +127,7 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-sidebar floating nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-sidebar floating nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -145,6 +150,7 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
       for (let i=0; i < toggles.length; i++) {
         const toggle = toggles[i];
         if (toggle) {
+          toggle.setAttribute("aria-checked", alternate ? "true" : "false");
           if (alternate) {
             toggle.classList.add("alternate");
           } else {
@@ -174,13 +180,19 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
       manageTransitions('#quarto-margin-sidebar .nav-link', true);
       // Switch the toggles
       setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455).
+    // Not run on load: stylesheets are set before first paint there, and
+    // scrolling would undo the scroll to a URL fragment (#14973).
+    // The one pixel nudge keeps the reader where they were.
+    const refreshSafariScrollbar = () => {
       if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
         manageTransitions("body", false);
-        window.scrollTo(0, 1);
+        const scrollY = window.scrollY;
+        window.scrollTo(0, scrollY > 0 ? scrollY - 1 : 1);
         setTimeout(() => {
-          window.scrollTo(0, 0);
+          window.scrollTo(0, scrollY);
           manageTransitions("body", true);
         }, 40);
       }
@@ -274,6 +286,7 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
       // Read the current dark / light value
       let toAlternate = !hasAlternateSentinel();
       toggleColorMode(toAlternate);
+      refreshSafariScrollbar();
       setStyleSentinel(toAlternate);
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
@@ -288,15 +301,14 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Idaho Wheat Production Guide</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -316,22 +328,23 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <button type="button" role="switch" aria-checked="false" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode" aria-label="Toggle dark mode"><i class="bi"></i></button>
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
   <i class="bi"></i>
   </div>
 </a>
 </div>
+            <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
+  <nav class="quarto-secondary-nav" aria-label="Toolbar">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./19_end_use_quality.html"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">End-use quality</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="Breadcrumbs"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./19_end_use_quality.html"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">End-use quality</span></a></li></ol></nav>
+        <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
@@ -339,7 +352,7 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto" aria-label="Section">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
@@ -486,11 +499,19 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#classes-grading-and-food-uses" id="toc-classes-grading-and-food-uses" class="nav-link active" data-scroll-target="#classes-grading-and-food-uses">Classes, grading, and food uses</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#classes-and-grading" id="toc-classes-and-grading" class="nav-link" data-scroll-target="#classes-and-grading">Classes and grading</a>
+  <ul>
+  <li><a href="#the-u.s.-system-of-classes" id="toc-the-u.s.-system-of-classes" class="nav-link" data-scroll-target="#the-u.s.-system-of-classes">The U.S. System of Classes</a></li>
+  <li><a href="#the-u.s.-system-of-grades" id="toc-the-u.s.-system-of-grades" class="nav-link" data-scroll-target="#the-u.s.-system-of-grades">The U.S. System of Grades</a>
+  <ul>
+  <li><a href="#wheat-grades-and-grade-requirements" id="toc-wheat-grades-and-grade-requirements" class="nav-link" data-scroll-target="#wheat-grades-and-grade-requirements">Wheat Grades and Grade Requirements</a></li>
+  </ul></li>
+  </ul></li>
   <li><a href="#quality-tests-and-interpretations" id="toc-quality-tests-and-interpretations" class="nav-link" data-scroll-target="#quality-tests-and-interpretations">Quality tests and interpretations</a></li>
   <li><a href="#falling-number" id="toc-falling-number" class="nav-link" data-scroll-target="#falling-number">Falling number</a></li>
   <li><a href="#markets-and-transportation---domestic-and-export" id="toc-markets-and-transportation---domestic-and-export" class="nav-link" data-scroll-target="#markets-and-transportation---domestic-and-export">Markets and transportation - domestic and export</a></li>
@@ -498,7 +519,7 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content" tabindex="-1">
 
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -510,6 +531,12 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Sarah Windes </p>
+          </div>
+  </div>
     
   
     
@@ -522,13 +549,107 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
 
 <p><img src="./images/more_loaves.jpg" alt="Wheat Quality Samples" style="width:90%;height:auto;box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);"></p>
 <p><em>Image: J Piaskowski</em></p>
-<p><strong><em>intro/summary text</em></strong></p>
-<section id="classes-grading-and-food-uses" class="level2">
-<h2 class="anchored" data-anchor-id="classes-grading-and-food-uses">Classes, grading, and food uses</h2>
-<p><strong><em>section text</em></strong></p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Wheat is not a uniform commodity. It is a raw material for a wide range of foods and industrial products used worldwide. This reality underscores a core principle: quality is paramount. When millers, bakers, or other end users encounter processing difficulties, the value of a lot declines. The following sections summarize the factors that create quality variation—what makes grain more or less valuable.</p>
+<p>Different end products demand flours with specific functional properties to meet processing and finished product targets. Suitability is largely determined by:</p>
+<ul>
+<li>Kernel texture (hardness)<br>
+</li>
+<li>Starch characteristics<br>
+</li>
+<li>Gluten composition, which governs dough strength, extensibility, and handling</li>
+</ul>
+<p>Matching a wheat variety to its appropriate end-use product begins with assessing composition and milling potential. Routine tests quantify moisture, protein, kernel texture, grain soundness, ash, and related components. Composition provides a first approximation of processing potential.</p>
+<p>More reliable prediction requires tools that measure or model the functional behavior of flour, dough, or key constituents (e.g., gluten, starch, arabinoxylans). Common approaches include:</p>
+<ul>
+<li>Starch and flour pasting properties<br>
+</li>
+<li>Solvent Retention Capacity (SRC)<br>
+</li>
+<li>Dough testing and rheological prediction of dough properties</li>
+</ul>
+<p>In the Idaho and Pacific Northwest, soft white wheat is primarily used for cookies, crackers, cakes, batters and breadings, and selected noodle types. Hard red spring and hard red winter wheats are preferred for tortillas, yeast leavened pan and hearth breads, and yellow alkaline noodles requiring stronger gluten. Across these applications, regional wheats are noted for efficient milling, producing bright, low ash flours with high extraction rates and consistent baking performance.</p>
+<p>Wheat quality is genetically complex. Breeders, in close collaboration with cereal chemists, are responsible for ensuring new varieties meet milling and baking requirements. Varieties are developed to align with established market classes and grades, supporting predictable performance from field to finished product.</p>
+<p>By aligning production with end use specifications and delivering clean, sound grain, Idaho and PNW growers ensure the value of their crop, strengthen buyer confidence, and sustain the region’s reputation for high-quality flours with reliable end-use performance.</p>
+</section>
+<section id="classes-and-grading" class="level2">
+<h2 class="anchored" data-anchor-id="classes-and-grading">Classes and grading</h2>
+<section id="the-u.s.-system-of-classes" class="level3">
+<h3 class="anchored" data-anchor-id="the-u.s.-system-of-classes">The U.S. System of Classes</h3>
+<p>The U.S. system of marketing wheat relies on statutory standards set out by Congress and administered by the Federal Grain Inspection Service (FGIS) in the Grain Inspection, Packers, and Stockyards Administration (GIPSA) of the U.S. Department of Agriculture and its approved state inspection agencies. The standards define wheat classes and set out the rules for determining grades within classes. The standards have evolved over time to reflect important issues and concerns of the marketplace. The official standards currently list the following eight classes and subclasses of wheat:</p>
+<ol type="1">
+<li><strong>Durum wheat.</strong> All varieties of white (amber) durum wheat. This class is divided into the following three subclasses:</li>
+</ol>
+<ol type="i">
+<li><p>Hard Amber Durum wheat. Durum wheat with 75 percent or more of hard and vitreous kernels of amber color.</p></li>
+<li><p>Amber Durum wheat. Durum wheat with 60 percent or more but less than 75 percent of hard and vitreous kernels of amber color.</p></li>
+<li><p>Durum wheat. Durum wheat with less than 60 percent of hard and vitreous kernels of amber color.</p></li>
+</ol>
+<ol start="2" type="1">
+<li><strong>Hard Red Spring wheat.</strong> All varieties of Hard Red Spring wheat. This class shall be divided into the following three subclasses:</li>
+</ol>
+<ol type="i">
+<li><p>Dark Northern Spring wheat. Hard Red Spring wheat with 75 percent or more of dark, hard, and vitreous kernels.</p></li>
+<li><p>Northern Spring wheat. Hard Red Spring wheat with 25 percent or more but less than 75 percent of dark, hard, and vitreous kernels.</p></li>
+<li><p>Red Spring wheat. Hard Red Spring wheat with less than 25 percent of dark, hard, and vitreous kernels.</p></li>
+</ol>
+<ol start="3" type="1">
+<li><p><strong>Hard Red Winter wheat.</strong> All varieties of Hard Red Winter wheat. There are no subclasses in this class.</p></li>
+<li><p><strong>Soft Red Winter wheat.</strong> All varieties of Soft Red Winter wheat. There are no subclasses in this class.</p></li>
+<li><p><strong>Hard White wheat.</strong> All hard endosperm white wheat varieties. There are no subclasses in this class.</p></li>
+<li><p><strong>Soft White wheat.</strong> All soft endosperm white wheat varieties. This class is divided into the following three subclasses:</p></li>
+</ol>
+<ol type="i">
+<li><p>Soft White wheat. Soft endosperm white wheat varieties which contain not more than 10 percent of white club wheat.</p></li>
+<li><p>White Club wheat. Soft endosperm white club wheat varieties containing not more than 10 percent of other soft white wheats.</p></li>
+<li><p>Western White wheat. Soft White wheat containing more than 10 percent of white club wheat and more than 10 percent of other soft white wheats.</p></li>
+</ol>
+<ol start="7" type="1">
+<li><p><strong>Unclassed wheat.</strong> Any variety of wheat that is not classifiable under other criteria provided in the wheat standards. There are no subclasses in this class. This class includes any wheat which is other than red or white in color.</p></li>
+<li><p><strong>Mixed wheat.</strong> Any mixture of wheat that consists of less than 90 percent of one class and more than 10 percent of one other class, or a combination of classes that meet the definition of wheat.</p></li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption>Wheat classes grown in the United States.<br>
+Source: <a href="https://uswheat.org/working-with-buyers/wheat-classes" class="uri">https://uswheat.org/working-with-buyers/wheat-classes</a></figcaption>
+<p><a href="figs/19_wht_prod_2020.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Wheat classes grown in the United States. Source: https://uswheat.org/working-with-buyers/wheat-classes"><img src="figs/19_wht_prod_2020.png" class="img-fluid figure-img" alt="Wheat classes grown in the United States. Source: https://uswheat.org/working-with-buyers/wheat-classes"></a></p>
+</figure>
+</div>
+</section>
+<section id="the-u.s.-system-of-grades" class="level3">
+<h3 class="anchored" data-anchor-id="the-u.s.-system-of-grades">The U.S. System of Grades</h3>
+<p>In addition to class and subclass, individual lots of wheat receive a <strong>grade</strong>. Grades aim to describe in general terms the relative quality of different grain lots within a market class. As such, grade-determining factors largely reflect aspects of a grain lot that would pose a processing problem or advantage, or a potential health or sanitation concern.</p>
+<p><a href="#tbl-grades" class="quarto-xref">Table&nbsp;<span>19.1</span></a> lists the current grade-determining factors for wheat; a brief explanation of each and why it is important follows. Before the grade-determining factors are measured, dockage is removed. Dockage is mostly non-wheat material that can be easily removed by sieving and is separated using the Carter Dockage Tester. Dockage also includes underdeveloped, shriveled, and broken kernels that cannot be easily recovered from the separated portion. Dockage, foreign material, and shrunken and broken kernels, besides being costly to separate, represent non-millable material. Any value associated with this material often depends on the availability of pelletizing equipment and the proximity of feed markets.</p>
+<p>It must be emphasized that although limits for damaged kernels, foreign material, and shrunken and broken kernels are set by the standards that determine official grade, customers may specify tighter limits. Also, although dockage is not a grade-determining factor, many of our “cash” customers overseas are setting tighter limits in their contract specifications. For example, contracts may specify maximum dockage in the range of 0.5 to 1 percent, but may further require that the dockage present be subtracted from the delivered weight.</p>
+<p>Increasingly, 2-to 3-fold discount penalties are applied for dockage levels above certain thresholds. Similarly, pressure continues to reduce levels of foreign material and shrunken and broken kernels. Recent analysis indicated that to be fully competitive with Australia and Canada, our industry would need to be able to consistently offer cleaned wheat with maximum 0.2 percent dockage, 0.2 percent foreign materials, and 0.7 percent shrunken and broken kernels. The message is clear: deliver cleaner wheat that is more nearly all convertible to flour.</p>
+<section id="wheat-grades-and-grade-requirements" class="level4">
+<h4 class="anchored" data-anchor-id="wheat-grades-and-grade-requirements">Wheat Grades and Grade Requirements</h4>
+<div class="cell">
+<div id="tbl-grades" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl quarto-uncaptioned" id="tbl-grades-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;19.1
+</figcaption>
+<div aria-describedby="tbl-grades-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption>(a) Grades and grade requirements for all classes of wheat, except Mixed wheat.&nbsp; (b) Grades and grade requirements for Mixed wheat. Mixed wheat is graded according to the U.S. numerical and U.S. Sample grade requirements of the class of wheat that predominates in the mixture, except that the factor wheat of other classes is disregarded.</figcaption>
+<p><a href="figs/19_1_us_wheat_standards.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="(a) Grades and grade requirements for all classes of wheat, except Mixed wheat.&nbsp; (b) Grades and grade requirements for Mixed wheat. Mixed wheat is graded according to the U.S. numerical and U.S. Sample grade requirements of the class of wheat that predominates in the mixture, except that the factor wheat of other classes is disregarded."><img src="figs/19_1_us_wheat_standards.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<p>Table Source: <a href="https://www.ams.usda.gov/sites/default/files/media/WheatStandards.pdf">United States Standards for Wheat – Grades and grade requirements for wheat. 7 CFR 810.2204.</a></p>
 <p>Learn more:<br>
 <a href="https://www.uswheat.org/working-with-buyers/wheat-classes/">Working with Buyers: Wheat Classes</a></p>
 <p><a href="https://www.uswheat.org/working-with-buyers/wheat-grade-factors/">Working with Buyers: Wheat Grades and Grade Requirements</a></p>
+</section>
+</section>
 </section>
 <section id="quality-tests-and-interpretations" class="level2">
 <h2 class="anchored" data-anchor-id="quality-tests-and-interpretations">Quality tests and interpretations</h2>
@@ -550,20 +671,55 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
     if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const toggle = window.document.createElement('button');
+      toggle.type = "button";
+      toggle.setAttribute("role", "switch");
+      toggle.setAttribute("aria-checked", "false");
+      toggle.classList.add('top-right');
+      toggle.classList.add('quarto-color-scheme-toggle');
+      toggle.setAttribute("aria-label", "Toggle dark mode");
+      toggle.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
       const i = window.document.createElement("i");
       i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
+      toggle.appendChild(i);
+      // Put the toggle in a landmark of its own, so that landmark navigation
+      // can reach it.
+      //
+      // The container is always a fresh direct child of body, and the toggle is
+      // never moved into page furniture that the theme or the author controls.
+      // The toggle is positioned against the page, so any ancestor that
+      // establishes a containing block captures it: a positioned element or a
+      // grid for position: absolute, and transform, filter, will-change or
+      // contain for position: fixed. A direct child of body has none of these
+      // to inherit, and the shift when one appears is silent and visual.
+      //
+      // ARIA says a document should have at most one banner, and axe reports a
+      // duplicate whether or not the banners carry distinct labels. So use a
+      // header when the page has no banner yet, and a named region otherwise.
+      //
+      // A header is a banner wherever it sits, unless it is inside sectioning
+      // content, so this cannot just look at the children of body: a custom
+      // page layout wraps the title block header in a plain div. An explicit
+      // role="banner" always counts.
+      const sectioning = 'article, aside, main, nav, section, [role="article"], [role="complementary"], [role="main"], [role="navigation"], [role="region"]';
+      const hasBanner = Array.from(
+        window.document.querySelectorAll('header:not([role]), [role="banner"]')
+      ).some(function(el) {
+        return el.hasAttribute("role") || el.closest(sectioning) === null;
+      });
+      const container = window.document.createElement(hasBanner ? "div" : "header");
+      if (hasBanner) {
+        container.setAttribute("role", "region");
+        container.setAttribute("aria-label", "Toggle dark mode");
+      }
+      container.classList.add('quarto-color-scheme-toggle-container');
+      container.appendChild(toggle);
+      window.document.body.appendChild(container);
     }
     setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
@@ -638,11 +794,30 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
         var filterRegex = new RegExp('/' + window.location.host + '/');
+      const newWindowLabel = "(opens in a new tab)";
+      const newWindowNoteId = "quarto-ext-newwindow-label";
+      // Links reference one hidden label through aria-describedby, so the
+      // announcement never changes their accessible name.
+      var describeNewWindow = (link) => {
+        if (!window.document.getElementById(newWindowNoteId)) {
+          var newWindowNote = window.document.createElement("span");
+          newWindowNote.id = newWindowNoteId;
+          newWindowNote.hidden = true;
+          newWindowNote.textContent = newWindowLabel;
+          window.document.body.appendChild(newWindowNote);
+        }
+        var describedBy = (link.getAttribute("aria-describedby") || "").split(/\s+/).filter(Boolean);
+        if (!describedBy.includes(newWindowNoteId)) {
+          describedBy.push(newWindowNoteId);
+          link.setAttribute("aria-describedby", describedBy.join(" "));
+        }
+      }
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -656,10 +831,72 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
             if (link.getAttribute("rel") === null) {
               link.setAttribute("rel", "noopener");
             }
+            describeNewWindow(link);
+          if (!link.classList.contains('no-external-icon')) {
             // default icon
             link.classList.add("external");
+          }
         }
       }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -673,6 +910,7 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -835,44 +1073,54 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          let top = null;
-          let height = null;
-          let parent = null;
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
           if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
             }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
             }
+            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -971,7 +1219,10 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
     }
   });
   </script>
-<nav class="page-navigation">
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
+  </script>
+<nav class="page-navigation" aria-label="Page">
   <div class="nav-page nav-page-previous">
       <a href="./18_residue_management.html" class="pagination-link" aria-label="Residue management">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Residue management</span></span>
@@ -997,6 +1248,38 @@ div.callout-wpg.callout-style-default .callout-icon::before, div.callout-wpg.cal
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
