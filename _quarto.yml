@@ -118,5 +118,7 @@ custom-callout:
     color: "#F1B300"
     icon: false
 filters:
-- custom-callout
+  - custom-callout 
+  - diagrams 
+
 
