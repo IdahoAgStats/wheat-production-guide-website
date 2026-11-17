@@ -2,7 +2,11 @@
 title: "End-use quality" 
 author: 
   - name: Sarah Windes 
-lightbox: true 
+lightbox: 
+  match: auto 
+  effect: fade 
+  desc-position: right 
+  loop: true 
 fig-cap-location: bottom 
 tbl-cap-location: top 
 reference-location: section 
@@ -39,7 +43,7 @@ By aligning production with end use specifications and delivering clean, sound g
 
 ## Classes and grading {#sec-classes-and-grading}
 
-### The U.S. System of Classes
+### The U.S. System of Classes {#sec-classes}
 
 The U.S. system of marketing wheat relies on statutory standards set out by Congress and administered by the Federal Grain Inspection Service (FGIS) in the Grain Inspection, Packers, and Stockyards Administration (GIPSA) of the U.S. Department of Agriculture and its approved state inspection agencies. The standards define wheat classes and set out the rules for determining grades within classes. The standards have evolved over time to reflect important issues and concerns of the marketplace.  
 
@@ -82,7 +86,7 @@ The official standards currently list the following eight classes and subclasses
 ![Wheat classes grown in the United States.  
 Source: <https://uswheat.org/working-with-buyers/wheat-classes>](figs/19_wht_prod_2020.png){#fig-classes-map}
 
-### The U.S. System of Grades
+### The U.S. System of Grades {#sec-grades}
 
 In addition to class and subclass, individual lots of wheat receive a **grade**. Grades aim to describe in general terms the relative quality of different grain lots within a market class. As such, grade-determining factors largely reflect aspects of a grain lot that would pose a processing problem or advantage, or a potential health or sanitation concern. 
 
@@ -281,7 +285,7 @@ While wheat flour with very high Falling Number values (indicating low enzyme ac
 
 ### Grain Quality Criteria
 
-High-quality flour starts with high-quality grain. The higher the grade, the higher the end use quality. The interactions between genetics (Chapter 4 (add hyperlink)) and environment (Chapters 8 and 9 (add hyperlinks)) affect the quality of the grain. USDA Federal Grain Inspection Service has grade standards that define the parameters that must be met to meet grade standards (see chapter 19.2 for further information) (7 CFR Part 810 Subpart M United States Standards for Wheat). Among the grade traits are test weight, lack of shrunken and broken seeds, and lack of other foreign material, insect parts, and wheat of other classes. The grade standards ensure plump clean grain reaches the market. Among the optional grade traits are protein content, kernel texture (defining hard vs soft wheats), and lack of preharvest sprouting or other source of excess enzyme load. See Ch 19.2 for further information on grain grading.\
+High-quality flour starts with high-quality grain. The higher the grade, the higher the end use quality. The interactions between genetics (Chapter 4 - [Wheat varieties and breeding](4_wheat_varieties_breeding.qmd)) and environment (Chapters 8 - [Irrigation management](8_irrigation_management.qmd) and 9 - [Nutrient management](9_nutrient_management.qmd)) affect the quality of the grain. USDA Federal Grain Inspection Service has grade standards that define the parameters that must be met to meet grade standards (see @sec-grades and [7 CFR Part 810 Subpart M United States Standards for Wheat](https://www.ecfr.gov/current/title-7/subtitle-B/chapter-VIII/subchapter-A/part-810/subpart-M) for further information). Among the grade traits are test weight, lack of shrunken and broken seeds, and lack of other foreign material, insect parts, and wheat of other classes. The grade standards ensure plump clean grain reaches the market. Among the optional grade traits are protein content, kernel texture (defining hard vs soft wheats), and lack of preharvest sprouting or other source of excess enzyme load. See @sec-grades for further information on grain grading.\
 
 ### Flour Quality Criteria
 
@@ -295,14 +299,15 @@ This discussion will focus primarily on the fundamentals of wheat flour quality 
 
 ![After grain grading has been determined, the quality of the wheat flour is assessed. There are various means and methods of assessing end-use quality, however, how these four major categories (hardness, market class, protein, and milling efficiency) interact and influence each other make up the foundation of all quality parameters.](figs/19-4-fundamentals.png){#fig-fundamentals}  
 
-::: {.grid}  
+<!--::: {.grid}  
 
-::: {.g-col-4}  
+::: {.g-col-4}  -->
 
-![](figs/19-4-hardness.png){fig-align="left"}  
+![](figs/19-4a-hardness.png){group="fundamentals-expand"}
+<!--{fig-align="left"}  
 :::
 
-::: {.g-col-8}
+::: {.g-col-8}-->
 
 Kernel hardness is the measurement of how hard a kernel of wheat grain resists grinding as well as a measurement of endosperm texture.  
 
@@ -328,7 +333,7 @@ Wheat market class is determined by kernel hardness (hard or soft) and color (re
 
 There are six classes of wheat: Hard Red Winter, Hard Red Spring, Hard White, Soft Red Winter, Soft White, and Durum. Each class of wheat has its own characteristics related to milling, baking, and end-use. The PNW region grows all but one class, Soft Red Winters.  
 
-See @sec-classes-and-grading for further information on classes.
+See @sec-classes for further information on classes.
 
 :::  
 
