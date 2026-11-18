@@ -24,6 +24,6 @@
 .positai
 
 # my test stuff 
-viz_test*
-my_quarto*
+/viz_test*
+/my_quarto_snippets*
 
