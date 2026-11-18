@@ -14,8 +14,10 @@ fig-cap-location: bottom
 book:
   title: "Idaho Wheat Production Guide"
   description: "Resources for wheat production in Idaho and the surrounding region"
-  reader-mode: true
-  back-to-top-navigation: true
+  reader-mode: true 
+  page-navigation: true 
+  back-to-top-navigation: true 
+  bread-crumbs: true 
   navbar:
     search: true
     right:
@@ -80,7 +82,9 @@ format:
     theme: 
       light: flatly
       dark: darkly
-    css: styles.css
+    css: 
+      - styles.css 
+      - styles.scss
     fontsize: 1em
     smooth-scroll: true
     toc: true
