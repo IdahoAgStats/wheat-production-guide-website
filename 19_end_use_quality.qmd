@@ -649,15 +649,21 @@ For assessing breadmaking suitability of breeder lines or grain lots, key indica
 
 ### Wheat Flour Chemistry Quality Tests
 
+::: {.border}
+
+:::
+
 #### Sedimentation Test
 
-::: {style="float: right; margin-left: 15px; margin-bottom: 10px;"}
+::: {style="float: left; margin-right: 10px; margin-bottom: 10px;"}
 
-![](figs/19-4-sedimentation.png){width=40% display="inline" fig-align="left"} 
+![](figs/19-4-sedimentation.png){#fig-sediment width=60%} 
 
 :::
 
 The sedimentation test is performed by suspending a ground wheat or flour sample in an acidic solution and allowing the gluten proteins to hydrate, swell, and settle as a precipitated sediment. Sedimentation values typically range from ~20 or lower for low-protein wheat with weak gluten to ~70 or higher for high-protein wheat with strong gluten. The test provides an index of both protein quantity and protein quality in wheat and flour. Sedimentation volume is generally positively correlated with gluten strength and, in many cases, loaf volume. As a result, the sedimentation test is commonly used as a rapid screening method in wheat breeding programs and as a practical quality assessment tool in milling applications.\ 
+
+<div style="clear: both;"></div>
 
 
 #### SRC (Solvent Retention Capacity) Tests
