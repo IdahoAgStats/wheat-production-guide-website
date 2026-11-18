@@ -83,7 +83,7 @@ The contrast among these zones shows why precipitation and soil depth need to be
 
 ### What the agronomic zones mean for Idaho
 
-As shown in fig-ag-zones-map, Idaho includes several different agronomic environments rather than a simple north-to-south pattern.
+As shown in @fig-ag-zones-map, Idaho includes several different agronomic environments rather than a simple north-to-south pattern.
 
 Northern Idaho generally has cooler and wetter wheat-growing conditions than much of southern Idaho. These conditions favor annual cropping, although soil depth, elevation, and seasonal weather can create important differences among locations.
 
@@ -95,12 +95,17 @@ In many parts of southern Idaho, wheat is grown under irrigation. Because the ag
 
 Agronomic zones can help growers decide whether research results, variety trials, or management recommendations from another location are likely to apply to their own farm. A practice tested on deep soil in a moderately dry area may not work the same way on shallow soil receiving similar precipitation. Likewise, a variety that performs well in a cool, moist area may respond differently under warmer and drier conditions.
 
-A useful question to ask is:\
-**Were these results developed under conditions similar to those on my farm?**
+##### A useful question to ask is:
 
+::: {.indent-border}
+  **Were these results developed under conditions similar to those on my farm?**
+:::
+
+::: {.p-spaced}
 The zone map is a regional guide, not a detailed field map. Soil depth, slope, water storage, and other conditions can change over short distances, and a single farm may include more than one agronomic zone.
 
 Growers should use agronomic zones together with what they know about their own soils, stored soil water, irrigation, field history, and current weather. The map shows the regional pattern, but conditions in the field determine how the information should be used.
+:::
 
 ::: {.callout-tip title="Learn more about agronomic zones:" icon="true" collapse="false"}
 [PNW 354 - Agronomic Zones of the Dryland Pacific Northwest](https://verso.uidaho.edu/esploro/outputs/996749646401851)\
@@ -115,6 +120,8 @@ Growers should use agronomic zones together with what they know about their own 
 :::
 
 ## Production, acreage, classes, quality
+
+
 
 ## Markets – domestic and export
 
