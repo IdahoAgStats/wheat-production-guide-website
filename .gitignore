@@ -10,6 +10,7 @@
 
 # Quarto things
 /.quarto/
+**/*.quarto_ipynb
 
 # R scripts
 /r_scripts/
@@ -21,6 +22,8 @@
 /_site/
 /renv/library/
 .positai
-viz_test*
 
-**/*.quarto_ipynb
+# my test stuff 
+viz_test*
+my_quarto*
+
