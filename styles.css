@@ -1,5 +1,13 @@
 /* css styles */
 
+.indent-border {
+  margin-left: 0.5rem;            /* Indentation from the left margin */
+  border-left: 8px groove lightsteelblue; /* Left border thickness, style, color */
+  padding: 5px;  
+  list-style: disc inside;
+  list-style-position: outside;
+  color: #474747; 
+}
 
 .ghost-button {
     background-color: #fff !important;
@@ -28,8 +36,12 @@
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+.p-spaced {
+  padding: 10px 5px;
+}
+
 li {
-  margin-bottom: 5px;
+  margin-bottom: 2px;
 }
 
 .tablecontainer {
@@ -62,3 +74,22 @@ td {
 tr:hover {
   background-color: rgba(0, 128, 148, 0.7);
 }
+
+.expand-box .toggle-img { 
+  width: 250px; 
+  transition: width 0.3s ease; 
+}
+
+.expand-box.active .toggle-img { 
+  width: 400px; 
+  
+}
+
+.expand-box .toggle-text { 
+  display: none; margin-top: 10px; 
+}
+
+.expand-box.active .toggle-text { 
+  display: block; 
+}
+
