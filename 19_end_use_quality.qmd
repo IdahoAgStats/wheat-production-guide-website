@@ -49,13 +49,8 @@ accordion:
       body: "Any variety of wheat that is not classifiable under other criteria provided in the wheat standards. There are no subclasses in this class. This class includes any wheat which is other than red or white in color."
     - header: "8. **Mixed wheat.**"
       body: "Any mixture of wheat that consists of less than 90 percent of one class and more than 10 percent of one other class, or a combination of classes that meet the definition of wheat." 
-format:
-  html:
-    css: 
-      - styles.css 
-      - styles.scss 
 ---
-<img src="/images/more_loaves.jpg" alt="Wheat Quality Samples"
+<img src="/images/more_loaves.jpg" alt="Three numbered bread loaves from Wheat Quality baking tests"
 style="width:90%;height:auto;box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
 
 *Image: J Piaskowski*
@@ -291,10 +286,10 @@ Wheat flour with high alpha-amylase activity often produces sticky doughs, thin 
 While wheat flour with very high Falling Number values (indicating low enzyme activity) can often be corrected by adding enzymes during milling or baking, when Falling Number values are too low, the excess alpha-amylase cannot be removed from the wheat or flour. As a result, severely affected grain may have limited marketability and may be unsuitable for many end-use applications.\
 
 ![Effects of Falling Numbers on bread performance.\
-<https://cerealscanada.ca/falling-number-is-an-important-indicator-of-wheat-quality/>](figs/19_3_fn_bread.png){#fig-fn-bread group="fn-bread-cake"}  
+<https://cerealscanada.ca/falling-number-is-an-important-indicator-of-wheat-quality/>](figs/19_3_fn_bread.png){.img-wpg #fig-fn-bread group="fn-bread-cake"}  
   
 ![Sponge cakes fall with increasing alpha-amylase from sprouting.\
-*Image: WWQL, USDA-ARS, Pullman*](figs/19_3_fn_cake.png){#fig-fn-cake group="fn-bread-cake"}  
+*Image: WWQL, USDA-ARS, Pullman*](figs/19_3_fn_cake.png){.img-wpg #fig-fn-cake group="fn-bread-cake"}  
   
   
 ::: {.callout-note collapse="false" icon="true"}
@@ -393,7 +388,7 @@ This discussion will focus primarily on the fundamentals of wheat flour quality 
 ![After grain grading has been determined, the quality of the wheat flour is assessed. There are various means and methods of assessing end-use quality, however, how these four major categories (**hardness, market class, protein, and milling efficiency**) interact and influence each other make up the foundation of all quality parameters.](figs/19-4-fundamentals.png){#fig-fundamentals width="65%"}  
 
 <!--begin gallery -->
-::: {layout-ncol=2}
+::: {layout-nrow=2}
 
 ::: {.expand-box onclick="this.classList.toggle('active')" style="cursor: pointer;"}
 ![Hardness *(click for details)*](figs/19-4a-hardness.png){.toggle-img .nolightbox #fig-hardness} 
@@ -487,6 +482,227 @@ For soft wheat flour, a higher break flour yield is desired, with the target per
 [Wheat and Flour Testing Methods: A Guide to Understanding Wheat and Flour Quality: Version 2](https://www.grains.k-state.edu/igp/wheat-flour-testing/wheatflourbook/wheat-flour-book.pdf)  
 
 :::
+
+::: {#fig-brabender layout-ncol=2}
+
+![](figs/19-4-brabender1.jpg){group="brabender"}
+
+![](figs/19-4-brabender2.jpg){group="brabender"}
+
+Example of a micro-milling laboratory setup. Shown, is a Brabender Quad. Sr. which has a double pass grinding flow that uses a series of three rolls to grind the wheat sample.  
+
+:::
+
+### Additional Flour Components
+
+::: {.border} 
+
+:::
+
+#### [Moisture]{.underline}
+
+All flour should have moisture content of less than 14% to maintain storage stability (primarily to restrict mold growth) and to ensure that flour flows without caking or clumping during transfer in mills and bakeries (Atwell 2001). The percentage of water inherently present within the flour is a vital part of necessary calculations for further quality testing. Depending on the moisture level of the flour, variations of solvents for testing or baking can be adjusted for optimal performance.\  
+
+
+#### [Ash]{.underline} 
+
+Ash content is the inorganic mineral residue remaining after complete combustion of flour and is reported as % on a dry basis. Because minerals are concentrated in the bran and aleurone layers, ash increases with milling extraction; thus, ash serves both as an index of expected milling yield and as a diagnostic of bran carryover (bran contamination) into the flour stream. Higher ash generally correlates with reduced flour brightness and produces darker crumb and crust in finished products. Accordingly, product specifications are aligned with intended functionality: highly refined (patent) white flours target low ash, whereas high‑extraction and whole‑wheat flours require and tolerate higher ash.\ 
+
+
+### The Fundamentals of Soft Wheat
+
+Wheats with hardness values <45 are distributed in the classes of Soft Red Winter and Soft White Winter. They are physically softer and require less energy input to separate bran from the starchy endosperm, leading to less starch damage and less ash content. Soft wheats have a lower protein target range for both wheat and flour and break flour yield is the first consideration when evaluating milling efficiency.
+
+### Testing End-Use Quality for Soft Wheat
+::: {.border} 
+
+:::
+
+#### [Sugar Snap Cookies]{.underline} 
+
+The **Sugar‑Snap Cookie test** assesses soft wheat flour suitability for cakes, pastries, cookies, crackers, and Asian‑style noodles. Flours with low protein and weak gluten typically produce high‑spread cookies with extensive surface cracking, signaling desirable performance characteristics associated with favorable processing and product quality for these end uses. 
+
+Typically, cookie and cracker products are baked to a very low moisture which requires time and energy. Low hardness and high break flour in the milling process produces flour with lower damaged starches which lower absorption of water in dough. This allows for less time and energy to bake and creates better cookies or crackers that bake uniformly, spreads predictably, and can fit within the desired packaging.
+
+::: {style="float: left; margin-right: 15px; margin-bottom: 10px;"}
+
+![](figs/19-4-sugar-snap.png){fig-alt="Sugar snap cookie with perpendicular rulers, measuring cookie spread and top grain" width="350px"} 
+
+::: 
+
+Cookies are evaluated for cookie spread (diameter) and top grain appearance.\  
+
+<span style="color:red;font-weight:bold;">Cookie spread</span> is measured and the results are expressed in centimeters.\  
+
+Extra consideration:\  
+<span style="color:dodgerblue;font-weight:bold;">Top grain</span> is evaluated by visual examination of the pattern of cracks and “islands” on the top surface of the cookie and a numerical score is given (0 to 9 for least to most desirable). Top grain is not considered as an approved AACC method. Some quality labs will use this extra criterion, while most will not due to the subjective nature of the method.\ 
+
+When any one of the four fundamental units of quality are outside of the desired range for end-use production, it can introduce a cascade of undesirable effects on product line and product performance as well as increase production waste.\ 
+
+![The cookies pictured above compare least desirable outcomes (left) and most desirable outcomes (right) for end-use quality. The left cookie is pale, has very little spread, and no top grain. This indicates that the sample was likely a hard wheat with high hardness as well as a higher protein in both grain and flour. In comparison, the right cookie has a large spread, golden brown color, and numerous, evenly spaced top grain. The right cookie was a SWW with low hardness, low protein, and good milling performance.](figs/19-4-cookies-ld-md.jpg){#fig-cookies-ld-md .img-wpg}
+
+::: {style="float: left; margin-right: 15px; margin-bottom: 10px;"}
+
+![](figs/19-4-cookie2.png){#fig-cookie2 width="350px"} 
+:::
+
+The cookie in @fig-cookie2 is also a SWW. However, though the cookie had some spread and some top grain, there was not as much as desired. The wheat this flour came from had a higher grain protein (and a higher flour protein) than the required target range for SWW.\ 
+
+<div style="clear: both;"></div>
+
+#### [Japanese Sponge Cakes]{.underline} 
+
+Sponge cake is a prevalent Asian dessert and a benchmark product for evaluating weak‑gluten soft wheat flour utilized in diverse confectionery items. The sponge cake test is employed to assess flour suitability for these applications. Optimal product performance is typically achieved with flours exhibiting low protein content, low ash levels, and weak gluten characteristics.\ 
+
+#### [Alkaline Asian Noodle Color Analysis]{.underline}
+
+Asian noodles are produced from both soft and hard wheat, yet all styles share a core requirement: an attractive visual appearance. Among appearance attributes, color is paramount because it is the first visual attribute perceived by consumers. Typical noodle color ranges from bright or creamy white to pale or vivid yellow.\ 
+
+Discoloration most often arises from the presence of bran particles in the flour and becomes more pronounced as flour extraction increases. High levels of polyphenol oxidase (PPO), concentrated largely in the bran, cause progressive darkening of noodle dough through an oxidation reaction similar to the browning of cut apples. This darkening is especially problematic when processors rest dough, to improve handling or the eating quality of boiled noodles, as excessive color change shortens the allowable rest time. Additionally, for fresh noodles, the period during which the product maintains its desired appearance is greatly decreased.\
+
+Polyphenol oxidase (PPO) activity in bran is genetically determined and can be reduced through breeding of wheat lines targeted for Asian noodle applications. Ash content also contributes to discoloration; consequently, noodle manufacturers prefer flours milled from wheats with strong milling performance that enable clean separation of bran from the starchy endosperm.\
+
+#### [Testing Sheet Noodle Color]{.underline}
+
+A sample of three Asian noodle dough sheets are cut and stacked together. Measurements are taken with the Minolta chroma meter, and an average L\* (white/black), a\* (red/green), and b\* (yellow/blue) are recorded. Two readings are taken at 0 and 24 hours and the differences in L\*, a\*, and b\* are calculated. The desirable target for the difference in color should be below 10.\ 
+
+![The above picture shows the difference between two samples of wheat with different color ratings 24hrs after sheeting. The noodles in the left picture have a desirable color range and a 24hr difference in color of <10. The noodles on the right have undergone an undesired oxidation reaction due to PPO and the 24hr color difference is >10. Also visible in the noodles in the right-hand picture are large speckling within the sheets. This is due to large bran particle contamination within the flour.](figs/19-4-noodle-color.png){#fig-noodle .img-wpg}  
+
+### The Fundamentals for Hard Wheat
+
+Wheat with hardness values >45 have the market classification of Hard Red Winter, Hard Red Spring, Hard White, or Durum. Hard wheats are physically harder to mill, which increases starch damage and ash content, and target ranges for wheat and flour protein are higher. Hard wheat total flour yield is the first parameter considered for milling quality.\ 
+
+### Testing End-Use Quality for Hard Wheat
+
+::: {.border}
+
+:::
+
+#### [Mixograph]{.underline}
+
+Performing a mixograph for a wheat sample quickly analyzes small quantities of flour for dough gluten strength, which include:\ 
+
+**Water absorption**: The amount of water added into the dough; affects the position of the curve on the graph paper; less water increases dough consistency and moves the curve upward.\ 
+
+**Peak time**: the timing when the sample of reaches peak gluten strength; measured in minutes\ 
+
+**Mixing tolerance**: tolerance to over-mixing; gluten strength decreases after reaching its peak; tolerance is the slope of the descending line\ 
+
+::: {#fig-mixograph .img-wpg layout-nrow=2}
+
+![](figs/19-4-mixograph1.png){width=100%}
+
+![Weak gluten flour has a shorter peak time and less mixing tolerance than strong gluten flour.](figs/19-4-mixograph2.png){width=50% fig-align="left" fig-cap-location="right"}  
+Source: Wheat and Flour Testing Methods: A Guide to Understanding Wheat and Flour Quality: Version 2
+
+::: 
+
+#### [Farinograph]{.underline}
+
+The farinograph measures dough resistance to paddle mixing, yielding metrics such as absorption, development (arrival) time, stability, peak, departure, and MTI. Processors use these parameters to set water levels, evaluate ingredient impacts, determine blending requirements, and monitor flour uniformity. The profile further predicts processing needs such as mixing time, over‑mixing tolerance, and production consistency as well as provides guidance on expected texture, with stronger mixing properties typically producing firmer products.\
+
+**Absorption**: amount of water required to center the farinograph curve on the 500-Brabender unit (BU) line. This relates to the amount of water needed for a flour to be optimally processed into end products. Given as a percentage.\
+
+**Peak Time**: indicates dough development time, beginning the moment water is added until the dough reaches maximum consistency. This gives an indication of optimum mixing time under standardized conditions. Expressed in minutes.\
+
+**Arrival Time**: is the time when the top of the curve touches the 500-BU line. This indicates the rate of flour hydration (the rate at which the water is taken up by the flour). Expressed in minutes.\
+
+**Departure Time**: the time when the top of the curve leaves the 500-BU line This indicates the time when the dough is beginning to break down and is an indication of dough consistency during processing. Expressed in minutes.\
+
+**Stability Time**: is the difference in time between arrival time and departure time. This indicates the time the dough maintains maximum consistency and is a good indication of dough strength. Expressed in minutes.\
+
+**Mixing Tolerance Index (MTI)**: is the difference in BU value at the top of the curve at peak time and the value at the top of the curve 5 minutes after the peak. This indicates the degree of softening during mixing. Mixing tolerance index is expressed in Brabender units (BU).\ 
+
+::: {#fig-farino .img-wpg layout-nrow=2}
+
+![](figs/19-4-farinograph1.png){width=100%}  
+
+![Weak gluten flour has a lower water absorption and shorter stability time than strong gluten flour.](figs/19-4-farinograph1.png){width=50% fig-align="left" fig-cap-location="right"}  
+
+Source: Wheat and Flour Testing Methods: A Guide to Understanding Wheat and Flour Quality: Version 2  
+
+:::
+
+### Bread Quality Tests
+
+Bread‑making performance is governed by the quantity and quality of gluten. Gluten quality is mainly influenced by genetics with minimal influence from growing environment or fertilization. In general, higher protein improves baking performance (especially loaf volume) when gluten is strong, but additional nitrogen field input provides little benefit in cultivars with inherently weak gluten. For bread end-use purposes, optimal dough exhibits balanced viscoelasticity: strong enough to withstand mixing and handling and to retain fermentation gases, yet sufficiently extensible to expand and form an open, aerated crumb.\ 
+
+During milling, hard wheats typically sustain more damaged starch than soft wheats. In bread, this damage contributes to a soft, pleasant crumb and slows staling. Flours with good bread‑making characteristics therefore require some damaged starch which 1) absorbs water rapidly and in greater amounts than intact starch; and 2) enables amylolytic enzymes to produce maltose and dextrins that support fermentation and crumb structure.\ 
+
+#### [Pan Bread Bake Quality Test]{.underline}
+
+Pan‑bread quality is assessed using a standardized scoring system relative to a control, covering dough handling, finished‑loaf metrics, and sensory attributes. During processing, dough is evaluated for strength, extensibility, and stickiness. Baked loaves are measured for weight (g) and volume (cm³), from which specific volume (cm³/g) is calculated. Exterior appearance, crumb‑grain uniformity, and texture are then scored to generate an overall quality index. Together, these measures characterize flour performance and lot‑to‑lot consistency, enabling bakers—particularly in high‑speed operations—to select flours that deliver reliable volume, color, and texture aligned with consumer expectations.\ 
+
+::: {#fig-pan-bread layout-ncol=2}
+
+![](figs/19-4-panbread1.png){fig-align="right" width="250px"}
+
+![](figs/19-4-panbread2.png){fig-align="left" width="250px"}
+
+:::
+
+#### [Hearth Bread Bake Quality Test]{.underline}
+
+The hearth bread test is a small-scale baking evaluation used to optimize processing conditions prior to commercial production. It assesses dough strength and extensibility, then measures loaf weight (g) and volume (cm³) to calculate specific volume (volume/weight). Finished loaves are scored against a control for processing behavior, appearance, crust and crumb characteristics, and texture. Hearth breads typically have thicker/crisper crusts than lidded pan breads and can exhibit crumb structures ranging from fine and uniform to open and irregular.\ 
+
+For assessing breadmaking suitability of breeder lines or grain lots, key indicators include dough rheology, loaf volume (a strong overall index), form ratio (height-to-width), crumb cell uniformity/size/shape/wall thickness, and texture attributes such as moistness, elasticity, and smoothness.\ 
+
+### Wheat Flour Chemistry Quality Tests
+
+#### Sedimentation Test
+
+::: {style="float: right; margin-left: 15px; margin-bottom: 10px;"}
+
+![](figs/19-4-sedimentation.png){width=40% display="inline" fig-align="left"} 
+
+:::
+
+The sedimentation test is performed by suspending a ground wheat or flour sample in an acidic solution and allowing the gluten proteins to hydrate, swell, and settle as a precipitated sediment. Sedimentation values typically range from ~20 or lower for low-protein wheat with weak gluten to ~70 or higher for high-protein wheat with strong gluten. The test provides an index of both protein quantity and protein quality in wheat and flour. Sedimentation volume is generally positively correlated with gluten strength and, in many cases, loaf volume. As a result, the sedimentation test is commonly used as a rapid screening method in wheat breeding programs and as a practical quality assessment tool in milling applications.\ 
+
+
+#### SRC (Solvent Retention Capacity) Tests
+
+Four solvents are individually mixed with a sample of flour: deionized water, 50 percent sucrose, 5 percent sodium carbonate, and 5 percent lactic acid. Solvent retention capacity (SRC) is the weight of solvent held by flour after centrifuging.\ 
+
+Individual SRC solvents are associated with distinct flour constituents:\ 
+
+::: {.indent-border}
+ * Lactic acid SRC: gluten protein functionality 
+ * Sodium carbonate SRC: damaged starch levels which occur during milling
+ * Sucrose SRC: pentosan (arabinoxylan) content 
+ * Water SRC: represents the combined contribution of all water-absorbing components 
+ 
+:::
+
+
+::: {#tbl-panel layout-nrow=2}
+
+|           | Water               | Carbonate        | Sucrose                | LA        |
+|-----------|---------------------|------------------|------------------------|-----------|
+|           | <58                 |       <75        | <95                    | 60-170    |
+| Indicates | absorption capacity | damaged starches | pentosans and gliadins | glutenins |
+| Product influence |             | cookie spread    | negatively correlated with cookie diameter | elasticity + extensibility |
+
+: Soft Wheat Flour {#tbl-soft}
+
+
+|           | Water               | Carbonate        | Sucrose                | LA        |
+|-----------|---------------------|------------------|------------------------|-----------|
+|           |         65-70       |     105-115      |         80-90          |   >140    |
+| Indicates | absorption capacity | damaged starches | pentosans and gliadins | glutenins |
+| Product influence |             | bread staling    | water retention | positively correlated with loaf volume |
+
+: Hard Wheat Flour {#tbl-hard}
+
+Interpreted together, the SRC profile provides a practical measure of flour quality and functionality and is useful for predicting baking performance.
+
+:::
+
+#### Rapid Visco Analyzer (RVA)
+
+The Rapid Visco Analysis (RVA) test evaluates starch viscosity by heating a starch- or flour–water slurry under standardized conditions while continuously measuring the resistance experienced by a rotating sensor. The instrument records this resistance electronically and generates a viscosity profile, typically reported as apparent viscosity versus time, which reflects key flour starch functional properties.\ 
+
+For Asian noodle applications, flours exhibiting medium to high peak viscosity are generally preferred because they are associated with improved noodle texture. In addition, the RVA can be used to determine a stirring number, a metric linked to sprout damage. The stirring number provides an indirect assessment of elevated enzyme activity—particularly alpha-amylase—caused by pre-harvest sprouting. Sprout-damaged wheat often produces flour that yields sticky, difficult-to-handle dough and can lead to finished products with reduced color quality and weaker texture.\ 
 
 
 
