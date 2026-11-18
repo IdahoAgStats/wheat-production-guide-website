@@ -57,6 +57,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-dark-0e83410e51c07362ab13514aa3a64b70.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="site_libs/bootstrap/bootstrap-4b62dcb8695b37b5f7b66a160ddbbe23.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/diagrams-0.2.0/diagrams.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/accordion/accordion.css" rel="stylesheet">
 <script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -145,6 +146,7 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.scss">
 <meta property="og:title" content="19&nbsp; End-use quality – Idaho Wheat Production Guide">
 <meta property="og:description" content="Resources for wheat production in Idaho and the surrounding region">
 <meta property="og:image" content="./images/more_loaves.jpg">
@@ -533,7 +535,10 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
+  <ul>
+  <li><a href="#quality-and-production-in-idaho-and-the-pnw" id="toc-quality-and-production-in-idaho-and-the-pnw" class="nav-link" data-scroll-target="#quality-and-production-in-idaho-and-the-pnw">Quality and Production in Idaho and the PNW</a></li>
+  </ul></li>
   <li><a href="#sec-classes-and-grading" id="toc-sec-classes-and-grading" class="nav-link" data-scroll-target="#sec-classes-and-grading">Classes and grading</a>
   <ul>
   <li><a href="#sec-classes" id="toc-sec-classes" class="nav-link" data-scroll-target="#sec-classes">The U.S. System of Classes</a></li>
@@ -542,23 +547,21 @@ window.Quarto = {
   <li><a href="#wheat-grades-and-grade-requirements" id="toc-wheat-grades-and-grade-requirements" class="nav-link" data-scroll-target="#wheat-grades-and-grade-requirements">Wheat Grades and Grade Requirements</a></li>
   <li><a href="#grade-determining-factors" id="toc-grade-determining-factors" class="nav-link" data-scroll-target="#grade-determining-factors">Grade-Determining Factors</a></li>
   </ul></li>
-  <li><a href="#learn-more-about-wheat-grading-and-classes" id="toc-learn-more-about-wheat-grading-and-classes" class="nav-link" data-scroll-target="#learn-more-about-wheat-grading-and-classes">Learn more about wheat grading and classes:</a></li>
   </ul></li>
   <li><a href="#falling-number" id="toc-falling-number" class="nav-link" data-scroll-target="#falling-number">Falling number</a>
   <ul>
   <li><a href="#causes-of-low-falling-number" id="toc-causes-of-low-falling-number" class="nav-link" data-scroll-target="#causes-of-low-falling-number">Causes of Low Falling Number</a></li>
-  <li><a href="#disease-pressure-resulting-in-low-falling-numbers" id="toc-disease-pressure-resulting-in-low-falling-numbers" class="nav-link" data-scroll-target="#disease-pressure-resulting-in-low-falling-numbers">Disease Pressure Resulting in Low Falling Numbers</a></li>
+  <li><a href="#disease-pressure-resulting-in-low-falling-numbers" id="toc-disease-pressure-resulting-in-low-falling-numbers" class="nav-link" data-scroll-target="#disease-pressure-resulting-in-low-falling-numbers">Disease Pressure Resulting in Low Falling Numbers</a>
+  <ul>
   <li><a href="#impacts-of-lfn-on-end-use-products" id="toc-impacts-of-lfn-on-end-use-products" class="nav-link" data-scroll-target="#impacts-of-lfn-on-end-use-products">Impacts of LFN on End-Use Products</a></li>
-  <li><a href="#additional-links-and-resources" id="toc-additional-links-and-resources" class="nav-link" data-scroll-target="#additional-links-and-resources">Additional Links and Resources</a></li>
+  </ul></li>
   <li><a href="#video-resources-falling-number" id="toc-video-resources-falling-number" class="nav-link" data-scroll-target="#video-resources-falling-number">Video Resources: Falling Number</a></li>
   </ul></li>
   <li><a href="#quality-tests-and-interpretations" id="toc-quality-tests-and-interpretations" class="nav-link" data-scroll-target="#quality-tests-and-interpretations">Quality tests and interpretations</a>
   <ul>
   <li><a href="#grain-quality-criteria" id="toc-grain-quality-criteria" class="nav-link" data-scroll-target="#grain-quality-criteria">Grain Quality Criteria</a></li>
-  <li><a href="#flour-quality-criteria" id="toc-flour-quality-criteria" class="nav-link" data-scroll-target="#flour-quality-criteria">Flour Quality Criteria</a>
-  <ul>
+  <li><a href="#flour-quality-criteria" id="toc-flour-quality-criteria" class="nav-link" data-scroll-target="#flour-quality-criteria">Flour Quality Criteria</a></li>
   <li><a href="#introducing-the-fundamentals-of-wheat-flour-end-use-quality" id="toc-introducing-the-fundamentals-of-wheat-flour-end-use-quality" class="nav-link" data-scroll-target="#introducing-the-fundamentals-of-wheat-flour-end-use-quality">Introducing the Fundamentals of Wheat Flour End-Use Quality</a></li>
-  </ul></li>
   </ul></li>
   <li><a href="#markets-and-transportation---domestic-and-export" id="toc-markets-and-transportation---domestic-and-export" class="nav-link" data-scroll-target="#markets-and-transportation---domestic-and-export">Markets and transportation - domestic and export</a></li>
   </ul>
@@ -597,17 +600,22 @@ window.Quarto = {
 <p><em>Image: J Piaskowski</em></p>
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>Wheat is not a uniform commodity. It is a raw material for a wide range of foods and industrial products used worldwide. This reality underscores a core principle: quality is paramount. When millers, bakers, or other end users encounter processing difficulties, the value of a lot declines. The following sections summarize the factors that create quality variation—what makes grain more or less valuable.</p>
+<p>Wheat is not a uniform commodity. It is a raw material for a wide range of foods and industrial products used worldwide. This reality underscores a core principle: <strong>quality is paramount</strong>. When millers, bakers, or other end users encounter processing difficulties, the value of a lot declines. The following sections summarize the factors that create quality variation—what makes grain more or less valuable.</p>
 <p>Different end products demand flours with specific functional properties to meet processing and finished product targets. Suitability is largely determined by:</p>
+<div class="indent-border">
 <ul>
 <li>Kernel texture (hardness)<br>
 </li>
 <li>Starch characteristics<br>
 </li>
-<li>Gluten composition, which governs dough strength, extensibility, and handling</li>
+<li>Gluten composition, which governs dough strength, extensibility, and handling.</li>
 </ul>
-<p>Matching a wheat variety to its appropriate end-use product begins with assessing composition and milling potential. Routine tests quantify moisture, protein, kernel texture, grain soundness, ash, and related components. Composition provides a first approximation of processing potential.</p>
+</div>
+<div class="p-spaced">
+<p>Matching a wheat variety to its appropriate end-use product begins with assessing <strong>composition</strong> and <strong>milling potential</strong>. Routine tests quantify moisture, protein, kernel texture, grain soundness, ash, and related components. Composition provides a first approximation of processing potential.</p>
 <p>More reliable prediction requires tools that measure or model the functional behavior of flour, dough, or key constituents (e.g., gluten, starch, arabinoxylans). Common approaches include:</p>
+</div>
+<div class="indent-border">
 <ul>
 <li>Starch and flour pasting properties<br>
 </li>
@@ -615,9 +623,13 @@ window.Quarto = {
 </li>
 <li>Dough testing and rheological prediction of dough properties</li>
 </ul>
-<p>In the Idaho and Pacific Northwest, soft white wheat is primarily used for cookies, crackers, cakes, batters and breadings, and selected noodle types. Hard red spring and hard red winter wheats are preferred for tortillas, yeast leavened pan and hearth breads, and yellow alkaline noodles requiring stronger gluten. Across these applications, regional wheats are noted for efficient milling, producing bright, low ash flours with high extraction rates and consistent baking performance.</p>
+</div>
+<section id="quality-and-production-in-idaho-and-the-pnw" class="level3">
+<h3 class="anchored" data-anchor-id="quality-and-production-in-idaho-and-the-pnw">Quality and Production in Idaho and the PNW</h3>
+<p>In Idaho and the Pacific Northwest, soft white wheat is primarily used for cookies, crackers, cakes, batters and breadings, and selected noodle types. Hard red spring and hard red winter wheats are preferred for tortillas, yeast leavened pan and hearth breads, and yellow alkaline noodles requiring stronger gluten. Across these applications, regional wheats are noted for efficient milling, producing bright, low-ash flours with high extraction rates and consistent baking performance.</p>
 <p>Wheat quality is genetically complex. Breeders, in close collaboration with cereal chemists, are responsible for ensuring new varieties meet milling and baking requirements. Varieties are developed to align with established market classes and grades, supporting predictable performance from field to finished product.</p>
-<p>By aligning production with end use specifications and delivering clean, sound grain, Idaho and PNW growers ensure the value of their crop, strengthen buyer confidence, and sustain the region’s reputation for high-quality flours with reliable end-use performance.</p>
+<p>By aligning production with end-use specifications and delivering clean, sound grain, Idaho and PNW growers ensure the value of their crop, strengthen buyer confidence, and sustain the region’s reputation for high-quality flours with reliable end-use performance.</p>
+</section>
 </section>
 <section id="sec-classes-and-grading" class="level2">
 <h2 class="anchored" data-anchor-id="sec-classes-and-grading">Classes and grading</h2>
@@ -625,31 +637,123 @@ window.Quarto = {
 <h3 class="anchored" data-anchor-id="sec-classes">The U.S. System of Classes</h3>
 <p>The U.S. system of marketing wheat relies on statutory standards set out by Congress and administered by the Federal Grain Inspection Service (FGIS) in the Grain Inspection, Packers, and Stockyards Administration (GIPSA) of the U.S. Department of Agriculture and its approved state inspection agencies. The standards define wheat classes and set out the rules for determining grades within classes. The standards have evolved over time to reflect important issues and concerns of the marketplace.</p>
 <p>The official standards currently list the following eight classes and subclasses of wheat:</p>
-<ol type="1">
-<li><p><strong>Durum wheat.</strong> All varieties of white (amber) durum wheat. This class is divided into the following three subclasses:</p>
-<ol type="i">
-<li><p>Hard Amber Durum wheat. Durum wheat with 75 percent or more of hard and vitreous kernels of amber color.</p></li>
-<li><p>Amber Durum wheat. Durum wheat with 60 percent or more but less than 75 percent of hard and vitreous kernels of amber color.</p></li>
-<li><p>Durum wheat. Durum wheat with less than 60 percent of hard and vitreous kernels of amber color.</p></li>
-</ol></li>
-<li><p><strong>Hard Red Spring wheat.</strong> All varieties of Hard Red Spring wheat. This class shall be divided into the following three subclasses:</p>
-<ol type="i">
-<li><p>Dark Northern Spring wheat. Hard Red Spring wheat with 75 percent or more of dark, hard, and vitreous kernels.</p></li>
-<li><p>Northern Spring wheat. Hard Red Spring wheat with 25 percent or more but less than 75 percent of dark, hard, and vitreous kernels.</p></li>
-<li><p>Red Spring wheat. Hard Red Spring wheat with less than 25 percent of dark, hard, and vitreous kernels.</p></li>
-</ol></li>
-<li><p><strong>Hard Red Winter wheat.</strong> All varieties of Hard Red Winter wheat. There are no subclasses in this class.</p></li>
-<li><p><strong>Soft Red Winter wheat.</strong> All varieties of Soft Red Winter wheat. There are no subclasses in this class.</p></li>
-<li><p><strong>Hard White wheat.</strong> All hard endosperm white wheat varieties. There are no subclasses in this class.</p></li>
-<li><p><strong>Soft White wheat.</strong> All soft endosperm white wheat varieties. This class is divided into the following three subclasses:</p>
-<ol type="i">
-<li><p>Soft White wheat. Soft endosperm white wheat varieties which contain not more than 10 percent of white club wheat.</p></li>
-<li><p>White Club wheat. Soft endosperm white club wheat varieties containing not more than 10 percent of other soft white wheats.</p></li>
-<li><p>Western White wheat. Soft White wheat containing more than 10 percent of white club wheat and more than 10 percent of other soft white wheats.</p></li>
-</ol></li>
-<li><p><strong>Unclassed wheat.</strong> Any variety of wheat that is not classifiable under other criteria provided in the wheat standards. There are no subclasses in this class. This class includes any wheat which is other than red or white in color.</p></li>
-<li><p><strong>Mixed wheat.</strong> Any mixture of wheat that consists of less than 90 percent of one class and more than 10 percent of one other class, or a combination of classes that meet the definition of wheat.</p></li>
-</ol>
+<p></p><div id="classes-subclasses" class="accordion quarto-accordion">
+<div class="accordion-item">
+<div class="accordion-header" id="heading-classes-subclasses-rumwheatercolor">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-classes-subclasses-rumwheatercolor" aria-expanded="false" aria-controls="collapse-classes-subclasses-rumwheatercolor">
+<div class="accordion-header-content">1. Durum wheat.</div></button>
+</div>
+<div id="collapse-classes-subclasses-rumwheatercolor" class="accordion-collapse collapse" aria-labelledby="heading-classes-subclasses-rumwheatercolor" data-bs-parent="classes-subclasses">
+<div class="accordion-body">
+<div class="accordion-body-content">All varieties of white (amber) durum wheat. This class is divided into the following three subclasses: Hard Amber Durum wheat. Durum wheat with 75 percent or more of hard and vitreous kernels of amber color. Amber Durum wheat. Durum wheat with 60 percent or more but less than 75 percent of hard and vitreous kernels of amber color. Durum wheat. Durum wheat with less than 60 percent of hard and vitreous kernels of amber color. </div></div>
+</div>
+</div>
+<div class="accordion-item">
+<div class="accordion-header" id="heading-classes-subclasses-ingwheatkernels">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-classes-subclasses-ingwheatkernels" aria-expanded="false" aria-controls="collapse-classes-subclasses-ingwheatkernels">
+<div class="accordion-header-content">2. Hard Red Spring wheat.</div></button>
+</div>
+<div id="collapse-classes-subclasses-ingwheatkernels" class="accordion-collapse collapse" aria-labelledby="heading-classes-subclasses-ingwheatkernels" data-bs-parent="classes-subclasses">
+<div class="accordion-body">
+<div class="accordion-body-content">All varieties of Hard Red Spring wheat. This class shall be divided into the following three subclasses: Dark Northern Spring wheat. Hard Red Spring wheat with 75 percent or more of dark, hard, and vitreous kernels. Northern Spring wheat. Hard Red Spring wheat with 25 percent or more but less than 75 percent of dark, hard, and vitreous kernels. Red Spring wheat. Hard Red Spring wheat with less than 25 percent of dark, hard, and vitreous kernels. </div></div>
+</div>
+</div>
+<div class="accordion-item">
+<div class="accordion-header" id="heading-classes-subclasses-terwheathisclass">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-classes-subclasses-terwheathisclass" aria-expanded="false" aria-controls="collapse-classes-subclasses-terwheathisclass">
+<div class="accordion-header-content">3. Hard Red Winter wheat.</div></button>
+</div>
+<div id="collapse-classes-subclasses-terwheathisclass" class="accordion-collapse collapse" aria-labelledby="heading-classes-subclasses-terwheathisclass" data-bs-parent="classes-subclasses">
+<div class="accordion-body">
+<div class="accordion-body-content">All varieties of Hard Red Winter wheat. There are no subclasses in this class.</div></div>
+</div>
+</div>
+<div class="accordion-item">
+<div class="accordion-header" id="heading-classes-subclasses-terwheathisclass">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-classes-subclasses-terwheathisclass" aria-expanded="false" aria-controls="collapse-classes-subclasses-terwheathisclass">
+<div class="accordion-header-content">4. Soft Red Winter wheat.</div></button>
+</div>
+<div id="collapse-classes-subclasses-terwheathisclass" class="accordion-collapse collapse" aria-labelledby="heading-classes-subclasses-terwheathisclass" data-bs-parent="classes-subclasses">
+<div class="accordion-body">
+<div class="accordion-body-content">All varieties of Soft Red Winter wheat. There are no subclasses in this class.</div></div>
+</div>
+</div>
+<div class="accordion-item">
+<div class="accordion-header" id="heading-classes-subclasses-itewheathisclass">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-classes-subclasses-itewheathisclass" aria-expanded="false" aria-controls="collapse-classes-subclasses-itewheathisclass">
+<div class="accordion-header-content">5. Hard White wheat.</div></button>
+</div>
+<div id="collapse-classes-subclasses-itewheathisclass" class="accordion-collapse collapse" aria-labelledby="heading-classes-subclasses-itewheathisclass" data-bs-parent="classes-subclasses">
+<div class="accordion-body">
+<div class="accordion-body-content">All hard endosperm white wheat varieties. There are no subclasses in this class.</div></div>
+</div>
+</div>
+<div class="accordion-item">
+<div class="accordion-header" id="heading-classes-subclasses-itewheatewheats">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-classes-subclasses-itewheatewheats" aria-expanded="false" aria-controls="collapse-classes-subclasses-itewheatewheats">
+<div class="accordion-header-content">6. Soft White wheat.</div></button>
+</div>
+<div id="collapse-classes-subclasses-itewheatewheats" class="accordion-collapse collapse" aria-labelledby="heading-classes-subclasses-itewheatewheats" data-bs-parent="classes-subclasses">
+<div class="accordion-body">
+<div class="accordion-body-content">All soft endosperm white wheat varieties. This class is divided into the following three subclasses: Soft White wheat. Soft endosperm white wheat varieties which contain not more than 10 percent of white club wheat. White Club wheat. Soft endosperm white club wheat varieties containing not more than 10 percent of other soft white wheats. Western White wheat. Soft White wheat containing more than 10 percent of white club wheat and more than 10 percent of other soft white wheats. </div></div>
+</div>
+</div>
+<div class="accordion-item">
+<div class="accordion-header" id="heading-classes-subclasses-sedwheatincolor">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-classes-subclasses-sedwheatincolor" aria-expanded="false" aria-controls="collapse-classes-subclasses-sedwheatincolor">
+<div class="accordion-header-content">7. Unclassed wheat.</div></button>
+</div>
+<div id="collapse-classes-subclasses-sedwheatincolor" class="accordion-collapse collapse" aria-labelledby="heading-classes-subclasses-sedwheatincolor" data-bs-parent="classes-subclasses">
+<div class="accordion-body">
+<div class="accordion-body-content">Any variety of wheat that is not classifiable under other criteria provided in the wheat standards. There are no subclasses in this class. This class includes any wheat which is other than red or white in color.</div></div>
+</div>
+</div>
+<div class="accordion-item">
+<div class="accordion-header" id="heading-classes-subclasses-xedwheatofwheat">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-classes-subclasses-xedwheatofwheat" aria-expanded="false" aria-controls="collapse-classes-subclasses-xedwheatofwheat">
+<div class="accordion-header-content">8. Mixed wheat.</div></button>
+</div>
+<div id="collapse-classes-subclasses-xedwheatofwheat" class="accordion-collapse collapse" aria-labelledby="heading-classes-subclasses-xedwheatofwheat" data-bs-parent="classes-subclasses">
+<div class="accordion-body">
+<div class="accordion-body-content">Any mixture of wheat that consists of less than 90 percent of one class and more than 10 percent of one other class, or a combination of classes that meet the definition of wheat.</div></div>
+</div>
+</div>
+</div>
+<p></p>
+<!--1. **Durum wheat.** All varieties of white (amber) durum wheat. This class is divided into the following three subclasses:  
+
+   i) Hard Amber Durum wheat. Durum wheat with 75 percent or more of hard and vitreous kernels of amber color.  
+  
+   ii) Amber Durum wheat. Durum wheat with 60 percent or more but less than 75 percent of hard and vitreous kernels of amber color.  
+  
+   iii) Durum wheat. Durum wheat with less than 60 percent of hard and vitreous kernels of amber color.  
+  
+2. **Hard Red Spring wheat.** All varieties of Hard Red Spring wheat. This class shall be divided into the following three subclasses:  
+
+   i)   Dark Northern Spring wheat. Hard Red Spring wheat with 75 percent or more of dark, hard, and vitreous kernels.  
+  
+   ii) Northern Spring wheat. Hard Red Spring wheat with 25 percent or more but less than 75 percent of dark, hard, and vitreous kernels.  
+  
+   iii) Red Spring wheat. Hard Red Spring wheat with less than 25 percent of dark, hard, and vitreous kernels.  
+  
+3. **Hard Red Winter wheat.** All varieties of Hard Red Winter wheat. There are no subclasses in this class.  
+
+4. **Soft Red Winter wheat.** All varieties of Soft Red Winter wheat. There are no subclasses in this class.  
+
+5. **Hard White wheat.** All hard endosperm white wheat varieties. There are no subclasses in this class.
+
+6. **Soft White wheat.** All soft endosperm white wheat varieties. This class is divided into the following three subclasses:  
+
+   i) Soft White wheat. Soft endosperm white wheat varieties which contain not more than 10 percent of white club wheat.  
+  
+   ii) White Club wheat. Soft endosperm white club wheat varieties containing not more than 10 percent of other soft white wheats.  
+  
+   iii) Western White wheat. Soft White wheat containing more than 10 percent of white club wheat and more than 10 percent of other soft white wheats.  
+  
+7. **Unclassed wheat.** Any variety of wheat that is not classifiable under other criteria provided in the wheat standards. There are no subclasses in this class. This class includes any wheat which is other than red or white in color.  
+
+8. **Mixed wheat.** Any mixture of wheat that consists of less than 90 percent of one class and more than 10 percent of one other class, or a combination of classes that meet the definition of wheat.
+-->
 <div id="fig-classes-map" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-classes-map-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -668,6 +772,9 @@ Source: <a href="https://uswheat.org/working-with-buyers/wheat-classes" class="u
 <p><a href="#tbl-grades" class="quarto-xref">Table&nbsp;<span>19.1</span></a> lists the current grade-determining factors for wheat; a brief explanation of each and why it is important follows. Before the grade-determining factors are measured, dockage is removed. Dockage is mostly non-wheat material that can be easily removed by sieving and is separated using the Carter Dockage Tester. Dockage also includes underdeveloped, shriveled, and broken kernels that cannot be easily recovered from the separated portion. Dockage, foreign material, and shrunken and broken kernels, besides being costly to separate, represent non-millable material. Any value associated with this material often depends on the availability of pelletizing equipment and the proximity of feed markets.</p>
 <p>It must be emphasized that although limits for damaged kernels, foreign material, and shrunken and broken kernels are set by the standards that determine official grade, customers may specify tighter limits. Also, although dockage is not a grade-determining factor, many of our “cash” customers overseas are setting tighter limits in their contract specifications. For example, contracts may specify maximum dockage in the range of 0.5 to 1 percent, but may further require that the dockage present be subtracted from the delivered weight.</p>
 <p>Increasingly, 2-to 3-fold discount penalties are applied for dockage levels above certain thresholds. Similarly, pressure continues to reduce levels of foreign material and shrunken and broken kernels. Recent analysis indicated that to be fully competitive with Australia and Canada, our industry would need to be able to consistently offer cleaned wheat with maximum 0.2 percent dockage, 0.2 percent foreign materials, and 0.7 percent shrunken and broken kernels. The message is clear: deliver cleaner wheat that is more nearly all convertible to flour.</p>
+<div class="border">
+
+</div>
 <section id="wheat-grades-and-grade-requirements" class="level4">
 <h4 class="anchored" data-anchor-id="wheat-grades-and-grade-requirements">Wheat Grades and Grade Requirements</h4>
 <div id="tbl-grades" class="nolightbox quarto-float quarto-figure quarto-figure-center anchored">
@@ -821,14 +928,26 @@ Table&nbsp;19.1: (a) Grades and grade requirements for all classes of wheat, exc
 </div>
 </div>
 </div>
-</section>
-</section>
-<section id="learn-more-about-wheat-grading-and-classes" class="level3">
-<h3 class="anchored" data-anchor-id="learn-more-about-wheat-grading-and-classes">Learn more about wheat grading and classes:</h3>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Learn more about wheat grading and classes:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
 <p><a href="https://www.uswheat.org/working-with-buyers/wheat-classes/">Working with Buyers: Wheat Classes - US Wheat</a></p>
 <p><a href="https://www.uswheat.org/working-with-buyers/wheat-grade-factors/">Working with Buyers: Wheat Grades and Grade Requirements - US Wheat</a></p>
 <p><a href="https://www.ams.usda.gov/sites/default/files/media/GrainGradingPrimer11272017.pdf">Grain Grading Primer - USDA-ARS/FGIS</a></p>
 <p><a href="https://uswheat.org/market-information/">Market Information - US Wheat</a></p>
+</div>
+</div>
+</div>
+</section>
 </section>
 </section>
 <section id="falling-number" class="level2">
@@ -837,18 +956,23 @@ Table&nbsp;19.1: (a) Grades and grade requirements for all classes of wheat, exc
 </p>
 <p>The <strong>Falling Number test</strong> is used to assess the level of starch degradation caused by alpha-amylase activity in wheat meal or flour. During the test, a measured quantity of ground wheat or flour is combined with distilled water in a glass tube containing a stirrer and mixed to create a slurry. The tube is then placed in a boiling water bath while the sample is continuously stirred. As the mixture heats, the starch gelatinizes and forms a viscous paste.<br>
 </p>
-<p>The Falling Number instrument evaluates the <strong>viscosity</strong> of this paste by measuring the time required for a standardized stirrer to descend through the sample. Results are reported as a Falling Number value in seconds and serve as an indicator of alpha-amylase activity.</p>
+<p>The Falling Number instrument evaluates the <strong>viscosity</strong> of this paste by measuring the time required for a standardized stirrer to descend through the sample. Results are reported as a Falling Number value in seconds and serve as an indicator of alpha-amylase activity.&nbsp;</p>
+<div class="indent-border">
 <ul>
-<li><p>Higher Falling Number values, typically <strong>above 300 seconds</strong>, indicate low enzyme activity and sound wheat or flour quality.</p></li>
+<li><p>Higher Falling Number values, typically <strong>above 300 seconds</strong>, indicate low enzyme activity and sound wheat or flour quality.&nbsp;</p></li>
 <li><p>Lower values, generally <strong>below 250 seconds</strong>, indicate elevated enzyme activity and are commonly associated with sprout-damaged wheat or flour.<br>
 </p></li>
 </ul>
+</div>
+<div class="p-spaced">
 <p>For many wheat markets, particularly those serving international export channels, only grain lots with Falling Number values of <strong>300 seconds or greater are accepted</strong>. In the Pacific Northwest (PNW) region of the United States, soft white wheat is the predominant class produced. Market contract specifications for both soft white and western white wheat generally require a Falling Number of at least 300 seconds. Grain lots falling below this threshold are typically subject to price discounts, regardless of their actual impact on end-product quality.<br>
 </p>
+</div>
 <section id="causes-of-low-falling-number" class="level3">
 <h3 class="anchored" data-anchor-id="causes-of-low-falling-number">Causes of Low Falling Number</h3>
 <p>Low Falling Number (LFN) can negatively affect wheat quality and market value. In the Pacific Northwest, four primary factors contribute to low Falling Number values:<br>
 </p>
+<div class="indent-border">
 <ul>
 <li><p><strong>Green Kernels:</strong> Immature kernels can substantially reduce Falling Number, even when present in small amounts. Harvesting at full maturity is the most effective prevention strategy.<br>
 </p></li>
@@ -859,24 +983,29 @@ Table&nbsp;19.1: (a) Grades and grade requirements for all classes of wheat, exc
 <li><p><strong>Non-Alpha-Amylase Induced Low Falling Number (NAIL):</strong> Environmental stress during early grain development can result in low Falling Number without increased alpha-amylase activity. Affected grain often has low protein content. Variety selection and, in some cases, post-harvest blending can help manage NAIL-affected grain.<br>
 </p></li>
 </ul>
-<p>Understanding the cause of low Falling Number is critical for selecting appropriate management practices and minimizing economic losses.<br>
+</div>
+<div class="p-spaced">
+<p><strong>Understanding the cause of low Falling Number is critical for selecting appropriate management practices and minimizing economic losses.</strong><br>
 </p>
+</div>
 </section>
 <section id="disease-pressure-resulting-in-low-falling-numbers" class="level3">
 <h3 class="anchored" data-anchor-id="disease-pressure-resulting-in-low-falling-numbers">Disease Pressure Resulting in Low Falling Numbers</h3>
-</section>
-<section id="impacts-of-lfn-on-end-use-products" class="level3">
-<h3 class="anchored" data-anchor-id="impacts-of-lfn-on-end-use-products">Impacts of LFN on End-Use Products</h3>
+<div class="border">
+
+</div>
+<section id="impacts-of-lfn-on-end-use-products" class="level4">
+<h4 class="anchored" data-anchor-id="impacts-of-lfn-on-end-use-products">Impacts of LFN on End-Use Products</h4>
 <p>The level of enzyme activity measured by the Falling Number test indicates wheat flour functionality and end-product quality. Excessive alpha-amylase activity breaks down starch into simple sugars, resulting in reduced starch content and an excess of sugars. Because starch provides the structural framework in products such as bread, cakes, cookies, and noodles, excessive enzyme activity can negatively affect both processing and product performance.<br>
 </p>
 <p>Wheat flour with high alpha-amylase activity often produces sticky doughs, thin batters, reduced loaf volume, and undesirable texture characteristics in finished products. During processing, affected doughs may become difficult to handle due to increased stickiness and tackiness.<br>
 </p>
 <p>While wheat flour with very high Falling Number values (indicating low enzyme activity) can often be corrected by adding enzymes during milling or baking, when Falling Number values are too low, the excess alpha-amylase cannot be removed from the wheat or flour. As a result, severely affected grain may have limited marketability and may be unsuitable for many end-use applications.<br>
 </p>
-<div id="fig-fn-bread" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div id="fig-fn-bread" class="quarto-float quarto-figure quarto-figure-center anchored" data-group="fn-bread-cake">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-fn-bread-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="figs/19_3_fn_bread.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figure&nbsp;19.2: Effects of Falling Numbers on bread performance. https://cerealscanada.ca/falling-number-is-an-important-indicator-of-wheat-quality/"><img src="figs/19_3_fn_bread.png" class="img-fluid figure-img"></a>
+<a href="figs/19_3_fn_bread.png" class="lightbox" data-gallery="fn-bread-cake" title="Figure&nbsp;19.2: Effects of Falling Numbers on bread performance. https://cerealscanada.ca/falling-number-is-an-important-indicator-of-wheat-quality/"><img src="figs/19_3_fn_bread.png" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-fn-bread-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;19.2: Effects of Falling Numbers on bread performance.<br>
@@ -884,10 +1013,10 @@ Figure&nbsp;19.2: Effects of Falling Numbers on bread performance.<br>
 </figcaption>
 </figure>
 </div>
-<div id="fig-fn-cake" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div id="fig-fn-cake" class="quarto-float quarto-figure quarto-figure-center anchored" data-group="fn-bread-cake">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-fn-cake-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="figs/19_3_fn_cake.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Figure&nbsp;19.3: Sponge cakes fall with increasing alpha-amylase from sprouting. Image: WWQL, USDA-ARS, Pullman"><img src="figs/19_3_fn_cake.png" class="img-fluid figure-img"></a>
+<a href="figs/19_3_fn_cake.png" class="lightbox" data-gallery="fn-bread-cake" title="Figure&nbsp;19.3: Sponge cakes fall with increasing alpha-amylase from sprouting. Image: WWQL, USDA-ARS, Pullman"><img src="figs/19_3_fn_cake.png" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-fn-cake-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;19.3: Sponge cakes fall with increasing alpha-amylase from sprouting.<br>
@@ -895,17 +1024,17 @@ Figure&nbsp;19.3: Sponge cakes fall with increasing alpha-amylase from sprouting
 </figcaption>
 </figure>
 </div>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Suggestions for Reducing Risk of LMA<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>
+<span class="screen-reader-only">Note</span>Suggestions for Reducing Risk of LMA<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-9" class="callout-9-contents callout-collapse collapse show">
+<div id="callout-10" class="callout-10-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Avoid cultivars known to be PHS or LMA susceptible<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>.<br>
@@ -937,9 +1066,18 @@ Figure&nbsp;19.3: Sponge cakes fall with increasing alpha-amylase from sprouting
 </div>
 </div>
 </div>
-</section>
-<section id="additional-links-and-resources" class="level3">
-<h3 class="anchored" data-anchor-id="additional-links-and-resources">Additional Links and Resources</h3>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Additional Links and Resources for Falling Numbers
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
 <p><a href="https://www.steberlab.org/">Steber Lab - USDA-ARS Wheat Health, Genetics, and Quality Research Unit</a></p>
 <ul>
 <li>Over 10 years of Falling Numbers data from WSU Wheat variety trials, and a research publication archive. Explore FN data by year, class, location, variety, and falling numbers vs.&nbsp;yield.</li>
@@ -949,6 +1087,10 @@ Figure&nbsp;19.3: Sponge cakes fall with increasing alpha-amylase from sprouting
 <li>Detection and Management Tools for Low Falling Number in the ‘Grain Chain’. Ongoing project to develop and validate tools, including a wheat quality test, that are more accessible to the wheat industry.</li>
 </ul>
 <p><a href="https://pubs.extension.wsu.edu/managing-the-risk-of-low-falling-numbers-in-wheat">WSU Extension - Managing the Risk of Low Falling Numbers in Wheat (2016)</a></p>
+</div>
+</div>
+</div>
+</section>
 </section>
 <section id="video-resources-falling-number" class="level3">
 <h3 class="anchored" data-anchor-id="video-resources-falling-number">Video Resources: Falling Number</h3>
@@ -976,10 +1118,21 @@ Figure&nbsp;19.3: Sponge cakes fall with increasing alpha-amylase from sprouting
 <h2 class="anchored" data-anchor-id="quality-tests-and-interpretations">Quality tests and interpretations</h2>
 <section id="grain-quality-criteria" class="level3">
 <h3 class="anchored" data-anchor-id="grain-quality-criteria">Grain Quality Criteria</h3>
-<p><strong>High-quality flour starts with high-quality grain.</strong> The higher the grade, the higher the end use quality. The interactions between genetics (see Chapter 4 - <a href="./4_wheat_varieties_breeding.html">Wheat varieties and breeding</a>) and environment (see Chapters 8 - <a href="./8_irrigation_management.html">Irrigation management</a> and 9 - <a href="./9_nutrient_management.html">Nutrient management</a>) affect the quality of the grain. USDA Federal Grain Inspection Service has grade standards that define the parameters that must be met to meet grade standards (see <a href="#sec-grades" class="quarto-xref"><span>Section 19.2.2</span></a> and <a href="https://www.ecfr.gov/current/title-7/subtitle-B/chapter-VIII/subchapter-A/part-810/subpart-M">7 CFR Part 810 Subpart M United States Standards for Wheat</a> for further information).</p>
+<p><strong>High-quality flour starts with high-quality grain.</strong> The higher the grade, the higher the end use quality. The interactions between genetics<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> and environment<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> affect the quality of the grain. USDA Federal Grain Inspection Service has grade standards that define the parameters that must be met to meet grade standards<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>.</p>
 <p>Among the grade traits are test weight, lack of shrunken and broken seeds, and lack of other foreign material, insect parts, and wheat of other classes. The grade standards ensure plump clean grain reaches the market. Among the optional grade traits are protein content, kernel texture (defining hard vs soft wheats), and lack of preharvest sprouting or other source of excess enzyme load.</p>
 <p>See <a href="#sec-grades" class="quarto-xref"><span>Section 19.2.2</span></a> for further information on grain grading.<br>
 </p>
+<div class="[.border]">
+
+</div>
+<aside id="footnotes-3" class="footnotes footnotes-end-of-section" role="doc-footnote">
+<hr>
+<ol start="4">
+<li id="fn4"><p>see Chapter 4 - <a href="./4_wheat_varieties_breeding.html">Wheat varieties and breeding</a><a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>see Chapters 8 - <a href="./8_irrigation_management.html">Irrigation management</a> and 9 - <a href="./9_nutrient_management.html">Nutrient management</a><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>see <a href="https://www.ecfr.gov/current/title-7/subtitle-B/chapter-VIII/subchapter-A/part-810/subpart-M">7 CFR Part 810 Subpart M United States Standards for Wheat</a> for official grading standards<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</aside>
 </section>
 <section id="flour-quality-criteria" class="level3">
 <h3 class="anchored" data-anchor-id="flour-quality-criteria">Flour Quality Criteria</h3>
@@ -988,12 +1141,13 @@ Figure&nbsp;19.3: Sponge cakes fall with increasing alpha-amylase from sprouting
 <p>Wheat serves as a foundational ingredient in an extensive range of products, including cookies, cakes, pastries, pan breads, flatbreads, steamed breads, noodles, pasta, muffins, and bagels. To meet optimal product specifications, each product requires wheat flour specifically suited to its processing and quality requirements (Ross, 2009).<br>
 </p>
 <p>This discussion will focus primarily on the fundamentals of wheat flour quality and the most commonly used laboratory quality tests: milling performance, Sedimentation Tests, Solvent Retention Capacity (SRC) tests, mixographs/farinographs, sedimentation, and baking evaluations.</p>
-<section id="introducing-the-fundamentals-of-wheat-flour-end-use-quality" class="level4">
-<h4 class="anchored" data-anchor-id="introducing-the-fundamentals-of-wheat-flour-end-use-quality">Introducing the Fundamentals of Wheat Flour End-Use Quality</h4>
+</section>
+<section id="introducing-the-fundamentals-of-wheat-flour-end-use-quality" class="level3">
+<h3 class="anchored" data-anchor-id="introducing-the-fundamentals-of-wheat-flour-end-use-quality">Introducing the Fundamentals of Wheat Flour End-Use Quality</h3>
 <div id="fig-fundamentals" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-fundamentals-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="figs/19-4-fundamentals.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Figure&nbsp;19.4: After grain grading has been determined, the quality of the wheat flour is assessed. There are various means and methods of assessing end-use quality, however, how these four major categories (hardness, market class, protein, and milling efficiency) interact and influence each other make up the foundation of all quality parameters."><img src="figs/19-4-fundamentals.png" class="img-fluid figure-img" style="width:75.0%"></a>
+<a href="figs/19-4-fundamentals.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Figure&nbsp;19.4: After grain grading has been determined, the quality of the wheat flour is assessed. There are various means and methods of assessing end-use quality, however, how these four major categories (hardness, market class, protein, and milling efficiency) interact and influence each other make up the foundation of all quality parameters."><img src="figs/19-4-fundamentals.png" class="img-fluid figure-img" style="width:65.0%"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-fundamentals-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;19.4: After grain grading has been determined, the quality of the wheat flour is assessed. There are various means and methods of assessing end-use quality, however, how these four major categories (<strong>hardness, market class, protein, and milling efficiency</strong>) interact and influence each other make up the foundation of all quality parameters.
@@ -1003,16 +1157,34 @@ Figure&nbsp;19.4: After grain grading has been determined, the quality of the wh
 <!--begin gallery -->
 <div class="quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">
-<div class="expand-box quarto-layout-cell" onclick="this.classList.toggle('active')" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="figs/19-4a-hardness.png" class="toggle-img nolightbox img-fluid"></p>
+<div class="expand-box quarto-layout-cell" onclick="this.classList.toggle('active')" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-hardness" class="toggle-img nolightbox quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hardness-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/19-4a-hardness.png" class="toggle-img nolightbox img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hardness-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;19.5: Hardness <em>(click for details)</em>
+</figcaption>
+</figure>
+</div>
 <div class="toggle-text">
 <p>Kernel hardness is the measurement of how hard a kernel of wheat grain resists grinding as well as a measurement of endosperm texture.</p>
 <p><strong>Single–Kernel Characterization System</strong> (SKCS) instruments evaluate wheat kernel texture characteristics by measuring kernel weight, diameter, moisture content, and the force needed to crush the kernel. Harder kernels require greater force to crush than softer kernels.</p>
 <p>Market class is determined depending on where wheat falls on the hardness scale from 1-100. If hardness is below 45, it is categorized as a soft wheat. Anything above 45 would be categorized as a hard wheat.</p>
 </div>
 </div>
-<div class="expand-box quarto-layout-cell" onclick="this.classList.toggle('active')" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="figs/19-4b-market-class.png" class="toggle-img nolightbox img-fluid"></p>
+<div class="expand-box quarto-layout-cell" onclick="this.classList.toggle('active')" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-market-class" class="toggle-img nolightbox quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-market-class-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/19-4b-market-class.png" class="toggle-img nolightbox img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-market-class-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;19.6: Market Class <em>(click for details)</em>
+</figcaption>
+</figure>
+</div>
 <div class="toggle-text">
 <p>Wheat market class is determined by kernel hardness (hard or soft) and color (red or white) and then further categorized by planting season (winter or spring). There are six classes of wheat: Hard Red Winter, Hard Red Spring, Hard White, Soft Red Winter, Soft White, and Durum. Each class of wheat has its own characteristics related to milling, baking, and end-use. The PNW region grows all but one class, Soft Red Winters.</p>
 <p>See <a href="#sec-classes" class="quarto-xref"><span>Section 19.2.1</span></a> for further information on classes.</p>
@@ -1021,7 +1193,16 @@ Figure&nbsp;19.4: After grain grading has been determined, the quality of the wh
 </div>
 <div class="quarto-layout-row">
 <div class="expand-box quarto-layout-cell" onclick="this.classList.toggle('active')" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="figs/19-4c-protein.png" class="toggle-img nolightbox img-fluid"></p>
+<div id="fig-protein" class="toggle-img nolightbox quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-protein-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/19-4c-protein.png" class="toggle-img nolightbox img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-protein-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;19.7: Protein <em>(click for details)</em>
+</figcaption>
+</figure>
+</div>
 <div class="toggle-text">
 <p>Protein amount is likely the most well-known quantifier of wheat quality although it is an imprecise predictor of processing performance. The protein content and composition in wheat can vary depending on class, growing conditions, and fertilizer inputs especially nitrogen and sulfur.</p>
 <p>Applications of nitrogen fertilizer have been documented to have a strong impact on wheat protein content. However, higher levels of N in a variety with a poor protein quality will give only a very restricted improvement in baking quality <em>(WHEAT: Chemistry and Technology, Fourth Edition)</em>.</p>
@@ -1071,10 +1252,19 @@ Table&nbsp;19.2: Protein targets and production usage for hard and soft wheat fl
 </div>
 </div>
 </div>
-<div class="expand-box quarto-layout-cell" onclick="this.classList.toggle('active')" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="figs/19-4d-milling.png" class="toggle-img nolightbox img-fluid"></p>
+<div class="expand-box quarto-layout-cell" onclick="this.classList.toggle('active')" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-milling" class="toggle-img nolightbox quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-milling-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/19-4d-milling.png" class="toggle-img nolightbox img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-milling-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;19.8: Milling Efficiency <em>(click for details)</em>
+</figcaption>
+</figure>
+</div>
 <div class="toggle-text">
-<p>Key milling parameters include <strong>overall flour yield</strong>–the percentage of total flour obtained from the input of wheat berries—-<strong>break flour yield</strong>, which represents the percentage of flour produced from the first break roll, <strong>flour ash content</strong> (the non-organic mineral components within the flour), flour color, and particle-size distribution. These parameters form the foundation of milling performance and allow for comparisons across cultivars or blends.</p>
+<p>Key milling parameters include <strong>overall flour yield</strong>–the percentage of total flour obtained from the input of wheat berries–<strong>break flour yield</strong>, which represents the percentage of flour produced from the first break roll, <strong>flour ash content</strong> (the non-organic mineral components within the flour), flour color, and particle-size distribution. These parameters form the foundation of milling performance and allow for comparisons across cultivars or blends.</p>
 <p>Desirable targets for flour yield percentage are greater than 60% for HW and greater than 68% for all other classes.</p>
 <p>Grain hardness is a critical quality trait influencing wheat’s milling properties (Miller et al., 1982; Finney et al., 1987). It is the main criteria for the separation of soft and hard classes and is associated with the water absorption capacity of flour or semolina and the baking quality of the resulting dough. Additionally, grain hardness affects milling duration, energy requirements, and the degree of starch damage in the milled flour (R. J. Peña et al.).</p>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -1096,14 +1286,28 @@ Table&nbsp;19.2: Protein targets and production usage for hard and soft wheat fl
 </div>
 </div>
 <!--End gallery-->
-<p>Learn more:<br>
-<a href="https://www.uswheat.org/wp-content/uploads/2021/07/Wheat-and-Flour-Testing-Methods-Book.pdf">Wheat and Flour Testing Methods</a><br>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Learn more about wheat and flour testing methods
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-14" class="callout-14-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p><a href="https://www.uswheat.org/wp-content/uploads/2021/07/Wheat-and-Flour-Testing-Methods-Book.pdf">Wheat and Flour Testing Methods</a><br>
 <a href="https://www.grains.k-state.edu/igp/wheat-flour-testing/wheatflourbook/wheat-flour-book.pdf">Wheat and Flour Testing Methods: A Guide to Understanding Wheat and Flour Quality: Version 2</a></p>
-</section>
+</div>
+</div>
+</div>
 </section>
 </section>
 <section id="markets-and-transportation---domestic-and-export" class="level2">
 <h2 class="anchored" data-anchor-id="markets-and-transportation---domestic-and-export">Markets and transportation - domestic and export</h2>
+<p><em>Coming soon!</em></p>
 
 
 </section>
