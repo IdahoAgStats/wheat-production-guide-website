@@ -76,6 +76,7 @@ book:
 format:
   html:
     anchor-sections: true
+    lightbox: auto
 #    embed-resources: true
     #page-layout: article
     linkcolor: "#008094"
